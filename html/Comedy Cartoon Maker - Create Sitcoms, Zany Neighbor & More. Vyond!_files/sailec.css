@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Sailec';
+    font-weight: 100;
+    src: url('./Sailec-Thin.eot');
+    src: url('./Sailec-Thin.eot?#iefix') format('embedded-opentype'),url('./Sailec-Thin.woff2') format('woff2'),url('./Sailec-Thin.woff') format('woff'),url('./Sailec-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec';
+    font-weight: 200;
+    src: url('./Sailec-Light.eot');
+    src: url('./Sailec-Light.eot?#iefix') format('embedded-opentype'),url('./Sailec-Light.woff2') format('woff2'),url('./Sailec-Light.woff') format('woff'),url('./Sailec-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec';
+    font-weight: 400;
+    src: url('./Sailec-Regular.eot');
+    src: url('./Sailec-Regular.eot?#iefix') format('embedded-opentype'),url('./Sailec-Regular.woff2') format('woff2'),url('./Sailec-Regular.woff') format('woff'),url('./Sailec-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec';
+    font-weight: 500;
+    src: url('./Sailec-Medium.eot');
+    src: url('./Sailec-Medium.eot?#iefix') format('embedded-opentype'),url('./Sailec-Medium.woff2') format('woff2'),url('./Sailec-Medium.woff') format('woff'),url('./Sailec-Medium.ttf') format('truetype');
+}
+/* font weight 500 and font weight 700 (bold) are the same for better integration support */
+@font-face {
+    font-family: 'Sailec';
+    font-weight: 700;
+    src: url('./Sailec-Medium.eot');
+    src: url('./Sailec-Medium.eot?#iefix') format('embedded-opentype'),url('./Sailec-Medium.woff2') format('woff2'),url('./Sailec-Medium.woff') format('woff'),url('./Sailec-Medium.ttf') format('truetype');
+}
