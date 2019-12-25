@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public const _fread:int = regFunc(FSM_fread.start);
+	public const _fread:int = regFunc(FSM_fread.start);
 }

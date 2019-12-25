@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var gargs:Array;
+	public var gargs:Array;
 }

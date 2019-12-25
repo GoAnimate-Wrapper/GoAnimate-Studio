@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   var _abort:int;
+	var _abort:int;
 }

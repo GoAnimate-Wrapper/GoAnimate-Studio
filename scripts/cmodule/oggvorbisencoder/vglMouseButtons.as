@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var vglMouseButtons:int;
+	public var vglMouseButtons:int;
 }

@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   const nan:Number = Number.NaN;
+	const nan:Number = Number.NaN;
 }

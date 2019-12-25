@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public const _closeba:int = regFunc(FSM_closeba.start);
+	public const _closeba:int = regFunc(FSM_closeba.start);
 }

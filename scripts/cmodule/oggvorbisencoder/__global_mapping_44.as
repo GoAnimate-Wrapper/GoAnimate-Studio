@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   const __global_mapping_44:int = gstaticInitter.alloc(96,8);
+	const __global_mapping_44:int = gstaticInitter.alloc(96,8);
 }

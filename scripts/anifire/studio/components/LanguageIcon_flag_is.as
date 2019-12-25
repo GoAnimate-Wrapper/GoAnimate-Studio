@@ -1,14 +1,14 @@
 package anifire.studio.components
 {
-   import mx.core.BitmapAsset;
-   
-   public class LanguageIcon_flag_is extends BitmapAsset
-   {
-       
-      
-      public function LanguageIcon_flag_is()
-      {
-         super();
-      }
-   }
+	import mx.core.BitmapAsset;
+	
+	public class LanguageIcon_flag_is extends BitmapAsset
+	{
+		 
+		
+		public function LanguageIcon_flag_is()
+		{
+			super();
+		}
+	}
 }

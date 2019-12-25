@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   const mstate:MState = gstate;
+	const mstate:MState = gstate;
 }

@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var gvglbmd:BitmapData;
+	public var gvglbmd:BitmapData;
 }

@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   const __huff_lengthlist__44c5_s_long:int = gstaticInitter.alloc(400,4);
+	const __huff_lengthlist__44c5_s_long:int = gstaticInitter.alloc(400,4);
 }

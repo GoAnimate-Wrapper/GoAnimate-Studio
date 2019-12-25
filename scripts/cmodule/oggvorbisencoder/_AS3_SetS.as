@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   var _AS3_SetS:int;
+	var _AS3_SetS:int;
 }

@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public const _floor0_inverse2:int = regFunc(FSM_floor0_inverse2.start);
+	public const _floor0_inverse2:int = regFunc(FSM_floor0_inverse2.start);
 }

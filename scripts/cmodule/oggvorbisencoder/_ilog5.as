@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public const _ilog5:int = regFunc(FSM_ilog5.start);
+	public const _ilog5:int = regFunc(FSM_ilog5.start);
 }

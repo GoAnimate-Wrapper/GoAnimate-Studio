@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var gpreStaticInits:Array;
+	public var gpreStaticInits:Array;
 }

@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   var gfiles:Object;
+	var gfiles:Object;
 }

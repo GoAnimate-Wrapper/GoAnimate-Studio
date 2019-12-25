@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   const ___atexit:int = gstaticInitter.alloc(4,4);
+	const ___atexit:int = gstaticInitter.alloc(4,4);
 }

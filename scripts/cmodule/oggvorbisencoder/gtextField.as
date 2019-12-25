@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var gtextField:TextField;
+	public var gtextField:TextField;
 }

@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var gsprite:Sprite;
+	public var gsprite:Sprite;
 }

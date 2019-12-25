@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var gvglpixels:int;
+	public var gvglpixels:int;
 }

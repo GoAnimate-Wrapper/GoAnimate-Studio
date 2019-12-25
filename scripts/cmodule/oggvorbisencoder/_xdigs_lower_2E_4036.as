@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   const _xdigs_lower_2E_4036:int = gstaticInitter.alloc(17,1);
+	const _xdigs_lower_2E_4036:int = gstaticInitter.alloc(17,1);
 }

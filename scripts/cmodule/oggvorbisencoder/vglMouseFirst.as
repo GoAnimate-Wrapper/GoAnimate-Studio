@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var vglMouseFirst:Boolean;
+	public var vglMouseFirst:Boolean;
 }

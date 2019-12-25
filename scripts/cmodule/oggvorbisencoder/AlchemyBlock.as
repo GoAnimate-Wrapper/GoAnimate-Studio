@@ -1,12 +1,12 @@
 package cmodule.oggvorbisencoder
 {
-   class AlchemyBlock
-   {
-       
-      
-      function AlchemyBlock()
-      {
-         super();
-      }
-   }
+	class AlchemyBlock
+	{
+		 
+		
+		function AlchemyBlock()
+		{
+			super();
+		}
+	}
 }

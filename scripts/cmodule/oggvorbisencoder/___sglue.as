@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   const ___sglue:int = gstaticInitter.alloc(12,8);
+	const ___sglue:int = gstaticInitter.alloc(12,8);
 }

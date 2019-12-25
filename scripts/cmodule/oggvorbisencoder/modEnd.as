@@ -1,6 +1,6 @@
 package cmodule.oggvorbisencoder
 {
-   public function modEnd() : void
-   {
-   }
+	public function modEnd() : void
+	{
+	}
 }

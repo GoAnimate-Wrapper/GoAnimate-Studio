@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var vglKeyUEL;
+	public var vglKeyUEL;
 }

@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var gdomainClass:Class;
+	public var gdomainClass:Class;
 }

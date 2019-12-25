@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   public var vglKeyMode:int;
+	public var vglKeyMode:int;
 }

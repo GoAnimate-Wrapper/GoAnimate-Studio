@@ -1,9 +1,9 @@
 package anifire.studio.interfaces
 {
-   public interface ITimelineMenuSource
-   {
-       
-      
-      function removeMenu() : void;
-   }
+	public interface ITimelineMenuSource
+	{
+		 
+		
+		function removeMenu() : void;
+	}
 }

@@ -1,4 +1,4 @@
 package cmodule.oggvorbisencoder
 {
-   const i_AS3_TypeOf:int = exportSym("_AS3_TypeOf",new CProcTypemap(CTypemap.StrType,[CTypemap.AS3ValType]).createC(AS3_TypeOf)[0]);
+	const i_AS3_TypeOf:int = exportSym("_AS3_TypeOf",new CProcTypemap(CTypemap.StrType,[CTypemap.AS3ValType]).createC(AS3_TypeOf)[0]);
 }

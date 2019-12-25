@@ -1,10 +1,10 @@
 package cmodule.oggvorbisencoder
 {
-   public function unregFunc(param1:int) : void
-   {
-      if(param1 + 1 == gstate.funcs.length)
-      {
-         gstate.funcs.pop();
-      }
-   }
+	public function unregFunc(param1:int) : void
+	{
+		if(param1 + 1 == gstate.funcs.length)
+		{
+			gstate.funcs.pop();
+		}
+	}
 }
