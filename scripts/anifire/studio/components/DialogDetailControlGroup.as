@@ -75,9 +75,9 @@ package anifire.studio.components
 		
 		private var _1746229292voiceContentUpdated:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_voice_delete_hover_png_2039323081:Class;
+		private var _embed_mxml__styles_images_panel_voice_delete_png_1043698047:Class;
 		
-		private var _embed_mxml__styles_images_panel_voice_delete_png_469306821:Class;
+		private var _embed_mxml__styles_images_panel_voice_delete_hover_png_618642177:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -92,8 +92,8 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_voice_delete_hover_png_2039323081 = DialogDetailControlGroup__embed_mxml__styles_images_panel_voice_delete_hover_png_2039323081;
-			this._embed_mxml__styles_images_panel_voice_delete_png_469306821 = DialogDetailControlGroup__embed_mxml__styles_images_panel_voice_delete_png_469306821;
+			this._embed_mxml__styles_images_panel_voice_delete_png_1043698047 = DialogDetailControlGroup__embed_mxml__styles_images_panel_voice_delete_png_1043698047;
+			this._embed_mxml__styles_images_panel_voice_delete_hover_png_618642177 = DialogDetailControlGroup__embed_mxml__styles_images_panel_voice_delete_hover_png_618642177;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -478,8 +478,8 @@ package anifire.studio.components
 			_loc1_.width = 42;
 			_loc1_.height = 42;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_voice_delete_png_469306821);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_panel_voice_delete_hover_png_2039323081);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_voice_delete_png_1043698047);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_panel_voice_delete_hover_png_618642177);
 			_loc1_.addEventListener("click",this.___btnDelete_click);
 			_loc1_.id = "_btnDelete";
 			if(!_loc1_.document)

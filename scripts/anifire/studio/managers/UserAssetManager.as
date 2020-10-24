@@ -416,7 +416,7 @@ package anifire.studio.managers
 				_loc5_.deSerialize(_loc6_,_loc7_);
 				_loc5_.xml = _loc6_;
 				_loc5_.editable = true;
-				_loc7_.addThumb(_loc5_,_loc6_);
+				_loc7_.addThumb(_loc5_);
 				_loc9_ = new ThumbModel(_loc5_);
 				this._soundCollection.addProduct(_loc9_);
 				this._voiceTabSoundCollection.addProduct(_loc9_);

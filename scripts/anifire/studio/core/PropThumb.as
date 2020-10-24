@@ -4,7 +4,6 @@ package anifire.studio.core
 	import anifire.constant.ProductConstants;
 	import anifire.constant.ServerConstants;
 	import anifire.constant.ThemeConstants;
-	import anifire.errors.SerializeError;
 	import anifire.event.CoreEvent;
 	import anifire.models.creator.CCFaceModel;
 	import anifire.models.creator.CCThemeModel;
@@ -266,24 +265,6 @@ package anifire.studio.core
 			this._defaultTalkState = param1;
 		}
 		
-		override public function serialize() : XML
-		{
-			var xml:XML = null;
-			xml = <prop/>;
-			try
-			{
-				xml.@id = this.id;
-				xml.@enc_asset_id = this.encAssetId;
-				xml.@signature = this.signature;
-				xml.@name = this.name;
-			}
-			catch(e:Error)
-			{
-				xml = SerializeError.createErrorNode("Failed to serialize thumb, broken xml: " + xml.toXMLString() + e.message);
-			}
-			return xml;
-		}
-		
 		override public function deSerialize(param1:XML, param2:Theme) : void
 		{
 			var _loc3_:XML = null;
@@ -314,7 +295,6 @@ package anifire.studio.core
 			this.id = param1.@id;
 			this.aid = param1.@aid;
 			this.encAssetId = param1.@enc_asset_id;
-			this.signature = param1.@signature;
 			this.name = UtilDict.toDisplay("store",param1.@name);
 			this.placeable = param1.@placeable == "1";
 			this.holdable = param1.@holdable == "1";

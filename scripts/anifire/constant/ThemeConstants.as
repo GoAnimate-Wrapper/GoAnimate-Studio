@@ -89,37 +89,5 @@ package anifire.constant
 					return false;
 			}
 		}
-		
-		public static function isThemeRetired(param1:String) : Boolean
-		{
-			switch(param1)
-			{
-				case RETRO_THEME_ID:
-				case CHRISTMAS_THEME_ID:
-				case MONSTERMSH_THEME_ID:
-				case STICK_THEME_ID:
-				case STARTREK_THEME_ID:
-				case MONSTERMSH_THEME_ID:
-				case POLITIC_THEME_ID:
-				case POLITIC_2_THEME_ID:
-				case FAMILY_THEME_ID:
-				case LIL_PEEPZ_THEME_ID:
-				case LIL_PETZ_THEME_ID:
-				case TOON_ADVENTURE_THEME_ID:
-				case CHIBI_THEME_ID:
-				case SPACE_THEME_ID:
-				case VIETNAM_THEME_ID:
-				case NINJA_THEME_ID:
-				case STICKLY_BIZ_THEME_ID:
-				case BIZ_MODEL_THEME_ID:
-				case ANIME_THEME_ID:
-				case NINJAANIME_THEME_ID:
-				case SPACE_CITIZEN_THEME_ID:
-				case BOTDF_THEME_ID:
-					return true;
-				default:
-					return false;
-			}
-		}
 	}
 }

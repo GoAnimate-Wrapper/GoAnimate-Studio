@@ -34,11 +34,11 @@ package anifire.studio.components
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_thumb_multiSelect_png_814286071:Class;
+		private var _embed_mxml__styles_images_panel_thumb_multiSelect_png_134697215:Class;
 		
 		public function PropertyThumbnail()
 		{
-			this._embed_mxml__styles_images_panel_thumb_multiSelect_png_814286071 = PropertyThumbnail__embed_mxml__styles_images_panel_thumb_multiSelect_png_814286071;
+			this._embed_mxml__styles_images_panel_thumb_multiSelect_png_134697215 = PropertyThumbnail__embed_mxml__styles_images_panel_thumb_multiSelect_png_134697215;
 			super();
 			mx_internal::_document = this;
 			this.width = 50;
@@ -213,7 +213,7 @@ package anifire.studio.components
 		private function _PropertyThumbnail_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_thumb_multiSelect_png_814286071;
+			_loc1_.source = this._embed_mxml__styles_images_panel_thumb_multiSelect_png_134697215;
 			_loc1_.initialized(this,"_PropertyThumbnail_BitmapImage1");
 			this._PropertyThumbnail_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_PropertyThumbnail_BitmapImage1",this._PropertyThumbnail_BitmapImage1);

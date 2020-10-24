@@ -54,9 +54,9 @@ package anifire.studio.components
 		
 		private var _expandUp:Boolean = true;
 		
-		private var _embed_mxml__styles_images_panel_voice_volume_png_1140259355:Class;
+		private var _embed_mxml__styles_images_panel_voice_volume_hover_png_1191174265:Class;
 		
-		private var _embed_mxml__styles_images_panel_voice_volume_hover_png_1543273325:Class;
+		private var _embed_mxml__styles_images_panel_voice_volume_png_1640603265:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -71,8 +71,8 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_voice_volume_png_1140259355 = SpeechVolumeControl__embed_mxml__styles_images_panel_voice_volume_png_1140259355;
-			this._embed_mxml__styles_images_panel_voice_volume_hover_png_1543273325 = SpeechVolumeControl__embed_mxml__styles_images_panel_voice_volume_hover_png_1543273325;
+			this._embed_mxml__styles_images_panel_voice_volume_hover_png_1191174265 = SpeechVolumeControl__embed_mxml__styles_images_panel_voice_volume_hover_png_1191174265;
+			this._embed_mxml__styles_images_panel_voice_volume_png_1640603265 = SpeechVolumeControl__embed_mxml__styles_images_panel_voice_volume_png_1640603265;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -335,8 +335,8 @@ package anifire.studio.components
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_voice_volume_png_1140259355);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_panel_voice_volume_hover_png_1543273325);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_voice_volume_png_1640603265);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_panel_voice_volume_hover_png_1191174265);
 			_loc1_.addEventListener("click",this.__volumeButton_click);
 			_loc1_.id = "volumeButton";
 			if(!_loc1_.document)

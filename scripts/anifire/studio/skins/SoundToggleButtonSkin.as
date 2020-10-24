@@ -23,20 +23,20 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_enter_exit_sound_mute_png_450505961:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_sound_on_png_1174373185:Class;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_sound_on_hover_png_1296496311:Class;
+		private var _embed_mxml__styles_images_panel_enter_exit_mute_hover_png_617975433:Class;
 		
-		private var _embed_mxml__styles_images_panel_enter_exit_mute_hover_png_1689668599:Class;
+		private var _embed_mxml__styles_images_panel_enter_exit_sound_mute_png_646553281:Class;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_sound_on_png_1505466693:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_sound_on_hover_png_1154637759:Class;
 		
 		public function SoundToggleButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_enter_exit_sound_mute_png_450505961 = SoundToggleButtonSkin__embed_mxml__styles_images_panel_enter_exit_sound_mute_png_450505961;
-			this._embed_mxml__styles_images_panel_enterexit_sound_on_hover_png_1296496311 = SoundToggleButtonSkin__embed_mxml__styles_images_panel_enterexit_sound_on_hover_png_1296496311;
-			this._embed_mxml__styles_images_panel_enter_exit_mute_hover_png_1689668599 = SoundToggleButtonSkin__embed_mxml__styles_images_panel_enter_exit_mute_hover_png_1689668599;
-			this._embed_mxml__styles_images_panel_enterexit_sound_on_png_1505466693 = SoundToggleButtonSkin__embed_mxml__styles_images_panel_enterexit_sound_on_png_1505466693;
+			this._embed_mxml__styles_images_panel_enterexit_sound_on_png_1174373185 = SoundToggleButtonSkin__embed_mxml__styles_images_panel_enterexit_sound_on_png_1174373185;
+			this._embed_mxml__styles_images_panel_enter_exit_mute_hover_png_617975433 = SoundToggleButtonSkin__embed_mxml__styles_images_panel_enter_exit_mute_hover_png_617975433;
+			this._embed_mxml__styles_images_panel_enter_exit_sound_mute_png_646553281 = SoundToggleButtonSkin__embed_mxml__styles_images_panel_enter_exit_sound_mute_png_646553281;
+			this._embed_mxml__styles_images_panel_enterexit_sound_on_hover_png_1154637759 = SoundToggleButtonSkin__embed_mxml__styles_images_panel_enterexit_sound_on_hover_png_1154637759;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._SoundToggleButtonSkin_BitmapImage1_i(),this._SoundToggleButtonSkin_BitmapImage2_i(),this._SoundToggleButtonSkin_BitmapImage3_i(),this._SoundToggleButtonSkin_BitmapImage4_i()];
@@ -123,7 +123,7 @@ package anifire.studio.skins
 		private function _SoundToggleButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enter_exit_sound_mute_png_450505961;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enter_exit_sound_mute_png_646553281;
 			_loc1_.visible = false;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,"_SoundToggleButtonSkin_BitmapImage1");
@@ -135,7 +135,7 @@ package anifire.studio.skins
 		private function _SoundToggleButtonSkin_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enter_exit_mute_hover_png_1689668599;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enter_exit_mute_hover_png_617975433;
 			_loc1_.visible = false;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,"_SoundToggleButtonSkin_BitmapImage2");
@@ -147,7 +147,7 @@ package anifire.studio.skins
 		private function _SoundToggleButtonSkin_BitmapImage3_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_sound_on_png_1505466693;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_sound_on_png_1174373185;
 			_loc1_.visible = false;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,"_SoundToggleButtonSkin_BitmapImage3");
@@ -159,7 +159,7 @@ package anifire.studio.skins
 		private function _SoundToggleButtonSkin_BitmapImage4_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_sound_on_hover_png_1296496311;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_sound_on_hover_png_1154637759;
 			_loc1_.visible = false;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,"_SoundToggleButtonSkin_BitmapImage4");

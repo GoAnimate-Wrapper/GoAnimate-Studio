@@ -109,9 +109,9 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_widget_img_swaprange_hover_png_249078071:Class;
+		private var _embed_mxml__styles_images_widget_img_swaprange_hover_png_2127154047:Class;
 		
-		private var _embed_mxml__styles_images_widget_img_swaprange_init_png_1728204937:Class;
+		private var _embed_mxml__styles_images_widget_img_swaprange_init_png_1390163929:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -128,8 +128,8 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_widget_img_swaprange_hover_png_249078071 = WidgetDataGridSkin__embed_mxml__styles_images_widget_img_swaprange_hover_png_249078071;
-			this._embed_mxml__styles_images_widget_img_swaprange_init_png_1728204937 = WidgetDataGridSkin__embed_mxml__styles_images_widget_img_swaprange_init_png_1728204937;
+			this._embed_mxml__styles_images_widget_img_swaprange_hover_png_2127154047 = WidgetDataGridSkin__embed_mxml__styles_images_widget_img_swaprange_hover_png_2127154047;
+			this._embed_mxml__styles_images_widget_img_swaprange_init_png_1390163929 = WidgetDataGridSkin__embed_mxml__styles_images_widget_img_swaprange_init_png_1390163929;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -807,9 +807,9 @@ package anifire.studio.skins
 			_loc1_.buttonMode = true;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_widget_img_swaprange_init_png_1728204937);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_widget_img_swaprange_hover_png_249078071);
-			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_widget_img_swaprange_hover_png_249078071);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_widget_img_swaprange_init_png_1390163929);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_widget_img_swaprange_hover_png_2127154047);
+			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_widget_img_swaprange_hover_png_2127154047);
 			_loc1_.id = "swapAxisButton";
 			if(!_loc1_.document)
 			{

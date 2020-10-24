@@ -41,7 +41,7 @@ package anifire.studio.components
 		
 		private var _882192095_showImage:Boolean;
 		
-		private var _embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_349686251:Class;
+		private var _embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_1890237759:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -56,7 +56,7 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_349686251 = FlowFrameImageDisplay__embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_349686251;
+			this._embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_1890237759 = FlowFrameImageDisplay__embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_1890237759;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -186,7 +186,7 @@ package anifire.studio.components
 		private function _FlowFrameImageDisplay_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_349686251;
+			_loc1_.source = this._embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_1890237759;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
 			_loc1_.smooth = true;

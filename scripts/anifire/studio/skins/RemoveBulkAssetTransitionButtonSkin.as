@@ -19,11 +19,11 @@ package anifire.studio.skins
 		
 		private var cornerRadius:Number = 2;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_remove_png_759404759:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_remove_png_1625760065:Class;
 		
 		public function RemoveBulkAssetTransitionButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_enterexit_remove_png_759404759 = RemoveBulkAssetTransitionButtonSkin__embed_mxml__styles_images_panel_enterexit_remove_png_759404759;
+			this._embed_mxml__styles_images_panel_enterexit_remove_png_1625760065 = RemoveBulkAssetTransitionButtonSkin__embed_mxml__styles_images_panel_enterexit_remove_png_1625760065;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 21;
@@ -115,7 +115,7 @@ package anifire.studio.skins
 		private function _RemoveBulkAssetTransitionButtonSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_remove_png_759404759;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_remove_png_1625760065;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

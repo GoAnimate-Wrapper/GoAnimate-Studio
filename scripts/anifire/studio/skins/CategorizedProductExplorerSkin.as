@@ -98,9 +98,9 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_icon_cat_png_1886397303:Class;
+		private var _embed_mxml__styles_images_tray_icon_cat_png_1673002433:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_cat_favorite_png_755736795:Class;
+		private var _embed_mxml__styles_images_tray_icon_cat_favorite_png_420067263:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -117,8 +117,8 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_icon_cat_png_1886397303 = CategorizedProductExplorerSkin__embed_mxml__styles_images_tray_icon_cat_png_1886397303;
-			this._embed_mxml__styles_images_tray_icon_cat_favorite_png_755736795 = CategorizedProductExplorerSkin__embed_mxml__styles_images_tray_icon_cat_favorite_png_755736795;
+			this._embed_mxml__styles_images_tray_icon_cat_png_1673002433 = CategorizedProductExplorerSkin__embed_mxml__styles_images_tray_icon_cat_png_1673002433;
+			this._embed_mxml__styles_images_tray_icon_cat_favorite_png_420067263 = CategorizedProductExplorerSkin__embed_mxml__styles_images_tray_icon_cat_favorite_png_420067263;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -517,7 +517,7 @@ package anifire.studio.skins
 		private function _CategorizedProductExplorerSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_cat_favorite_png_755736795;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_cat_favorite_png_420067263;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -573,7 +573,7 @@ package anifire.studio.skins
 		private function _CategorizedProductExplorerSkin_BitmapImage2_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_cat_png_1886397303;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_cat_png_1673002433;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

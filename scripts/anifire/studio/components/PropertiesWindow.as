@@ -1,6 +1,7 @@
 package anifire.studio.components
 {
 	import anifire.constant.ThemeConstants;
+	import anifire.managers.FeatureManager;
 	import anifire.studio.assets.controllers.TextCollectionController;
 	import anifire.studio.assets.views.AssetEditor;
 	import anifire.studio.assets.views.AssetViewCollection;
@@ -100,6 +101,8 @@ package anifire.studio.components
 		 
 		
 		private var _1569328494actionPanel:ActionPanel;
+		
+		private var _734914287advPanel:BubbleAdvancedPanel;
 		
 		private var _1118509956animation:Animate;
 		
@@ -358,6 +361,10 @@ package anifire.studio.components
 			else if(param1 is TextCollectionController)
 			{
 				this.bubblePanelVisible = true;
+				if(TextCollectionController(param1).singleBubbleAsset)
+				{
+					this.advPanelVisible = FeatureManager.shouldBubbleUrlBeEditable;
+				}
 				_loc3_ = this.bubblePanel;
 				this.title = this.bubblePanelTitle;
 			}
@@ -438,7 +445,7 @@ package anifire.studio.components
 						{
 							this.colorPanelVisible = false;
 						}
-						else if(UtilUser.isContentAdmin)
+						else if(UtilUser.hasAdminFeatures)
 						{
 							this.colorPanelVisible = true;
 						}
@@ -531,6 +538,10 @@ package anifire.studio.components
 			{
 				this.statePanel.target = this._target;
 			}
+			else if(this.navPanel.selectedChild == this.advPanel)
+			{
+				this.advPanel.target = this._target;
+			}
 			else if(this.navPanel.selectedChild == this.widgetDataPanel)
 			{
 				this.widgetDataPanel.target = this._target as Widget;
@@ -601,6 +612,7 @@ package anifire.studio.components
 			this.statePanelVisible = false;
 			this.bubblePanelVisible = false;
 			this.joinEffectPanelVisible = false;
+			this.advPanelVisible = false;
 			this.sceneOptionVisible = false;
 			this.assetTransitionPanelVisible = false;
 			this.cameraSettingPanelVisible = false;
@@ -752,6 +764,15 @@ package anifire.studio.components
 				this.navigationVisible = true;
 			}
 			this.joinEffectPanel.enabled = param1;
+		}
+		
+		private function set advPanelVisible(param1:Boolean) : void
+		{
+			if(param1)
+			{
+				this.navigationVisible = true;
+			}
+			this.advPanel.enabled = param1;
 		}
 		
 		private function set sceneOptionVisible(param1:Boolean) : void
@@ -1258,6 +1279,9 @@ package anifire.studio.components
 							};
 						}
 					}),new UIComponentDescriptor({
+						"type":BubbleAdvancedPanel,
+						"id":"advPanel"
+					}),new UIComponentDescriptor({
 						"type":TransitionPanel,
 						"id":"transitionPanel"
 					}),new UIComponentDescriptor({
@@ -1385,20 +1409,25 @@ package anifire.studio.components
 			},null,"effectPanel.label");
 			result[14] = new Binding(this,function():String
 			{
+				var _loc1_:* = UtilDict.translate("Advanced");
+				return _loc1_ == undefined?null:String(_loc1_);
+			},null,"advPanel.label");
+			result[15] = new Binding(this,function():String
+			{
 				var _loc1_:* = UtilDict.translate("Enter/Exit");
 				return _loc1_ == undefined?null:String(_loc1_);
 			},null,"transitionPanel.label");
-			result[15] = new Binding(this,function():String
+			result[16] = new Binding(this,function():String
 			{
 				var _loc1_:* = UtilDict.translate("Effects");
 				return _loc1_ == undefined?null:String(_loc1_);
 			},null,"joinEffectPanel.label");
-			result[16] = new Binding(this,function():String
+			result[17] = new Binding(this,function():String
 			{
 				var _loc1_:* = UtilDict.translate("Camera");
 				return _loc1_ == undefined?null:String(_loc1_);
 			},null,"cameraPanel.label");
-			result[17] = new Binding(this,function():String
+			result[18] = new Binding(this,function():String
 			{
 				var _loc1_:* = UtilDict.translate("Colors");
 				return _loc1_ == undefined?null:String(_loc1_);
@@ -1421,6 +1450,25 @@ package anifire.studio.components
 				if(this.hasEventListener("propertyChange"))
 				{
 					this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this,"actionPanel",_loc2_,param1));
+				}
+			}
+		}
+		
+		[Bindable(event="propertyChange")]
+		public function get advPanel() : BubbleAdvancedPanel
+		{
+			return this._734914287advPanel;
+		}
+		
+		public function set advPanel(param1:BubbleAdvancedPanel) : void
+		{
+			var _loc2_:Object = this._734914287advPanel;
+			if(_loc2_ !== param1)
+			{
+				this._734914287advPanel = param1;
+				if(this.hasEventListener("propertyChange"))
+				{
+					this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this,"advPanel",_loc2_,param1));
 				}
 			}
 		}

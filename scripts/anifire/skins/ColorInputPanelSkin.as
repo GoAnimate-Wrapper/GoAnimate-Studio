@@ -75,9 +75,9 @@ package anifire.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_colorpalette_color_input_panel_gradient_png_1040497290:Class;
+		private var _embed_mxml__styles_images_colorpalette_color_input_panel_gradient_png_1209506624:Class;
 		
-		private var _embed_mxml__styles_images_colorpalette_slider_control_png_690206472:Class;
+		private var _embed_mxml__styles_images_colorpalette_slider_control_png_381158866:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -93,8 +93,8 @@ package anifire.skins
 		{
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_colorpalette_color_input_panel_gradient_png_1040497290 = ColorInputPanelSkin__embed_mxml__styles_images_colorpalette_color_input_panel_gradient_png_1040497290;
-			this._embed_mxml__styles_images_colorpalette_slider_control_png_690206472 = ColorInputPanelSkin__embed_mxml__styles_images_colorpalette_slider_control_png_690206472;
+			this._embed_mxml__styles_images_colorpalette_color_input_panel_gradient_png_1209506624 = ColorInputPanelSkin__embed_mxml__styles_images_colorpalette_color_input_panel_gradient_png_1209506624;
+			this._embed_mxml__styles_images_colorpalette_slider_control_png_381158866 = ColorInputPanelSkin__embed_mxml__styles_images_colorpalette_slider_control_png_381158866;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -291,7 +291,7 @@ package anifire.skins
 		private function _ColorInputPanelSkin_Image1_c() : Image
 		{
 			var _loc1_:Image = new Image();
-			_loc1_.source = this._embed_mxml__styles_images_colorpalette_color_input_panel_gradient_png_1040497290;
+			_loc1_.source = this._embed_mxml__styles_images_colorpalette_color_input_panel_gradient_png_1209506624;
 			_loc1_.fillMode = "scale";
 			_loc1_.scaleMode = "stretch";
 			_loc1_.left = 0;
@@ -362,7 +362,7 @@ package anifire.skins
 		private function _ColorInputPanelSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_colorpalette_slider_control_png_690206472;
+			_loc1_.source = this._embed_mxml__styles_images_colorpalette_slider_control_png_381158866;
 			_loc1_.verticalCenter = -2;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.initialized(this,"colorFieldCursorImage");

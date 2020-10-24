@@ -812,6 +812,10 @@ package anifire.assets.transition
 				"label":UtilDict.toDisplay("go","Split - Vertical")
 			});
 			_loc1_.push({
+				"id":TYPE_SPRITE_ZOOMBLUR,
+				"label":UtilDict.toDisplay("go","Blur - zooming")
+			});
+			_loc1_.push({
 				"id":TYPE_SPRITE_DISC,
 				"label":UtilDict.toDisplay("go","Circular reveal")
 			});

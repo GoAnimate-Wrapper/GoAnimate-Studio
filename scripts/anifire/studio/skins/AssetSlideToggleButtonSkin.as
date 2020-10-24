@@ -19,20 +19,20 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_slide_on_png_759399607:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_slide_on_png_488116919:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_slide_png_777138729:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_slide_png_1963897473:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_595776069:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_1761774657:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_slide_hover_png_1712214181:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_slide_hover_png_674154751:Class;
 		
 		public function AssetSlideToggleButtonSkin()
 		{
-			this._embed_mxml__styles_images_toolbar_tools_slide_on_png_759399607 = AssetSlideToggleButtonSkin__embed_mxml__styles_images_toolbar_tools_slide_on_png_759399607;
-			this._embed_mxml__styles_images_toolbar_tools_slide_png_777138729 = AssetSlideToggleButtonSkin__embed_mxml__styles_images_toolbar_tools_slide_png_777138729;
-			this._embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_595776069 = AssetSlideToggleButtonSkin__embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_595776069;
-			this._embed_mxml__styles_images_toolbar_tools_slide_hover_png_1712214181 = AssetSlideToggleButtonSkin__embed_mxml__styles_images_toolbar_tools_slide_hover_png_1712214181;
+			this._embed_mxml__styles_images_toolbar_tools_slide_on_png_488116919 = AssetSlideToggleButtonSkin__embed_mxml__styles_images_toolbar_tools_slide_on_png_488116919;
+			this._embed_mxml__styles_images_toolbar_tools_slide_png_1963897473 = AssetSlideToggleButtonSkin__embed_mxml__styles_images_toolbar_tools_slide_png_1963897473;
+			this._embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_1761774657 = AssetSlideToggleButtonSkin__embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_1761774657;
+			this._embed_mxml__styles_images_toolbar_tools_slide_hover_png_674154751 = AssetSlideToggleButtonSkin__embed_mxml__styles_images_toolbar_tools_slide_hover_png_674154751;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._AssetSlideToggleButtonSkin_Rect1_c(),this._AssetSlideToggleButtonSkin_BitmapImage1_i()];
@@ -46,7 +46,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_AssetSlideToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_tools_slide_hover_png_1712214181
+					"value":this._embed_mxml__styles_images_toolbar_tools_slide_hover_png_674154751
 				})]
 			}),new State({
 				"name":"down",
@@ -54,7 +54,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_AssetSlideToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_tools_slide_hover_png_1712214181
+					"value":this._embed_mxml__styles_images_toolbar_tools_slide_hover_png_674154751
 				})]
 			}),new State({
 				"name":"disabled",
@@ -69,7 +69,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_AssetSlideToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_tools_slide_on_png_759399607
+					"value":this._embed_mxml__styles_images_toolbar_tools_slide_on_png_488116919
 				})]
 			}),new State({
 				"name":"overAndSelected",
@@ -77,7 +77,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_AssetSlideToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_595776069
+					"value":this._embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_1761774657
 				})]
 			}),new State({
 				"name":"downAndSelected",
@@ -85,7 +85,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_AssetSlideToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_595776069
+					"value":this._embed_mxml__styles_images_toolbar_tools_slide_on_hover_png_1761774657
 				})]
 			}),new State({
 				"name":"disabledAndSelected",
@@ -96,7 +96,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_AssetSlideToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_tools_slide_on_png_759399607
+					"value":this._embed_mxml__styles_images_toolbar_tools_slide_on_png_488116919
 				})]
 			})];
 		}
@@ -140,7 +140,7 @@ package anifire.studio.skins
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_toolbar_tools_slide_png_777138729;
+			_loc1_.source = this._embed_mxml__styles_images_toolbar_tools_slide_png_1963897473;
 			_loc1_.initialized(this,"_AssetSlideToggleButtonSkin_BitmapImage1");
 			this._AssetSlideToggleButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_AssetSlideToggleButtonSkin_BitmapImage1",this._AssetSlideToggleButtonSkin_BitmapImage1);

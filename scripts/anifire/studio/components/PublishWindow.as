@@ -398,7 +398,11 @@ package anifire.studio.components
 			}
 			if(UtilSite.siteId == UtilSite.GOANIMATE)
 			{
-				if(this._published || this._pShared)
+				if(this._published)
+				{
+					this._sharingOption.selection = this._radioPublic;
+				}
+				else if(this._pShared)
 				{
 					this._sharingOption.selection = this._radioPrivate;
 				}
@@ -410,8 +414,6 @@ package anifire.studio.components
 				{
 					this._sharingOption.selection = this._radioDraft;
 				}
-				this._radioPublic.visible = false;
-				this._radioPublic.includeInLayout = false;
 			}
 			else if(UtilSite.siteId == UtilSite.SCHOOL)
 			{
@@ -717,8 +719,7 @@ package anifire.studio.components
 		
 		private function onSaveBtnClick() : void
 		{
-			var _loc1_:Console = null;
-			_loc1_ = Console.getConsole();
+			var _loc1_:Console = Console.getConsole();
 			currentState = "normal";
 			this.updateWatermark();
 			if(UtilSite.siteId == UtilSite.SKOLETUBE)
@@ -1274,7 +1275,7 @@ package anifire.studio.components
 		private function _PublishWindow_VGroup2_c() : VGroup
 		{
 			var _loc1_:VGroup = new VGroup();
-			_loc1_.mxmlContent = [this._PublishWindow_HGroup2_c()];
+			_loc1_.mxmlContent = [this._PublishWindow_HGroup2_c(),this._PublishWindow_HGroup3_c()];
 			if(!_loc1_.document)
 			{
 				_loc1_.document = this;
@@ -1287,7 +1288,7 @@ package anifire.studio.components
 			var _loc1_:HGroup = new HGroup();
 			_loc1_.verticalAlign = "baseline";
 			_loc1_.gap = 25;
-			_loc1_.mxmlContent = [this._PublishWindow_RadioButton1_i(),this._PublishWindow_RadioButton2_i(),this._PublishWindow_RadioButton3_i(),this._PublishWindow_RadioButton4_i()];
+			_loc1_.mxmlContent = [this._PublishWindow_RadioButton1_i(),this._PublishWindow_RadioButton2_i(),this._PublishWindow_RadioButton3_i()];
 			if(!_loc1_.document)
 			{
 				_loc1_.document = this;
@@ -1340,6 +1341,19 @@ package anifire.studio.components
 			return _loc1_;
 		}
 		
+		private function _PublishWindow_HGroup3_c() : HGroup
+		{
+			var _loc1_:HGroup = new HGroup();
+			_loc1_.verticalAlign = "baseline";
+			_loc1_.gap = 25;
+			_loc1_.mxmlContent = [this._PublishWindow_RadioButton4_i()];
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			return _loc1_;
+		}
+		
 		private function _PublishWindow_RadioButton4_i() : RadioButton
 		{
 			var _loc1_:RadioButton = new RadioButton();
@@ -1361,7 +1375,7 @@ package anifire.studio.components
 			_loc1_.required = true;
 			_loc1_.includeInLayout = false;
 			_loc1_.visible = false;
-			_loc1_.mxmlContentFactory = new DeferredInstanceFromFunction(this._PublishWindow_Array22_c);
+			_loc1_.mxmlContentFactory = new DeferredInstanceFromFunction(this._PublishWindow_Array23_c);
 			_loc1_.id = "_vbGroup";
 			if(!_loc1_.document)
 			{
@@ -1372,7 +1386,7 @@ package anifire.studio.components
 			return _loc1_;
 		}
 		
-		private function _PublishWindow_Array22_c() : Array
+		private function _PublishWindow_Array23_c() : Array
 		{
 			var _loc1_:Array = [this._PublishWindow_DropDownList1_i(),this._PublishWindow_Label3_i()];
 			return _loc1_;

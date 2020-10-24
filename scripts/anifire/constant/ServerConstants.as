@@ -245,7 +245,9 @@ package anifire.constant
 		
 		public static const ACTION_GET_TTSVOICE:String = SERVER_API_PATH + "getTextToSpeechVoices/";
 		
-		public static const ACTION_GET_ASSET_EX:String = SERVER_API_PATH + "getAssetEx/";
+		public static const ACTION_GET_ASSET:String = SERVER_API_PATH + "getAsset/";
+		
+		public static const ACTION_REBUILD_TTS:String = SERVER_API_PATH + "rebuildTTS/";
 		
 		public static const ACTION_GET_WATERMARKS:String = SERVER_API_PATH + "getUserWatermarks/";
 		
@@ -254,10 +256,6 @@ package anifire.constant
 		public static const ACTION_SEARCH_ASSET:String = SERVER_API_PATH + "searchCommunityAssets/";
 		
 		public static const PARAM_ASSET_ID:String = "assetId";
-		
-		public static const PARAM_ENC_ASSET_ID:String = "enc_asset_id";
-		
-		public static const PARAM_SIGNATURE:String = "signature";
 		
 		public static const PARAM_ISEMBED_ID:String = "isEmbed";
 		
@@ -365,8 +363,6 @@ package anifire.constant
 		
 		public static const FLASHVAR_IS_WIX_PAID:String = "isWixPaid";
 		
-		public static const FLASHVAR_MOVIE_CREATE_DATETIME:String = "create_dt";
-		
 		public static const FLASHVAR_RESTART_TUTORIAL:String = "retut";
 		
 		public static const FLASHVAR_NO_SKIP_TUTORIAL:String = "noSkipTutorial";
@@ -374,8 +370,6 @@ package anifire.constant
 		public static const FLASHVAR_IS_FREE_TRIAL:String = "free_trial";
 		
 		public static const FLASHVAR_LICENSE_ID:String = "lid";
-		
-		public static const FLASHVAR_IS_CONTENT_ADMIN:String = "contentAdmin";
 		
 		private static var _version:String;
 		

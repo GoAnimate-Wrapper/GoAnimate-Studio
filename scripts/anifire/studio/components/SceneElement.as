@@ -186,9 +186,9 @@ package anifire.studio.components
 		
 		private var _animeSound:AnimeSound;
 		
-		private var _embed_mxml__styles_images_timeline_loading_swf_1317514061:Class;
+		private var _embed_mxml__styles_images_timeline_loading_swf_970254217:Class;
 		
-		private var _embed_mxml__styles_images_timeline_timeline_chapter_break_png_2037247337:Class;
+		private var _embed_mxml__styles_images_timeline_timeline_chapter_break_png_2020576519:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -203,8 +203,8 @@ package anifire.studio.components
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
 			this._toolTipTimer = new Timer(200,1);
-			this._embed_mxml__styles_images_timeline_loading_swf_1317514061 = SceneElement__embed_mxml__styles_images_timeline_loading_swf_1317514061;
-			this._embed_mxml__styles_images_timeline_timeline_chapter_break_png_2037247337 = SceneElement__embed_mxml__styles_images_timeline_timeline_chapter_break_png_2037247337;
+			this._embed_mxml__styles_images_timeline_loading_swf_970254217 = SceneElement__embed_mxml__styles_images_timeline_loading_swf_970254217;
+			this._embed_mxml__styles_images_timeline_timeline_chapter_break_png_2020576519 = SceneElement__embed_mxml__styles_images_timeline_timeline_chapter_break_png_2020576519;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -988,7 +988,7 @@ package anifire.studio.components
 		private function _SceneElement_SWFLoader1_i() : SWFLoader
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
-			_loc1_.source = this._embed_mxml__styles_images_timeline_loading_swf_1317514061;
+			_loc1_.source = this._embed_mxml__styles_images_timeline_loading_swf_970254217;
 			_loc1_.height = 20;
 			_loc1_.width = 20;
 			_loc1_.horizontalCenter = 0;
@@ -1008,7 +1008,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.right = 0;
 			_loc1_.bottom = 0;
-			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_chapter_break_png_2037247337;
+			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_chapter_break_png_2020576519;
 			_loc1_.initialized(this,"chapterBreakImage");
 			this.chapterBreakImage = _loc1_;
 			BindingManager.executeBindings(this,"chapterBreakImage",this.chapterBreakImage);

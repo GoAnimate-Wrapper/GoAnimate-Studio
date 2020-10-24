@@ -2,6 +2,7 @@ package anifire.studio.components
 {
 	import anifire.studio.managers.WatermarkManager;
 	import anifire.studio.models.WatermarkData;
+	import anifire.util.UtilUser;
 	import mx.binding.BindingManager;
 	import mx.core.IFlexModuleFactory;
 	import mx.events.FlexEvent;
@@ -17,6 +18,8 @@ package anifire.studio.components
 	{
 		
 		private static var imgDefaultWatermark:Class = WatermarkPreview_imgDefaultWatermark;
+		
+		private static var imgTwoLinesWatermark:Class = WatermarkPreview_imgTwoLinesWatermark;
 		 
 		
 		private var _97692013frame:Rect;
@@ -29,11 +32,11 @@ package anifire.studio.components
 		
 		private var _data:WatermarkData;
 		
-		private var _embed_mxml__styles_images_watermark_no_watermark_png_1015786135:Class;
+		private var _embed_mxml__styles_images_watermark_no_watermark_png_117980927:Class;
 		
 		public function WatermarkPreview()
 		{
-			this._embed_mxml__styles_images_watermark_no_watermark_png_1015786135 = WatermarkPreview__embed_mxml__styles_images_watermark_no_watermark_png_1015786135;
+			this._embed_mxml__styles_images_watermark_no_watermark_png_117980927 = WatermarkPreview__embed_mxml__styles_images_watermark_no_watermark_png_117980927;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._WatermarkPreview_Rect1_i(),this._WatermarkPreview_Group2_c(),this._WatermarkPreview_BitmapImage1_i()];
@@ -68,7 +71,7 @@ package anifire.studio.components
 			{
 				if(this._data.id == WatermarkManager.DEFAULT_WATERMARK_ID)
 				{
-					this.imageDisplay.source = imgDefaultWatermark;
+					this.imageDisplay.source = UtilUser.userType <= UtilUser.PLUS_USER?imgTwoLinesWatermark:imgDefaultWatermark;
 				}
 				else if(this._data.id == WatermarkManager.NO_WATERMARK_ID)
 				{
@@ -169,7 +172,7 @@ package anifire.studio.components
 		private function _WatermarkPreview_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_watermark_no_watermark_png_1015786135;
+			_loc1_.source = this._embed_mxml__styles_images_watermark_no_watermark_png_117980927;
 			_loc1_.initialized(this,"noWatermarkDisplay");
 			this.noWatermarkDisplay = _loc1_;
 			BindingManager.executeBindings(this,"noWatermarkDisplay",this.noWatermarkDisplay);

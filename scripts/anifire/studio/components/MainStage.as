@@ -160,7 +160,7 @@ package anifire.studio.components
 		
 		protected var _interactionEnabled:Boolean = true;
 		
-		private var _embed_mxml__styles_images_common_autosaveicon_png_1487004151:Class;
+		private var _embed_mxml__styles_images_common_autosaveicon_png_179375423:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -175,7 +175,7 @@ package anifire.studio.components
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
 			this._tutorialManager = TutorialManager.instance;
-			this._embed_mxml__styles_images_common_autosaveicon_png_1487004151 = MainStage__embed_mxml__styles_images_common_autosaveicon_png_1487004151;
+			this._embed_mxml__styles_images_common_autosaveicon_png_179375423 = MainStage__embed_mxml__styles_images_common_autosaveicon_png_179375423;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -1020,7 +1020,7 @@ package anifire.studio.components
 		private function _MainStage_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_common_autosaveicon_png_1487004151;
+			_loc1_.source = this._embed_mxml__styles_images_common_autosaveicon_png_179375423;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

@@ -55,6 +55,7 @@ package anifire.studio.components
 	import spark.events.RendererExistenceEvent;
 	import spark.filters.DropShadowFilter;
 	import spark.primitives.BitmapImage;
+	import spark.primitives.Line;
 	import spark.primitives.Rect;
 	
 	use namespace mx_internal;
@@ -85,6 +86,8 @@ package anifire.studio.components
 		
 		public var _DialogPanel_Label4:Label;
 		
+		public var _DialogPanel_Label5:Label;
+		
 		private var _861531420addSceneMessage:Label;
 		
 		private var _1184681627addSceneOverlay:Group;
@@ -94,6 +97,8 @@ package anifire.studio.components
 		private var _1929043277bannerGroup:Group;
 		
 		private var _513991335bannerNarrow:HGroup;
+		
+		private var _526915379bannerNormal:VGroup;
 		
 		private var _342885369btnExisting:IconButton;
 		
@@ -129,23 +134,25 @@ package anifire.studio.components
 		
 		private var _1215456337_showOverlapWarning:Boolean;
 		
-		private var _embed_mxml__styles_images_voicetab_voicebunny_logo_png_1538021845:Class;
+		private var _embed_mxml__styles_images_voicetab_small_tts_png_1724751513:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_small_icon_no_voice_png_475815347:Class;
+		private var _embed_mxml__styles_images_voicetab_small_lipsync_png_103292671:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_arrow_png_1360059575:Class;
+		private var _embed_mxml__styles_images_voicetab_small_uploadfile_png_284981121:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_small_uploadfile_png_1251868247:Class;
+		private var _embed_mxml__styles_images_voicetab_arrow_png_672693593:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_inwhatlang_logo_png_1535408461:Class;
+		private var _embed_mxml__styles_images_voicetab_small_mic_png_2098098623:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_small_tts_png_1149334323:Class;
+		private var _embed_mxml__styles_images_voicetab_voicebunny_png_179536703:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_small_mic_png_1690711003:Class;
+		private var _embed_mxml__styles_images_voicetab_buyvo_png_817032769:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_small_yourlibrary_png_314740119:Class;
+		private var _embed_mxml__styles_images_voicetab_small_yourlibrary_png_1735116023:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_small_lipsync_png_1032554667:Class;
+		private var _embed_mxml__styles_images_voicetab_small_icon_no_voice_png_1351155081:Class;
+		
+		private var _embed_mxml__styles_images_voicetab_outsidelink_png_244722303:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -164,15 +171,16 @@ package anifire.studio.components
 			this._193192190soundsCollection = new ArrayCollection();
 			this._348367298assignedVoiceCollection = new ArrayCollection();
 			this._947765495unassignedVoiceCollection = new ArrayCollection();
-			this._embed_mxml__styles_images_voicetab_voicebunny_logo_png_1538021845 = DialogPanel__embed_mxml__styles_images_voicetab_voicebunny_logo_png_1538021845;
-			this._embed_mxml__styles_images_voicetab_small_icon_no_voice_png_475815347 = DialogPanel__embed_mxml__styles_images_voicetab_small_icon_no_voice_png_475815347;
-			this._embed_mxml__styles_images_voicetab_arrow_png_1360059575 = DialogPanel__embed_mxml__styles_images_voicetab_arrow_png_1360059575;
-			this._embed_mxml__styles_images_voicetab_small_uploadfile_png_1251868247 = DialogPanel__embed_mxml__styles_images_voicetab_small_uploadfile_png_1251868247;
-			this._embed_mxml__styles_images_voicetab_inwhatlang_logo_png_1535408461 = DialogPanel__embed_mxml__styles_images_voicetab_inwhatlang_logo_png_1535408461;
-			this._embed_mxml__styles_images_voicetab_small_tts_png_1149334323 = DialogPanel__embed_mxml__styles_images_voicetab_small_tts_png_1149334323;
-			this._embed_mxml__styles_images_voicetab_small_mic_png_1690711003 = DialogPanel__embed_mxml__styles_images_voicetab_small_mic_png_1690711003;
-			this._embed_mxml__styles_images_voicetab_small_yourlibrary_png_314740119 = DialogPanel__embed_mxml__styles_images_voicetab_small_yourlibrary_png_314740119;
-			this._embed_mxml__styles_images_voicetab_small_lipsync_png_1032554667 = DialogPanel__embed_mxml__styles_images_voicetab_small_lipsync_png_1032554667;
+			this._embed_mxml__styles_images_voicetab_small_tts_png_1724751513 = DialogPanel__embed_mxml__styles_images_voicetab_small_tts_png_1724751513;
+			this._embed_mxml__styles_images_voicetab_small_lipsync_png_103292671 = DialogPanel__embed_mxml__styles_images_voicetab_small_lipsync_png_103292671;
+			this._embed_mxml__styles_images_voicetab_small_uploadfile_png_284981121 = DialogPanel__embed_mxml__styles_images_voicetab_small_uploadfile_png_284981121;
+			this._embed_mxml__styles_images_voicetab_arrow_png_672693593 = DialogPanel__embed_mxml__styles_images_voicetab_arrow_png_672693593;
+			this._embed_mxml__styles_images_voicetab_small_mic_png_2098098623 = DialogPanel__embed_mxml__styles_images_voicetab_small_mic_png_2098098623;
+			this._embed_mxml__styles_images_voicetab_voicebunny_png_179536703 = DialogPanel__embed_mxml__styles_images_voicetab_voicebunny_png_179536703;
+			this._embed_mxml__styles_images_voicetab_buyvo_png_817032769 = DialogPanel__embed_mxml__styles_images_voicetab_buyvo_png_817032769;
+			this._embed_mxml__styles_images_voicetab_small_yourlibrary_png_1735116023 = DialogPanel__embed_mxml__styles_images_voicetab_small_yourlibrary_png_1735116023;
+			this._embed_mxml__styles_images_voicetab_small_icon_no_voice_png_1351155081 = DialogPanel__embed_mxml__styles_images_voicetab_small_icon_no_voice_png_1351155081;
+			this._embed_mxml__styles_images_voicetab_outsidelink_png_244722303 = DialogPanel__embed_mxml__styles_images_voicetab_outsidelink_png_244722303;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -597,13 +605,14 @@ package anifire.studio.components
 		private function onBaseResize() : void
 		{
 			this.bannerNarrow.visible = this.bannerNarrow.includeInLayout = true;
+			this.bannerNormal.visible = this.bannerNormal.includeInLayout = false;
 		}
 		
-		private function onClickInWhatLanguage() : void
+		private function onClickBuyVO() : void
 		{
 			if(ExternalInterface.available)
 			{
-				ExternalInterface.call("voiceBanner","iw");
+				ExternalInterface.call("voiceBanner","vo");
 			}
 		}
 		
@@ -856,8 +865,7 @@ package anifire.studio.components
 		
 		private function _DialogPanel_Group3_i() : Group
 		{
-			var _loc1_:Group = null;
-			_loc1_ = new Group();
+			var _loc1_:Group = new Group();
 			_loc1_.percentWidth = 100;
 			_loc1_.percentHeight = 100;
 			_loc1_.includeInLayout = false;
@@ -893,7 +901,7 @@ package anifire.studio.components
 		private function _DialogPanel_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_voicetab_small_icon_no_voice_png_475815347;
+			_loc1_.source = this._embed_mxml__styles_images_voicetab_small_icon_no_voice_png_1351155081;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -1139,7 +1147,7 @@ package anifire.studio.components
 		private function _DialogPanel_BitmapImage2_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_voicetab_arrow_png_1360059575;
+			_loc1_.source = this._embed_mxml__styles_images_voicetab_arrow_png_672693593;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.initialized(this,null);
 			return _loc1_;
@@ -1154,7 +1162,7 @@ package anifire.studio.components
 		{
 			var _loc1_:Group = new Group();
 			_loc1_.percentWidth = 100;
-			_loc1_.mxmlContent = [this._DialogPanel_VGroup4_c(),this._DialogPanel_Group9_i()];
+			_loc1_.mxmlContent = [this._DialogPanel_VGroup4_c(),this._DialogPanel_Group12_i()];
 			_loc1_.id = "addVoiceGroup";
 			if(!_loc1_.document)
 			{
@@ -1186,7 +1194,7 @@ package anifire.studio.components
 			_loc1_.height = 45;
 			_loc1_.enabled = true;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_mic_png_1690711003);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_mic_png_2098098623);
 			_loc1_.setStyle("skinClass",VoiceTabButtonSkin);
 			_loc1_.addEventListener("click",this.___DialogPanel_IconButton1_click);
 			_loc1_.id = "_DialogPanel_IconButton1";
@@ -1211,7 +1219,7 @@ package anifire.studio.components
 			_loc1_.height = 45;
 			_loc1_.enabled = true;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_uploadfile_png_1251868247);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_uploadfile_png_284981121);
 			_loc1_.setStyle("skinClass",VoiceTabButtonSkin);
 			_loc1_.addEventListener("click",this.___DialogPanel_IconButton2_click);
 			_loc1_.id = "_DialogPanel_IconButton2";
@@ -1236,7 +1244,7 @@ package anifire.studio.components
 			_loc1_.height = 45;
 			_loc1_.enabled = true;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_yourlibrary_png_314740119);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_yourlibrary_png_1735116023);
 			_loc1_.setStyle("skinClass",VoiceTabButtonSkin);
 			_loc1_.addEventListener("click",this.___DialogPanel_IconButton3_click);
 			_loc1_.id = "_DialogPanel_IconButton3";
@@ -1261,7 +1269,7 @@ package anifire.studio.components
 			_loc1_.height = 45;
 			_loc1_.enabled = true;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_tts_png_1149334323);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_tts_png_1724751513);
 			_loc1_.setStyle("skinClass",VoiceTabButtonSkin);
 			_loc1_.addEventListener("click",this.___DialogPanel_IconButton4_click);
 			_loc1_.id = "_DialogPanel_IconButton4";
@@ -1302,7 +1310,7 @@ package anifire.studio.components
 			_loc1_.height = 45;
 			_loc1_.enabled = true;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_lipsync_png_1032554667);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_small_lipsync_png_103292671);
 			_loc1_.setStyle("skinClass",VoiceTabButtonSkin);
 			_loc1_.addEventListener("click",this.__btnExisting_click);
 			_loc1_.id = "btnExisting";
@@ -1325,7 +1333,7 @@ package anifire.studio.components
 			var _loc1_:Group = new Group();
 			_loc1_.percentWidth = 100;
 			_loc1_.bottom = 0;
-			_loc1_.mxmlContent = [this._DialogPanel_Rect3_c(),this._DialogPanel_HGroup2_i()];
+			_loc1_.mxmlContent = [this._DialogPanel_Rect3_c(),this._DialogPanel_HGroup2_i(),this._DialogPanel_VGroup5_i()];
 			_loc1_.id = "bannerGroup";
 			if(!_loc1_.document)
 			{
@@ -1358,8 +1366,8 @@ package anifire.studio.components
 			var _loc1_:HGroup = new HGroup();
 			_loc1_.percentWidth = 100;
 			_loc1_.height = 30;
-			_loc1_.left = 10;
-			_loc1_.right = 10;
+			_loc1_.left = 15;
+			_loc1_.right = 15;
 			_loc1_.verticalAlign = "middle";
 			_loc1_.gap = 0;
 			_loc1_.mxmlContent = [this._DialogPanel_Label4_i(),this._DialogPanel_IconButton6_c(),this._DialogPanel_IconButton7_c()];
@@ -1395,7 +1403,7 @@ package anifire.studio.components
 			_loc1_.percentHeight = 100;
 			_loc1_.enabled = true;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_inwhatlang_logo_png_1535408461);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_buyvo_png_817032769);
 			_loc1_.addEventListener("click",this.___DialogPanel_IconButton6_click);
 			if(!_loc1_.document)
 			{
@@ -1406,7 +1414,7 @@ package anifire.studio.components
 		
 		public function ___DialogPanel_IconButton6_click(param1:MouseEvent) : void
 		{
-			this.onClickInWhatLanguage();
+			this.onClickBuyVO();
 		}
 		
 		private function _DialogPanel_IconButton7_c() : IconButton
@@ -1416,7 +1424,7 @@ package anifire.studio.components
 			_loc1_.enabled = true;
 			_loc1_.horizontalCenter = -1;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_voicebunny_logo_png_1538021845);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_voicebunny_png_179536703);
 			_loc1_.addEventListener("click",this.___DialogPanel_IconButton7_click);
 			if(!_loc1_.document)
 			{
@@ -1430,20 +1438,33 @@ package anifire.studio.components
 			this.onClickVoiceBunny();
 		}
 		
-		private function _DialogPanel_Group9_i() : Group
+		private function _DialogPanel_VGroup5_i() : VGroup
 		{
-			var _loc1_:Group = new Group();
+			var _loc1_:VGroup = new VGroup();
 			_loc1_.percentWidth = 100;
-			_loc1_.percentHeight = 100;
-			_loc1_.visible = false;
-			_loc1_.mxmlContent = [this._DialogPanel_Rect4_c(),this._DialogPanel_VGroup5_c(),this._DialogPanel_Button2_i()];
-			_loc1_.id = "addSceneOverlay";
+			_loc1_.height = 60;
+			_loc1_.gap = 0;
+			_loc1_.mxmlContent = [this._DialogPanel_Group9_c(),this._DialogPanel_HGroup3_c()];
+			_loc1_.id = "bannerNormal";
 			if(!_loc1_.document)
 			{
 				_loc1_.document = this;
 			}
-			this.addSceneOverlay = _loc1_;
-			BindingManager.executeBindings(this,"addSceneOverlay",this.addSceneOverlay);
+			this.bannerNormal = _loc1_;
+			BindingManager.executeBindings(this,"bannerNormal",this.bannerNormal);
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_Group9_c() : Group
+		{
+			var _loc1_:Group = new Group();
+			_loc1_.percentWidth = 100;
+			_loc1_.height = 20;
+			_loc1_.mxmlContent = [this._DialogPanel_Rect4_c(),this._DialogPanel_Label5_i()];
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
 			return _loc1_;
 		}
 		
@@ -1460,12 +1481,208 @@ package anifire.studio.components
 		private function _DialogPanel_SolidColor4_c() : SolidColor
 		{
 			var _loc1_:SolidColor = new SolidColor();
+			_loc1_.color = 14870509;
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_Label5_i() : Label
+		{
+			var _loc1_:Label = new Label();
+			_loc1_.horizontalCenter = 0;
+			_loc1_.verticalCenter = 0;
+			_loc1_.setStyle("color",7897229);
+			_loc1_.setStyle("fontSize",12);
+			_loc1_.setStyle("fontWeight","bold");
+			_loc1_.setStyle("textAlign","justify");
+			_loc1_.setStyle("typographicCase","uppercase");
+			_loc1_.id = "_DialogPanel_Label5";
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			this._DialogPanel_Label5 = _loc1_;
+			BindingManager.executeBindings(this,"_DialogPanel_Label5",this._DialogPanel_Label5);
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_HGroup3_c() : HGroup
+		{
+			var _loc1_:HGroup = new HGroup();
+			_loc1_.percentWidth = 100;
+			_loc1_.percentHeight = 100;
+			_loc1_.gap = 0;
+			_loc1_.mxmlContent = [this._DialogPanel_Group10_c(),this._DialogPanel_Line1_c(),this._DialogPanel_Group11_c()];
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_Group10_c() : Group
+		{
+			var _loc1_:Group = new Group();
+			_loc1_.percentWidth = 50;
+			_loc1_.percentHeight = 100;
+			_loc1_.mxmlContent = [this._DialogPanel_IconButton8_c(),this._DialogPanel_IconButton9_c()];
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_IconButton8_c() : IconButton
+		{
+			var _loc1_:IconButton = new IconButton();
+			_loc1_.percentHeight = 100;
+			_loc1_.enabled = true;
+			_loc1_.horizontalCenter = 0;
+			_loc1_.verticalCenter = 0;
+			_loc1_.buttonMode = true;
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_voicebunny_png_179536703);
+			_loc1_.addEventListener("click",this.___DialogPanel_IconButton8_click);
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			return _loc1_;
+		}
+		
+		public function ___DialogPanel_IconButton8_click(param1:MouseEvent) : void
+		{
+			this.onClickVoiceBunny();
+		}
+		
+		private function _DialogPanel_IconButton9_c() : IconButton
+		{
+			var _loc1_:IconButton = new IconButton();
+			_loc1_.enabled = true;
+			_loc1_.right = 5;
+			_loc1_.top = 5;
+			_loc1_.buttonMode = true;
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_outsidelink_png_244722303);
+			_loc1_.addEventListener("click",this.___DialogPanel_IconButton9_click);
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			return _loc1_;
+		}
+		
+		public function ___DialogPanel_IconButton9_click(param1:MouseEvent) : void
+		{
+			this.onClickVoiceBunny();
+		}
+		
+		private function _DialogPanel_Line1_c() : Line
+		{
+			var _loc1_:Line = new Line();
+			_loc1_.percentHeight = 100;
+			_loc1_.stroke = this._DialogPanel_SolidColorStroke2_c();
+			_loc1_.initialized(this,null);
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_SolidColorStroke2_c() : SolidColorStroke
+		{
+			var _loc1_:SolidColorStroke = new SolidColorStroke();
+			_loc1_.color = 14870509;
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_Group11_c() : Group
+		{
+			var _loc1_:Group = new Group();
+			_loc1_.percentWidth = 50;
+			_loc1_.percentHeight = 100;
+			_loc1_.mxmlContent = [this._DialogPanel_IconButton10_c(),this._DialogPanel_IconButton11_c()];
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_IconButton10_c() : IconButton
+		{
+			var _loc1_:IconButton = new IconButton();
+			_loc1_.percentHeight = 100;
+			_loc1_.enabled = true;
+			_loc1_.horizontalCenter = 0;
+			_loc1_.verticalCenter = 0;
+			_loc1_.buttonMode = true;
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_buyvo_png_817032769);
+			_loc1_.addEventListener("click",this.___DialogPanel_IconButton10_click);
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			return _loc1_;
+		}
+		
+		public function ___DialogPanel_IconButton10_click(param1:MouseEvent) : void
+		{
+			this.onClickBuyVO();
+		}
+		
+		private function _DialogPanel_IconButton11_c() : IconButton
+		{
+			var _loc1_:IconButton = new IconButton();
+			_loc1_.enabled = true;
+			_loc1_.right = 5;
+			_loc1_.top = 5;
+			_loc1_.buttonMode = true;
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_outsidelink_png_244722303);
+			_loc1_.addEventListener("click",this.___DialogPanel_IconButton11_click);
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			return _loc1_;
+		}
+		
+		public function ___DialogPanel_IconButton11_click(param1:MouseEvent) : void
+		{
+			this.onClickBuyVO();
+		}
+		
+		private function _DialogPanel_Group12_i() : Group
+		{
+			var _loc1_:Group = new Group();
+			_loc1_.percentWidth = 100;
+			_loc1_.percentHeight = 100;
+			_loc1_.visible = false;
+			_loc1_.mxmlContent = [this._DialogPanel_Rect5_c(),this._DialogPanel_VGroup6_c(),this._DialogPanel_Button2_i()];
+			_loc1_.id = "addSceneOverlay";
+			if(!_loc1_.document)
+			{
+				_loc1_.document = this;
+			}
+			this.addSceneOverlay = _loc1_;
+			BindingManager.executeBindings(this,"addSceneOverlay",this.addSceneOverlay);
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_Rect5_c() : Rect
+		{
+			var _loc1_:Rect = new Rect();
+			_loc1_.percentWidth = 100;
+			_loc1_.percentHeight = 100;
+			_loc1_.fill = this._DialogPanel_SolidColor5_c();
+			_loc1_.initialized(this,null);
+			return _loc1_;
+		}
+		
+		private function _DialogPanel_SolidColor5_c() : SolidColor
+		{
+			var _loc1_:SolidColor = new SolidColor();
 			_loc1_.color = 0;
 			_loc1_.alpha = 0.75;
 			return _loc1_;
 		}
 		
-		private function _DialogPanel_VGroup5_c() : VGroup
+		private function _DialogPanel_VGroup6_c() : VGroup
 		{
 			var _loc1_:VGroup = new VGroup();
 			_loc1_.percentWidth = 100;
@@ -1474,7 +1691,7 @@ package anifire.studio.components
 			_loc1_.verticalAlign = "middle";
 			_loc1_.verticalCenter = 0;
 			_loc1_.gap = 18;
-			_loc1_.mxmlContent = [this._DialogPanel_Label5_i(),this._DialogPanel_Button1_i()];
+			_loc1_.mxmlContent = [this._DialogPanel_Label6_i(),this._DialogPanel_Button1_i()];
 			if(!_loc1_.document)
 			{
 				_loc1_.document = this;
@@ -1482,7 +1699,7 @@ package anifire.studio.components
 			return _loc1_;
 		}
 		
-		private function _DialogPanel_Label5_i() : Label
+		private function _DialogPanel_Label6_i() : Label
 		{
 			var _loc1_:Label = new Label();
 			_loc1_.percentWidth = 80;
@@ -1614,15 +1831,20 @@ package anifire.studio.components
 			},null,"_DialogPanel_Label4.text");
 			result[13] = new Binding(this,function():String
 			{
+				var _loc1_:* = UtilDict.toDisplay("go","Hire voice talent:");
+				return _loc1_ == undefined?null:String(_loc1_);
+			},null,"_DialogPanel_Label5.text");
+			result[14] = new Binding(this,function():String
+			{
 				var _loc1_:* = UtilDict.toDisplay("go","This scene already includes a voice clip. Add a scene to make it easy to manage the timing of your video.");
 				return _loc1_ == undefined?null:String(_loc1_);
 			},null,"addSceneMessage.text");
-			result[14] = new Binding(this,function():String
+			result[15] = new Binding(this,function():String
 			{
 				var _loc1_:* = UtilDict.toDisplay("go","ADD SCENE");
 				return _loc1_ == undefined?null:String(_loc1_);
 			},null,"_DialogPanel_Button1.label");
-			result[15] = new Binding(this,function():String
+			result[16] = new Binding(this,function():String
 			{
 				var _loc1_:* = UtilDict.toDisplay("go","Skip");
 				return _loc1_ == undefined?null:String(_loc1_);
@@ -1740,6 +1962,25 @@ package anifire.studio.components
 				if(this.hasEventListener("propertyChange"))
 				{
 					this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this,"bannerNarrow",_loc2_,param1));
+				}
+			}
+		}
+		
+		[Bindable(event="propertyChange")]
+		public function get bannerNormal() : VGroup
+		{
+			return this._526915379bannerNormal;
+		}
+		
+		public function set bannerNormal(param1:VGroup) : void
+		{
+			var _loc2_:Object = this._526915379bannerNormal;
+			if(_loc2_ !== param1)
+			{
+				this._526915379bannerNormal = param1;
+				if(this.hasEventListener("propertyChange"))
+				{
+					this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this,"bannerNormal",_loc2_,param1));
 				}
 			}
 		}

@@ -64,8 +64,6 @@ package anifire.studio.core
 		
 		private var _sharingOptions:Object;
 		
-		private var _signature:String;
-		
 		protected var _defaultColor:Object;
 		
 		protected var _categoryName:String;
@@ -82,16 +80,6 @@ package anifire.studio.core
 			this._colorParts = new UtilHashArray();
 			this._sysTags = new Array();
 			super();
-		}
-		
-		public function get signature() : String
-		{
-			return this._signature;
-		}
-		
-		public function set signature(param1:String) : void
-		{
-			this._signature = param1;
 		}
 		
 		public function get defaultColor() : Object
@@ -260,10 +248,6 @@ package anifire.studio.core
 		
 		public function get xml() : XML
 		{
-			if(!this._xml)
-			{
-				this._xml = this.serialize();
-			}
 			return this._xml;
 		}
 		
@@ -394,11 +378,6 @@ package anifire.studio.core
 		public function get useImageAsThumb() : Boolean
 		{
 			return this._useImageDataAsThumbnail;
-		}
-		
-		public function serialize() : XML
-		{
-			return new XML();
 		}
 		
 		public function deSerialize(param1:XML, param2:Theme) : void

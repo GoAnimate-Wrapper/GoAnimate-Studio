@@ -94,66 +94,66 @@ package anifire.studio.components
 		
 		public const sourceImage2:Class = TransitionPreview_sourceImage2;
 		
-		private var _embed_mxml__styles_images_transitions_prev_wipe_hand_swf_683842999:Class;
+		private var _embed_mxml__styles_images_transitions_prev_info_iris_swf_1590424831:Class;
 		
-		private var _embed_mxml__styles_images_transitions_prev_info_iris_swf_534419899:Class;
+		private var _embed_mxml__styles_images_transitions_prev_clean_hand_swf_80318081:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_slide_thumb_swf_1995933577:Class;
+		private var _embed_mxml__styles_images_transitions_prev_info_split_swf_650747641:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_pop_dots_thumb_swf_1148945719:Class;
+		private var _embed_mxml__styles_images_enterexit_pop_rings_thumb_swf_317732889:Class;
 		
-		private var _embed_mxml__styles_images_transitions_transition_b_png_1534884681:Class;
+		private var _embed_mxml__styles_images_transitions_prev_info_blinds_swf_1364392313:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_widget_thumb_swf_1028359191:Class;
+		private var _embed_mxml__styles_images_enterexit_whiteboard_thumb_swf_2122220791:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_pop_rings_thumb_swf_388910985:Class;
+		private var _embed_mxml__styles_images_transitions_transition_b_png_100622401:Class;
 		
-		private var _embed_mxml__styles_images_transitions_prev_info_blinds_swf_478042391:Class;
+		private var _embed_mxml__styles_images_enterexit_blur_thumb_swf_110073791:Class;
 		
-		private var _embed_mxml__styles_images_transitions_prev_info_split_swf_426421481:Class;
+		private var _embed_mxml__styles_images_enterexit_hand_slide_thumb_swf_2118776319:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_appear_thumb_swf_1028360243:Class;
+		private var _embed_mxml__styles_images_enterexit_slide_thumb_swf_241072703:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_pop_star_thumb_swf_1004829385:Class;
+		private var _embed_mxml__styles_images_enterexit_pop_star_thumb_swf_654286913:Class;
 		
-		private var _embed_mxml__styles_images_transitions_prev_clean_hand_swf_988394537:Class;
+		private var _embed_mxml__styles_images_transitions_prev_clean_brush_swf_1228979585:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_hand_slide_thumb_swf_198744491:Class;
+		private var _embed_mxml__styles_images_enterexit_appear_thumb_swf_2030624615:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_whiteboard_thumb_swf_196274611:Class;
+		private var _embed_mxml__styles_images_transitions_prev_wipe_hand_swf_1567282359:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_pop_single_ring_thumb_swf_966257961:Class;
+		private var _embed_mxml__styles_images_enterexit_pop_single_ring_thumb_swf_949325311:Class;
 		
-		private var _embed_mxml__styles_images_transitions_prev_clean_brush_swf_310205883:Class;
+		private var _embed_mxml__styles_images_transitions_prev_pan_swf_1902729537:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_iriscircle_thumb_swf_1530441175:Class;
+		private var _embed_mxml__styles_images_enterexit_widget_thumb_swf_2115510919:Class;
 		
-		private var _embed_mxml__styles_images_enterexit_blur_thumb_swf_772751785:Class;
+		private var _embed_mxml__styles_images_enterexit_iriscircle_thumb_swf_1588186247:Class;
 		
-		private var _embed_mxml__styles_images_transitions_prev_pan_swf_1458081707:Class;
+		private var _embed_mxml__styles_images_enterexit_pop_dots_thumb_swf_635412545:Class;
 		
 		public function TransitionPreview()
 		{
 			this.GoAPreview = TransitionPreview_GoAPreview;
-			this._embed_mxml__styles_images_transitions_prev_wipe_hand_swf_683842999 = TransitionPreview__embed_mxml__styles_images_transitions_prev_wipe_hand_swf_683842999;
-			this._embed_mxml__styles_images_transitions_prev_info_iris_swf_534419899 = TransitionPreview__embed_mxml__styles_images_transitions_prev_info_iris_swf_534419899;
-			this._embed_mxml__styles_images_enterexit_slide_thumb_swf_1995933577 = TransitionPreview__embed_mxml__styles_images_enterexit_slide_thumb_swf_1995933577;
-			this._embed_mxml__styles_images_enterexit_pop_dots_thumb_swf_1148945719 = TransitionPreview__embed_mxml__styles_images_enterexit_pop_dots_thumb_swf_1148945719;
-			this._embed_mxml__styles_images_transitions_transition_b_png_1534884681 = TransitionPreview__embed_mxml__styles_images_transitions_transition_b_png_1534884681;
-			this._embed_mxml__styles_images_enterexit_widget_thumb_swf_1028359191 = TransitionPreview__embed_mxml__styles_images_enterexit_widget_thumb_swf_1028359191;
-			this._embed_mxml__styles_images_enterexit_pop_rings_thumb_swf_388910985 = TransitionPreview__embed_mxml__styles_images_enterexit_pop_rings_thumb_swf_388910985;
-			this._embed_mxml__styles_images_transitions_prev_info_blinds_swf_478042391 = TransitionPreview__embed_mxml__styles_images_transitions_prev_info_blinds_swf_478042391;
-			this._embed_mxml__styles_images_transitions_prev_info_split_swf_426421481 = TransitionPreview__embed_mxml__styles_images_transitions_prev_info_split_swf_426421481;
-			this._embed_mxml__styles_images_enterexit_appear_thumb_swf_1028360243 = TransitionPreview__embed_mxml__styles_images_enterexit_appear_thumb_swf_1028360243;
-			this._embed_mxml__styles_images_enterexit_pop_star_thumb_swf_1004829385 = TransitionPreview__embed_mxml__styles_images_enterexit_pop_star_thumb_swf_1004829385;
-			this._embed_mxml__styles_images_transitions_prev_clean_hand_swf_988394537 = TransitionPreview__embed_mxml__styles_images_transitions_prev_clean_hand_swf_988394537;
-			this._embed_mxml__styles_images_enterexit_hand_slide_thumb_swf_198744491 = TransitionPreview__embed_mxml__styles_images_enterexit_hand_slide_thumb_swf_198744491;
-			this._embed_mxml__styles_images_enterexit_whiteboard_thumb_swf_196274611 = TransitionPreview__embed_mxml__styles_images_enterexit_whiteboard_thumb_swf_196274611;
-			this._embed_mxml__styles_images_enterexit_pop_single_ring_thumb_swf_966257961 = TransitionPreview__embed_mxml__styles_images_enterexit_pop_single_ring_thumb_swf_966257961;
-			this._embed_mxml__styles_images_transitions_prev_clean_brush_swf_310205883 = TransitionPreview__embed_mxml__styles_images_transitions_prev_clean_brush_swf_310205883;
-			this._embed_mxml__styles_images_enterexit_iriscircle_thumb_swf_1530441175 = TransitionPreview__embed_mxml__styles_images_enterexit_iriscircle_thumb_swf_1530441175;
-			this._embed_mxml__styles_images_enterexit_blur_thumb_swf_772751785 = TransitionPreview__embed_mxml__styles_images_enterexit_blur_thumb_swf_772751785;
-			this._embed_mxml__styles_images_transitions_prev_pan_swf_1458081707 = TransitionPreview__embed_mxml__styles_images_transitions_prev_pan_swf_1458081707;
+			this._embed_mxml__styles_images_transitions_prev_info_iris_swf_1590424831 = TransitionPreview__embed_mxml__styles_images_transitions_prev_info_iris_swf_1590424831;
+			this._embed_mxml__styles_images_transitions_prev_clean_hand_swf_80318081 = TransitionPreview__embed_mxml__styles_images_transitions_prev_clean_hand_swf_80318081;
+			this._embed_mxml__styles_images_transitions_prev_info_split_swf_650747641 = TransitionPreview__embed_mxml__styles_images_transitions_prev_info_split_swf_650747641;
+			this._embed_mxml__styles_images_enterexit_pop_rings_thumb_swf_317732889 = TransitionPreview__embed_mxml__styles_images_enterexit_pop_rings_thumb_swf_317732889;
+			this._embed_mxml__styles_images_transitions_prev_info_blinds_swf_1364392313 = TransitionPreview__embed_mxml__styles_images_transitions_prev_info_blinds_swf_1364392313;
+			this._embed_mxml__styles_images_enterexit_whiteboard_thumb_swf_2122220791 = TransitionPreview__embed_mxml__styles_images_enterexit_whiteboard_thumb_swf_2122220791;
+			this._embed_mxml__styles_images_transitions_transition_b_png_100622401 = TransitionPreview__embed_mxml__styles_images_transitions_transition_b_png_100622401;
+			this._embed_mxml__styles_images_enterexit_blur_thumb_swf_110073791 = TransitionPreview__embed_mxml__styles_images_enterexit_blur_thumb_swf_110073791;
+			this._embed_mxml__styles_images_enterexit_hand_slide_thumb_swf_2118776319 = TransitionPreview__embed_mxml__styles_images_enterexit_hand_slide_thumb_swf_2118776319;
+			this._embed_mxml__styles_images_enterexit_slide_thumb_swf_241072703 = TransitionPreview__embed_mxml__styles_images_enterexit_slide_thumb_swf_241072703;
+			this._embed_mxml__styles_images_enterexit_pop_star_thumb_swf_654286913 = TransitionPreview__embed_mxml__styles_images_enterexit_pop_star_thumb_swf_654286913;
+			this._embed_mxml__styles_images_transitions_prev_clean_brush_swf_1228979585 = TransitionPreview__embed_mxml__styles_images_transitions_prev_clean_brush_swf_1228979585;
+			this._embed_mxml__styles_images_enterexit_appear_thumb_swf_2030624615 = TransitionPreview__embed_mxml__styles_images_enterexit_appear_thumb_swf_2030624615;
+			this._embed_mxml__styles_images_transitions_prev_wipe_hand_swf_1567282359 = TransitionPreview__embed_mxml__styles_images_transitions_prev_wipe_hand_swf_1567282359;
+			this._embed_mxml__styles_images_enterexit_pop_single_ring_thumb_swf_949325311 = TransitionPreview__embed_mxml__styles_images_enterexit_pop_single_ring_thumb_swf_949325311;
+			this._embed_mxml__styles_images_transitions_prev_pan_swf_1902729537 = TransitionPreview__embed_mxml__styles_images_transitions_prev_pan_swf_1902729537;
+			this._embed_mxml__styles_images_enterexit_widget_thumb_swf_2115510919 = TransitionPreview__embed_mxml__styles_images_enterexit_widget_thumb_swf_2115510919;
+			this._embed_mxml__styles_images_enterexit_iriscircle_thumb_swf_1588186247 = TransitionPreview__embed_mxml__styles_images_enterexit_iriscircle_thumb_swf_1588186247;
+			this._embed_mxml__styles_images_enterexit_pop_dots_thumb_swf_635412545 = TransitionPreview__embed_mxml__styles_images_enterexit_pop_dots_thumb_swf_635412545;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._TransitionPreview_Rect1_c(),this._TransitionPreview_Path1_c(),this._TransitionPreview_Group2_i()];
@@ -693,7 +693,7 @@ package anifire.studio.components
 		private function _TransitionPreview_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_transitions_transition_b_png_1534884681;
+			_loc1_.source = this._embed_mxml__styles_images_transitions_transition_b_png_100622401;
 			_loc1_.initialized(this,"_TransitionPreview_BitmapImage1");
 			this._TransitionPreview_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_TransitionPreview_BitmapImage1",this._TransitionPreview_BitmapImage1);
@@ -714,7 +714,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_clean_hand_swf_988394537;
+			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_clean_hand_swf_80318081;
 			_loc1_.addEventListener("show",this.__previewCleanHand_show);
 			_loc1_.id = "previewCleanHand";
 			if(!_loc1_.document)
@@ -735,7 +735,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_clean_brush_swf_310205883;
+			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_clean_brush_swf_1228979585;
 			_loc1_.addEventListener("show",this.__previewCleanBrush_show);
 			_loc1_.id = "previewCleanBrush";
 			if(!_loc1_.document)
@@ -756,7 +756,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_wipe_hand_swf_683842999;
+			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_wipe_hand_swf_1567282359;
 			_loc1_.addEventListener("show",this.__previewWipeHand_show);
 			_loc1_.id = "previewWipeHand";
 			if(!_loc1_.document)
@@ -777,7 +777,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_pan_swf_1458081707;
+			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_pan_swf_1902729537;
 			_loc1_.addEventListener("show",this.__previewPan_show);
 			_loc1_.id = "previewPan";
 			if(!_loc1_.document)
@@ -798,7 +798,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_info_blinds_swf_478042391;
+			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_info_blinds_swf_1364392313;
 			_loc1_.addEventListener("show",this.__previewInfoBlinds_show);
 			_loc1_.id = "previewInfoBlinds";
 			if(!_loc1_.document)
@@ -819,7 +819,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_info_iris_swf_534419899;
+			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_info_iris_swf_1590424831;
 			_loc1_.addEventListener("show",this.__previewInfoIris_show);
 			_loc1_.id = "previewInfoIris";
 			if(!_loc1_.document)
@@ -840,7 +840,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_info_split_swf_426421481;
+			_loc1_.source = this._embed_mxml__styles_images_transitions_prev_info_split_swf_650747641;
 			_loc1_.addEventListener("show",this.__previewInfoSplit_show);
 			_loc1_.id = "previewInfoSplit";
 			if(!_loc1_.document)
@@ -861,7 +861,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_appear_thumb_swf_1028360243;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_appear_thumb_swf_2030624615;
 			_loc1_.addEventListener("show",this.__previewAppear_show);
 			_loc1_.id = "previewAppear";
 			if(!_loc1_.document)
@@ -882,7 +882,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_iriscircle_thumb_swf_1530441175;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_iriscircle_thumb_swf_1588186247;
 			_loc1_.addEventListener("show",this.__previewIrisCircle_show);
 			_loc1_.id = "previewIrisCircle";
 			if(!_loc1_.document)
@@ -903,7 +903,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_pop_dots_thumb_swf_1148945719;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_pop_dots_thumb_swf_635412545;
 			_loc1_.addEventListener("show",this.__previewPopDot_show);
 			_loc1_.id = "previewPopDot";
 			if(!_loc1_.document)
@@ -924,7 +924,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_pop_rings_thumb_swf_388910985;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_pop_rings_thumb_swf_317732889;
 			_loc1_.addEventListener("show",this.__previewPopRing_show);
 			_loc1_.id = "previewPopRing";
 			if(!_loc1_.document)
@@ -945,7 +945,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_pop_single_ring_thumb_swf_966257961;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_pop_single_ring_thumb_swf_949325311;
 			_loc1_.addEventListener("show",this.__previewPopSingleRing_show);
 			_loc1_.id = "previewPopSingleRing";
 			if(!_loc1_.document)
@@ -966,7 +966,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_pop_star_thumb_swf_1004829385;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_pop_star_thumb_swf_654286913;
 			_loc1_.addEventListener("show",this.__previewPopStar_show);
 			_loc1_.id = "previewPopStar";
 			if(!_loc1_.document)
@@ -987,7 +987,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_whiteboard_thumb_swf_196274611;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_whiteboard_thumb_swf_2122220791;
 			_loc1_.addEventListener("show",this.__previewWhiteboard_show);
 			_loc1_.id = "previewWhiteboard";
 			if(!_loc1_.document)
@@ -1008,7 +1008,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_blur_thumb_swf_772751785;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_blur_thumb_swf_110073791;
 			_loc1_.addEventListener("show",this.__previewBlur_show);
 			_loc1_.id = "previewBlur";
 			if(!_loc1_.document)
@@ -1029,7 +1029,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_hand_slide_thumb_swf_198744491;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_hand_slide_thumb_swf_2118776319;
 			_loc1_.addEventListener("show",this.__previewHandSlide_show);
 			_loc1_.id = "previewHandSlide";
 			if(!_loc1_.document)
@@ -1050,7 +1050,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_slide_thumb_swf_1995933577;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_slide_thumb_swf_241072703;
 			_loc1_.addEventListener("show",this.__previewSlide_show);
 			_loc1_.id = "previewSlide";
 			if(!_loc1_.document)
@@ -1071,7 +1071,7 @@ package anifire.studio.components
 		{
 			var _loc1_:SWFLoader = new SWFLoader();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_enterexit_widget_thumb_swf_1028359191;
+			_loc1_.source = this._embed_mxml__styles_images_enterexit_widget_thumb_swf_2115510919;
 			_loc1_.addEventListener("show",this.__previewWidget_show);
 			_loc1_.id = "previewWidget";
 			if(!_loc1_.document)

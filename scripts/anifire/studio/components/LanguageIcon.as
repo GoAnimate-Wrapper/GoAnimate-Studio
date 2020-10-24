@@ -81,26 +81,6 @@ package anifire.studio.components
 		
 		private static const flag_PT:Class = LanguageIcon_flag_PT;
 		
-		private static const flag_ar:Class = LanguageIcon_flag_ar;
-		
-		private static const flag_BE:Class = LanguageIcon_flag_BE;
-		
-		private static const flag_cs:Class = LanguageIcon_flag_cs;
-		
-		private static const flag_hu:Class = LanguageIcon_flag_hu;
-		
-		private static const flag_id:Class = LanguageIcon_flag_id;
-		
-		private static const flag_IE:Class = LanguageIcon_flag_IE;
-		
-		private static const flag_is:Class = LanguageIcon_flag_is;
-		
-		private static const flag_th:Class = LanguageIcon_flag_th;
-		
-		private static const flag_ZA:Class = LanguageIcon_flag_ZA;
-		
-		private static const flag_cy:Class = LanguageIcon_flag_cy;
-		
 		private static var icons:Object = {
 			"flag_ca":flag_ca,
 			"flag_CA":flag_CA,
@@ -142,7 +122,6 @@ package anifire.studio.components
 			"flag_AU":flag_AU,
 			"flag_GB":flag_GB,
 			"flag_IN":flag_IN,
-			"flag_hi":flag_IN,
 			"flag_US":flag_US,
 			"flag_AR":flag_AR,
 			"flag_CL":flag_CL,
@@ -150,23 +129,7 @@ package anifire.studio.components
 			"flag_MX":flag_MX,
 			"flag_FR":flag_FR,
 			"flag_BR":flag_BR,
-			"flag_PT":flag_PT,
-			"flag_ar":flag_ar,
-			"flag_SA":flag_ar,
-			"flag_BE":flag_BE,
-			"flag_cs":flag_cs,
-			"flag_CZ":flag_cs,
-			"flag_hu":flag_hu,
-			"flag_HU":flag_hu,
-			"flag_id":flag_id,
-			"flag_ID":flag_id,
-			"flag_IE":flag_IE,
-			"flag_is":flag_is,
-			"flag_IS":flag_is,
-			"flag_th":flag_th,
-			"flag_TH":flag_th,
-			"flag_ZA":flag_ZA,
-			"flag_cy":flag_cy
+			"flag_PT":flag_PT
 		};
 		 
 		

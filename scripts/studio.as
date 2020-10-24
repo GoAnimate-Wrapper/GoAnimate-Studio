@@ -74,7 +74,7 @@ package
 	public class studio extends Application implements IStateClient2
 	{
 		
-		public static var CODE_VERSION:String = "a76d829cef09f7bb9bef739f686c0449acbaded8";
+		public static var CODE_VERSION:String = "d7446f28669693f5b7a35d41831e43c3662c48bf";
 		
 		{
 			UtilStudioVersion.versionText = CODE_VERSION;
@@ -121,89 +121,89 @@ package
 		
 		mx_internal var _studio_StylesInit_done:Boolean = false;
 		
-		private var _embed_css__styles_images_tray_tab_back_hover_png_1167182327_965354953:Class;
+		private var _embed__font_StudioSparkMain_bold_normal_100574306:Class;
 		
-		private var _embed_css__styles_images_tray_item_play_png_882156653_528047201:Class;
+		private var _embed_css__styles_images_tray_item_stop_png_63335333_956555123:Class;
 		
-		private var _embed_css__styles_images_tray_tab_prop_hover_png__1154384525_1893021379:Class;
+		private var _embed_css__styles_images_tray_item_play_hover_png__183474540_2134409602:Class;
 		
-		private var _embed_css__styles_images_tray_item_play_hover_png__846119766_1355389650:Class;
+		private var _embed_css__styles_images_tray_tab_character_png__1152671114_674500452:Class;
 		
-		private var _embed_css__styles_images_tray_tab_prop_png_1820553206_781418934:Class;
+		private var _embed_css__styles_images_tray_tab_video_hover_png__1409514555_1743003795:Class;
 		
-		private var _embed_css__styles_images_tray_tab_music_png_1765060360_2099688052:Class;
+		private var _embed__font_StudioSparkMain_medium_normal_1681386156:Class;
 		
-		private var _embed_css__styles_images_tray_tab_effect_png_1422354724_1245007996:Class;
+		private var _embed_css__styles_images_tray_tab_prop_hover_png_529559113_1763136735:Class;
 		
-		private var _embed_css__styles_images_tray_tab_effect_hover_png__1774887903_171778287:Class;
+		private var _embed_css__styles_images_tray_item_stop_hover_png_1047443938_852615488:Class;
 		
-		private var _embed_css__styles_images_tray_item_delete_png__1407679516_809607528:Class;
+		private var _embed_css__styles_images_tray_item_delete_hover_png__1076642229_1418269977:Class;
 		
-		private var _embed_css__styles_images_tray_tab_widget_hover_png__1464403692_860323412:Class;
+		private var _embed_css__styles_images_tray_tab_back_png_896153808_1466669194:Class;
 		
-		private var _embed_css__styles_images_tray_tab_music_hover_png_266839813_197843191:Class;
+		private var _embed_css__styles_images_tray_tab_music_hover_png_929485039_1003041843:Class;
 		
-		private var _embed_css__styles_images_tray_tab_widget_png__600672169_1702529769:Class;
+		private var _embed_css__styles_images_tray_item_info_png__1473539503_1598001841:Class;
 		
-		private var _embed_css__styles_images_tray_tab_character_png__652802548_617336704:Class;
+		private var _embed_css__styles_images_tray_tab_prop_png_2076522828_436954834:Class;
 		
-		private var _embed_css__styles_images_tray_item_info_png__818663193_1663389717:Class;
+		private var _embed_css__styles_images_tray_tab_text_png_2066540054_457627084:Class;
 		
-		private var _embed_css__styles_images_tray_tab_video_png__1587103138_1508577970:Class;
+		private var _embed_css__styles_images_tray_tab_text_hover_png_590470035_1561363257:Class;
 		
-		private var _embed_css__styles_images_tray_tab_back_png_640184186_854293958:Class;
+		private var _embed_css__styles_images_tray_tab_effect_hover_png_1587244919_101398829:Class;
 		
-		private var _embed_css__styles_images_tray_tab_character_hover_png__1610241271_220198925:Class;
+		private var _embed_css__styles_images_tray_tab_widget_hover_png_1897729130_59072512:Class;
 		
-		private var _embed__font_StudioSparkMain_medium_normal_405732490:Class;
+		private var _embed_css__styles_images_tray_tab_character_hover_png_1051316211_119032079:Class;
 		
-		private var _embed_css__styles_images_tray_item_stop_hover_png_384798712_1121191204:Class;
+		private var _embed_css__styles_images_tray_item_delete_png_616379086_536331180:Class;
 		
-		private var _embed_css__styles_images_tray_item_stop_png_718211643_1224843935:Class;
+		private var _embed_css__styles_images_tray_item_info_hover_png__91279474_1718826900:Class;
 		
-		private var _embed_css__styles_images_tray_tab_text_png_1810570432_986478768:Class;
+		private var _embed_css__styles_images_tray_tab_video_png_2052987848_1313525654:Class;
 		
-		private var _embed__font_StudioSparkMain_medium_italic_1855000466:Class;
+		private var _embed_css__styles_images_tray_item_play_png_227280343_1331239365:Class;
 		
-		private var _embed_css__styles_images_tray_item_delete_hover_png_2071422689_1547776981:Class;
+		private var _embed_css__styles_images_tray_tab_effect_png__1698941702_768831312:Class;
 		
-		private var _embed_css__styles_images_tray_tab_video_hover_png__2072159781_1273103551:Class;
+		private var _embed__font_StudioSparkMain_medium_italic_579346800:Class;
 		
-		private var _embed_css__styles_images_tray_item_info_hover_png__753924700_1984525272:Class;
+		private var _embed_css__styles_images_tray_tab_back_hover_png__1443841331_575145901:Class;
 		
-		private var _embed__font_StudioSparkMain_bold_normal_1175079360:Class;
+		private var _embed_css__styles_images_tray_tab_music_png_1110184050_1991832432:Class;
 		
-		private var _embed_css__styles_images_tray_tab_text_hover_png__1093473603_1154671853:Class;
+		private var _embed_css__styles_images_tray_tab_widget_png_572998701_1235528525:Class;
 		
 		public function studio()
 		{
-			this._embed_css__styles_images_tray_tab_back_hover_png_1167182327_965354953 = _class_embed_css__styles_images_tray_tab_back_hover_png_1167182327_965354953;
-			this._embed_css__styles_images_tray_item_play_png_882156653_528047201 = _class_embed_css__styles_images_tray_item_play_png_882156653_528047201;
-			this._embed_css__styles_images_tray_tab_prop_hover_png__1154384525_1893021379 = _class_embed_css__styles_images_tray_tab_prop_hover_png__1154384525_1893021379;
-			this._embed_css__styles_images_tray_item_play_hover_png__846119766_1355389650 = _class_embed_css__styles_images_tray_item_play_hover_png__846119766_1355389650;
-			this._embed_css__styles_images_tray_tab_prop_png_1820553206_781418934 = _class_embed_css__styles_images_tray_tab_prop_png_1820553206_781418934;
-			this._embed_css__styles_images_tray_tab_music_png_1765060360_2099688052 = _class_embed_css__styles_images_tray_tab_music_png_1765060360_2099688052;
-			this._embed_css__styles_images_tray_tab_effect_png_1422354724_1245007996 = _class_embed_css__styles_images_tray_tab_effect_png_1422354724_1245007996;
-			this._embed_css__styles_images_tray_tab_effect_hover_png__1774887903_171778287 = _class_embed_css__styles_images_tray_tab_effect_hover_png__1774887903_171778287;
-			this._embed_css__styles_images_tray_item_delete_png__1407679516_809607528 = _class_embed_css__styles_images_tray_item_delete_png__1407679516_809607528;
-			this._embed_css__styles_images_tray_tab_widget_hover_png__1464403692_860323412 = _class_embed_css__styles_images_tray_tab_widget_hover_png__1464403692_860323412;
-			this._embed_css__styles_images_tray_tab_music_hover_png_266839813_197843191 = _class_embed_css__styles_images_tray_tab_music_hover_png_266839813_197843191;
-			this._embed_css__styles_images_tray_tab_widget_png__600672169_1702529769 = _class_embed_css__styles_images_tray_tab_widget_png__600672169_1702529769;
-			this._embed_css__styles_images_tray_tab_character_png__652802548_617336704 = _class_embed_css__styles_images_tray_tab_character_png__652802548_617336704;
-			this._embed_css__styles_images_tray_item_info_png__818663193_1663389717 = _class_embed_css__styles_images_tray_item_info_png__818663193_1663389717;
-			this._embed_css__styles_images_tray_tab_video_png__1587103138_1508577970 = _class_embed_css__styles_images_tray_tab_video_png__1587103138_1508577970;
-			this._embed_css__styles_images_tray_tab_back_png_640184186_854293958 = _class_embed_css__styles_images_tray_tab_back_png_640184186_854293958;
-			this._embed_css__styles_images_tray_tab_character_hover_png__1610241271_220198925 = _class_embed_css__styles_images_tray_tab_character_hover_png__1610241271_220198925;
-			this._embed__font_StudioSparkMain_medium_normal_405732490 = studio__embed__font_StudioSparkMain_medium_normal_405732490;
-			this._embed_css__styles_images_tray_item_stop_hover_png_384798712_1121191204 = _class_embed_css__styles_images_tray_item_stop_hover_png_384798712_1121191204;
-			this._embed_css__styles_images_tray_item_stop_png_718211643_1224843935 = _class_embed_css__styles_images_tray_item_stop_png_718211643_1224843935;
-			this._embed_css__styles_images_tray_tab_text_png_1810570432_986478768 = _class_embed_css__styles_images_tray_tab_text_png_1810570432_986478768;
-			this._embed__font_StudioSparkMain_medium_italic_1855000466 = studio__embed__font_StudioSparkMain_medium_italic_1855000466;
-			this._embed_css__styles_images_tray_item_delete_hover_png_2071422689_1547776981 = _class_embed_css__styles_images_tray_item_delete_hover_png_2071422689_1547776981;
-			this._embed_css__styles_images_tray_tab_video_hover_png__2072159781_1273103551 = _class_embed_css__styles_images_tray_tab_video_hover_png__2072159781_1273103551;
-			this._embed_css__styles_images_tray_item_info_hover_png__753924700_1984525272 = _class_embed_css__styles_images_tray_item_info_hover_png__753924700_1984525272;
-			this._embed__font_StudioSparkMain_bold_normal_1175079360 = studio__embed__font_StudioSparkMain_bold_normal_1175079360;
-			this._embed_css__styles_images_tray_tab_text_hover_png__1093473603_1154671853 = _class_embed_css__styles_images_tray_tab_text_hover_png__1093473603_1154671853;
+			this._embed__font_StudioSparkMain_bold_normal_100574306 = studio__embed__font_StudioSparkMain_bold_normal_100574306;
+			this._embed_css__styles_images_tray_item_stop_png_63335333_956555123 = _class_embed_css__styles_images_tray_item_stop_png_63335333_956555123;
+			this._embed_css__styles_images_tray_item_play_hover_png__183474540_2134409602 = _class_embed_css__styles_images_tray_item_play_hover_png__183474540_2134409602;
+			this._embed_css__styles_images_tray_tab_character_png__1152671114_674500452 = _class_embed_css__styles_images_tray_tab_character_png__1152671114_674500452;
+			this._embed_css__styles_images_tray_tab_video_hover_png__1409514555_1743003795 = _class_embed_css__styles_images_tray_tab_video_hover_png__1409514555_1743003795;
+			this._embed__font_StudioSparkMain_medium_normal_1681386156 = studio__embed__font_StudioSparkMain_medium_normal_1681386156;
+			this._embed_css__styles_images_tray_tab_prop_hover_png_529559113_1763136735 = _class_embed_css__styles_images_tray_tab_prop_hover_png_529559113_1763136735;
+			this._embed_css__styles_images_tray_item_stop_hover_png_1047443938_852615488 = _class_embed_css__styles_images_tray_item_stop_hover_png_1047443938_852615488;
+			this._embed_css__styles_images_tray_item_delete_hover_png__1076642229_1418269977 = _class_embed_css__styles_images_tray_item_delete_hover_png__1076642229_1418269977;
+			this._embed_css__styles_images_tray_tab_back_png_896153808_1466669194 = _class_embed_css__styles_images_tray_tab_back_png_896153808_1466669194;
+			this._embed_css__styles_images_tray_tab_music_hover_png_929485039_1003041843 = _class_embed_css__styles_images_tray_tab_music_hover_png_929485039_1003041843;
+			this._embed_css__styles_images_tray_item_info_png__1473539503_1598001841 = _class_embed_css__styles_images_tray_item_info_png__1473539503_1598001841;
+			this._embed_css__styles_images_tray_tab_prop_png_2076522828_436954834 = _class_embed_css__styles_images_tray_tab_prop_png_2076522828_436954834;
+			this._embed_css__styles_images_tray_tab_text_png_2066540054_457627084 = _class_embed_css__styles_images_tray_tab_text_png_2066540054_457627084;
+			this._embed_css__styles_images_tray_tab_text_hover_png_590470035_1561363257 = _class_embed_css__styles_images_tray_tab_text_hover_png_590470035_1561363257;
+			this._embed_css__styles_images_tray_tab_effect_hover_png_1587244919_101398829 = _class_embed_css__styles_images_tray_tab_effect_hover_png_1587244919_101398829;
+			this._embed_css__styles_images_tray_tab_widget_hover_png_1897729130_59072512 = _class_embed_css__styles_images_tray_tab_widget_hover_png_1897729130_59072512;
+			this._embed_css__styles_images_tray_tab_character_hover_png_1051316211_119032079 = _class_embed_css__styles_images_tray_tab_character_hover_png_1051316211_119032079;
+			this._embed_css__styles_images_tray_item_delete_png_616379086_536331180 = _class_embed_css__styles_images_tray_item_delete_png_616379086_536331180;
+			this._embed_css__styles_images_tray_item_info_hover_png__91279474_1718826900 = _class_embed_css__styles_images_tray_item_info_hover_png__91279474_1718826900;
+			this._embed_css__styles_images_tray_tab_video_png_2052987848_1313525654 = _class_embed_css__styles_images_tray_tab_video_png_2052987848_1313525654;
+			this._embed_css__styles_images_tray_item_play_png_227280343_1331239365 = _class_embed_css__styles_images_tray_item_play_png_227280343_1331239365;
+			this._embed_css__styles_images_tray_tab_effect_png__1698941702_768831312 = _class_embed_css__styles_images_tray_tab_effect_png__1698941702_768831312;
+			this._embed__font_StudioSparkMain_medium_italic_579346800 = studio__embed__font_StudioSparkMain_medium_italic_579346800;
+			this._embed_css__styles_images_tray_tab_back_hover_png__1443841331_575145901 = _class_embed_css__styles_images_tray_tab_back_hover_png__1443841331_575145901;
+			this._embed_css__styles_images_tray_tab_music_png_1110184050_1991832432 = _class_embed_css__styles_images_tray_tab_music_png_1110184050_1991832432;
+			this._embed_css__styles_images_tray_tab_widget_png_572998701_1235528525 = _class_embed_css__styles_images_tray_tab_widget_png_572998701_1235528525;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContentFactory = new DeferredInstanceFromFunction(this._studio_Array4_c);
@@ -1041,8 +1041,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.iconNormal = _embed_css__styles_images_tray_tab_character_png__652802548_617336704;
-					this.iconOver = _embed_css__styles_images_tray_tab_character_hover_png__1610241271_220198925;
+					this.iconNormal = _embed_css__styles_images_tray_tab_character_png__1152671114_674500452;
+					this.iconOver = _embed_css__styles_images_tray_tab_character_hover_png_1051316211_119032079;
 				};
 			}
 			selector = null;
@@ -1060,8 +1060,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.iconNormal = _embed_css__styles_images_tray_tab_prop_png_1820553206_781418934;
-					this.iconOver = _embed_css__styles_images_tray_tab_prop_hover_png__1154384525_1893021379;
+					this.iconNormal = _embed_css__styles_images_tray_tab_prop_png_2076522828_436954834;
+					this.iconOver = _embed_css__styles_images_tray_tab_prop_hover_png_529559113_1763136735;
 				};
 			}
 			selector = null;
@@ -1079,8 +1079,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.iconNormal = _embed_css__styles_images_tray_tab_widget_png__600672169_1702529769;
-					this.iconOver = _embed_css__styles_images_tray_tab_widget_hover_png__1464403692_860323412;
+					this.iconNormal = _embed_css__styles_images_tray_tab_widget_png_572998701_1235528525;
+					this.iconOver = _embed_css__styles_images_tray_tab_widget_hover_png_1897729130_59072512;
 				};
 			}
 			selector = null;
@@ -1098,8 +1098,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.iconNormal = _embed_css__styles_images_tray_tab_back_png_640184186_854293958;
-					this.iconOver = _embed_css__styles_images_tray_tab_back_hover_png_1167182327_965354953;
+					this.iconNormal = _embed_css__styles_images_tray_tab_back_png_896153808_1466669194;
+					this.iconOver = _embed_css__styles_images_tray_tab_back_hover_png__1443841331_575145901;
 				};
 			}
 			selector = null;
@@ -1117,8 +1117,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.iconNormal = _embed_css__styles_images_tray_tab_text_png_1810570432_986478768;
-					this.iconOver = _embed_css__styles_images_tray_tab_text_hover_png__1093473603_1154671853;
+					this.iconNormal = _embed_css__styles_images_tray_tab_text_png_2066540054_457627084;
+					this.iconOver = _embed_css__styles_images_tray_tab_text_hover_png_590470035_1561363257;
 				};
 			}
 			selector = null;
@@ -1136,8 +1136,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.iconNormal = _embed_css__styles_images_tray_tab_music_png_1765060360_2099688052;
-					this.iconOver = _embed_css__styles_images_tray_tab_music_hover_png_266839813_197843191;
+					this.iconNormal = _embed_css__styles_images_tray_tab_music_png_1110184050_1991832432;
+					this.iconOver = _embed_css__styles_images_tray_tab_music_hover_png_929485039_1003041843;
 				};
 			}
 			selector = null;
@@ -1155,8 +1155,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.iconNormal = _embed_css__styles_images_tray_tab_effect_png_1422354724_1245007996;
-					this.iconOver = _embed_css__styles_images_tray_tab_effect_hover_png__1774887903_171778287;
+					this.iconNormal = _embed_css__styles_images_tray_tab_effect_png__1698941702_768831312;
+					this.iconOver = _embed_css__styles_images_tray_tab_effect_hover_png_1587244919_101398829;
 				};
 			}
 			selector = null;
@@ -1174,8 +1174,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.iconNormal = _embed_css__styles_images_tray_tab_video_png__1587103138_1508577970;
-					this.iconOver = _embed_css__styles_images_tray_tab_video_hover_png__2072159781_1273103551;
+					this.iconNormal = _embed_css__styles_images_tray_tab_video_png_2052987848_1313525654;
+					this.iconOver = _embed_css__styles_images_tray_tab_video_hover_png__1409514555_1743003795;
 				};
 			}
 			selector = null;
@@ -1193,8 +1193,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.icon = _embed_css__styles_images_tray_item_play_png_882156653_528047201;
-					this.iconOver = _embed_css__styles_images_tray_item_play_hover_png__846119766_1355389650;
+					this.icon = _embed_css__styles_images_tray_item_play_png_227280343_1331239365;
+					this.iconOver = _embed_css__styles_images_tray_item_play_hover_png__183474540_2134409602;
 				};
 			}
 			selector = null;
@@ -1212,8 +1212,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.icon = _embed_css__styles_images_tray_item_stop_png_718211643_1224843935;
-					this.iconOver = _embed_css__styles_images_tray_item_stop_hover_png_384798712_1121191204;
+					this.icon = _embed_css__styles_images_tray_item_stop_png_63335333_956555123;
+					this.iconOver = _embed_css__styles_images_tray_item_stop_hover_png_1047443938_852615488;
 				};
 			}
 			selector = null;
@@ -1231,8 +1231,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.icon = _embed_css__styles_images_tray_item_info_png__818663193_1663389717;
-					this.iconOver = _embed_css__styles_images_tray_item_info_hover_png__753924700_1984525272;
+					this.icon = _embed_css__styles_images_tray_item_info_png__1473539503_1598001841;
+					this.iconOver = _embed_css__styles_images_tray_item_info_hover_png__91279474_1718826900;
 				};
 			}
 			selector = null;
@@ -1250,8 +1250,8 @@ package
 			{
 				style.factory = function():void
 				{
-					this.icon = _embed_css__styles_images_tray_item_delete_png__1407679516_809607528;
-					this.iconOver = _embed_css__styles_images_tray_item_delete_hover_png_2071422689_1547776981;
+					this.icon = _embed_css__styles_images_tray_item_delete_png_616379086_536331180;
+					this.iconOver = _embed_css__styles_images_tray_item_delete_hover_png__1076642229_1418269977;
 				};
 			}
 			selector = null;

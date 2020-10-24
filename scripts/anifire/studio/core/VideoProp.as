@@ -2,6 +2,8 @@ package anifire.studio.core
 {
 	import anifire.component.VideoPlayback;
 	import anifire.constant.AnimeConstants;
+	import anifire.util.UtilUnitConvert;
+	import flash.utils.setTimeout;
 	import mx.containers.Canvas;
 	
 	public class VideoProp extends Prop
@@ -91,6 +93,71 @@ package anifire.studio.core
 		override public function isColorable() : Boolean
 		{
 			return false;
+		}
+		
+		public function stopProp() : void
+		{
+			if(this.videoPlayBack != null)
+			{
+				this.videoPlayBack.pause();
+			}
+		}
+		
+		public function pauseMovie() : void
+		{
+			if(this.videoPlayBack != null)
+			{
+				this.videoPlayBack.pause();
+			}
+		}
+		
+		public function playMovie() : void
+		{
+			var _loc3_:int = 0;
+			var _loc4_:AnimeScene = null;
+			var _loc5_:Number = NaN;
+			var _loc6_:Boolean = false;
+			var _loc7_:int = 0;
+			var _loc8_:Prop = null;
+			var _loc1_:Number = Console.getConsole().getSceneIndex(this.scene);
+			var _loc2_:Number = 0;
+			if(_loc1_ > 0)
+			{
+				_loc3_ = _loc1_ - 1;
+				while(_loc3_ >= 0)
+				{
+					_loc4_ = Console.getConsole().getScene(_loc3_);
+					_loc5_ = _loc4_.props.length;
+					_loc6_ = false;
+					_loc7_ = 0;
+					while(_loc7_ < _loc5_)
+					{
+						_loc8_ = _loc4_.props.getValueByIndex(_loc7_) as Prop;
+						if(_loc8_.thumb == this.thumb)
+						{
+							_loc6_ = true;
+						}
+						_loc7_++;
+					}
+					if(!_loc6_)
+					{
+						break;
+					}
+					_loc2_ = _loc2_ + _loc4_.totalFrames;
+					_loc3_--;
+				}
+				_loc2_ = UtilUnitConvert.frameToSec(_loc2_);
+			}
+			if(this.videoPlayBack == null)
+			{
+				this.videoPlayBack = new VideoPlayback();
+				this.videoPlayBack.loadAndSeekPlayVideoByAssetId(this.thumb.id,_loc2_);
+			}
+			else
+			{
+				this.videoPlayBack.seekAndPlay(_loc2_);
+			}
+			setTimeout(this.pauseMovie,this.scene.duration * 1000);
 		}
 		
 		override public function deleteAsset() : void

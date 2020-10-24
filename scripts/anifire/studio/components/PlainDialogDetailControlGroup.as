@@ -86,13 +86,13 @@ package anifire.studio.components
 		
 		private var _1746229292voiceContentUpdated:Boolean = false;
 		
-		private var _embed_mxml__styles_images_voicetab_viewpage_edit_hover_png_595701325:Class;
+		private var _embed_mxml__styles_images_voicetab_viewpage_delete_hover_png_1355972279:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_viewpage_edit_png_1027835063:Class;
+		private var _embed_mxml__styles_images_voicetab_viewpage_edit_png_1122458625:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_viewpage_delete_png_964983125:Class;
+		private var _embed_mxml__styles_images_voicetab_viewpage_edit_hover_png_142782857:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_viewpage_delete_hover_png_581503949:Class;
+		private var _embed_mxml__styles_images_voicetab_viewpage_delete_png_614427457:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -106,10 +106,10 @@ package anifire.studio.components
 		{
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_voicetab_viewpage_edit_hover_png_595701325 = PlainDialogDetailControlGroup__embed_mxml__styles_images_voicetab_viewpage_edit_hover_png_595701325;
-			this._embed_mxml__styles_images_voicetab_viewpage_edit_png_1027835063 = PlainDialogDetailControlGroup__embed_mxml__styles_images_voicetab_viewpage_edit_png_1027835063;
-			this._embed_mxml__styles_images_voicetab_viewpage_delete_png_964983125 = PlainDialogDetailControlGroup__embed_mxml__styles_images_voicetab_viewpage_delete_png_964983125;
-			this._embed_mxml__styles_images_voicetab_viewpage_delete_hover_png_581503949 = PlainDialogDetailControlGroup__embed_mxml__styles_images_voicetab_viewpage_delete_hover_png_581503949;
+			this._embed_mxml__styles_images_voicetab_viewpage_delete_hover_png_1355972279 = PlainDialogDetailControlGroup__embed_mxml__styles_images_voicetab_viewpage_delete_hover_png_1355972279;
+			this._embed_mxml__styles_images_voicetab_viewpage_edit_png_1122458625 = PlainDialogDetailControlGroup__embed_mxml__styles_images_voicetab_viewpage_edit_png_1122458625;
+			this._embed_mxml__styles_images_voicetab_viewpage_edit_hover_png_142782857 = PlainDialogDetailControlGroup__embed_mxml__styles_images_voicetab_viewpage_edit_hover_png_142782857;
+			this._embed_mxml__styles_images_voicetab_viewpage_delete_png_614427457 = PlainDialogDetailControlGroup__embed_mxml__styles_images_voicetab_viewpage_delete_png_614427457;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -492,8 +492,8 @@ package anifire.studio.components
 		{
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_viewpage_edit_png_1027835063);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_voicetab_viewpage_edit_hover_png_595701325);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_viewpage_edit_png_1122458625);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_voicetab_viewpage_edit_hover_png_142782857);
 			_loc1_.addEventListener("click",this.___btnEdit_click);
 			_loc1_.id = "_btnEdit";
 			if(!_loc1_.document)
@@ -514,8 +514,8 @@ package anifire.studio.components
 		{
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_viewpage_delete_png_964983125);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_voicetab_viewpage_delete_hover_png_581503949);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_viewpage_delete_png_614427457);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_voicetab_viewpage_delete_hover_png_1355972279);
 			_loc1_.addEventListener("click",this.___btnDelete_click);
 			_loc1_.id = "_btnDelete";
 			if(!_loc1_.document)

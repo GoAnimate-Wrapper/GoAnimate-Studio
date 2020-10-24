@@ -6,8 +6,6 @@ package anifire.studio.assets.image
 	import anifire.studio.core.Asset;
 	import anifire.studio.core.FlowFrame;
 	import anifire.studio.core.FlowFrameThumb;
-	import anifire.studio.core.Thumb;
-	import anifire.studio.managers.ThemeManager;
 	
 	public class FlowFrameImage extends AssetImageBase implements IReusableObject
 	{
@@ -47,10 +45,7 @@ package anifire.studio.assets.image
 			this._flowFrameMaker.addEventListener(FlowFrameMakerEvent.LOAD_IMAGE_COMPLETE,this.flowFrameMaker_loadImageCompleteHandler);
 			this._flowFrameMaker.readNode(_loc1_.xml);
 			this._flowFrameMaker.initFlowImageSource(_loc1_.themeId,_loc1_.id);
-			var _loc2_:Thumb = ThemeManager.instance.userTheme.propThumbs.getValueByKey(this._flowFrame.innerImageAssetId);
-			var _loc3_:String = !!_loc2_?_loc2_.encAssetId:"";
-			var _loc4_:String = !!_loc2_?_loc2_.signature:"";
-			this._flowFrameMaker.initInnerImageSource(this._flowFrame.innerImageThemeId,_loc3_,false,_loc4_);
+			this._flowFrameMaker.initInnerImageSource(this._flowFrame.innerImageThemeId,this._flowFrame.innerImageAssetId,false);
 			this._flowFrameMaker.resizeFrame(this._flowFrame.width,this._flowFrame.height);
 			this._flowFrameMaker.loadImage();
 		}
@@ -128,18 +123,13 @@ package anifire.studio.assets.image
 		
 		public function updateInnerImage(param1:String, param2:String, param3:Boolean = true) : void
 		{
-			var _loc4_:Thumb = null;
 			if(!this._flowFrameMaker)
 			{
 				return;
 			}
 			if(param1 && param2)
 			{
-				_loc4_ = ThemeManager.instance.getTheme(param1).getPropThumbById(param2);
-				if(_loc4_)
-				{
-					this._flowFrameMaker.updateInnerImageSource(param1,_loc4_.encAssetId,param3,_loc4_.signature);
-				}
+				this._flowFrameMaker.updateInnerImageSource(param1,param2,param3);
 			}
 			else
 			{

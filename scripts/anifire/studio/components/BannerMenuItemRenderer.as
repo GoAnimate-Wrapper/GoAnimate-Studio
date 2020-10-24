@@ -217,7 +217,7 @@ package anifire.studio.components
 			},null,"_BannerMenuItemRenderer_Label1.text");
 			result[3] = new Binding(this,function():String
 			{
-				var _loc1_:* = UtilDict.translate("Get Professional");
+				var _loc1_:* = UtilDict.translate("Get GoTeam");
 				return _loc1_ == undefined?null:String(_loc1_);
 			},null,"_BannerMenuItemRenderer_LinkArrowButton1.label");
 			return result;

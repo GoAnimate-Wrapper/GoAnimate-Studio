@@ -123,7 +123,7 @@ package anifire.studio.managers
 				_loc8_.deSerialize(_loc9_,_loc10_);
 				_loc8_.xml = _loc9_;
 				_loc8_.editable = true;
-				_loc10_.addThumb(_loc8_,_loc9_);
+				_loc10_.addThumb(_loc8_);
 				_loc12_ = new ThumbModel(_loc8_);
 				_soundCollection.addProduct(_loc12_);
 				_voiceTabSoundCollection.addProduct(_loc12_);
@@ -264,7 +264,6 @@ package anifire.studio.managers
 				_loc8_.editable = true;
 				_loc10_.addThumb(_loc8_);
 				_propCollection.addProduct(new ThumbModel(_loc8_));
-				_flowFrameImageCollection.addProduct(new ThumbModel(_loc8_,"",false));
 				_loc11_++;
 			}
 			_nextPropPage++;

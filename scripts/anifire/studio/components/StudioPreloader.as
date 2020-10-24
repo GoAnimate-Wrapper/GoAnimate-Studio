@@ -19,9 +19,9 @@ package anifire.studio.components
 		
 		private static var imgBarFill:Class = StudioPreloader_imgBarFill;
 		
-		private static const LOGO_WIDTH:int = 131;
+		private static const LOGO_WIDTH:int = 188;
 		
-		private static const LOGO_HEIGHT:int = 60;
+		private static const LOGO_HEIGHT:int = 36;
 		
 		private static const TRACK_WIDTH:int = 224;
 		

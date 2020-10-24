@@ -3,7 +3,6 @@ package anifire.util
 	import anifire.constant.AnimeConstants;
 	import anifire.constant.CcLibConstant;
 	import anifire.constant.ServerConstants;
-	import anifire.constant.ThemeConstants;
 	import anifire.managers.AppConfigManager;
 	import flash.net.URLRequest;
 	import flash.net.URLRequestMethod;
@@ -370,48 +369,59 @@ package anifire.util
 			return _loc5_;
 		}
 		
-		public static function getGetUserUploadVideoUrl(param1:String, param2:String) : String
+		public static function getGetUserUploadVideoUrl(param1:String) : String
 		{
-			var _loc3_:String = ServerConstants.ACTION_GET_ASSET_EX + "?enc_asset_id=" + param1 + "&signature=" + encodeURIComponent(param2);
-			return _loc3_;
+			var _loc2_:Array = param1.split(".");
+			return ServerConstants.ACTION_GET_ASSET + _loc2_[_loc2_.length - 2] + "." + _loc2_[_loc2_.length - 1];
 		}
 		
-		public static function getGetSoundAssetRequest(param1:String, param2:String, param3:String, param4:String = null) : URLRequest
+		public static function getRebuildTTSRequest(param1:String) : URLRequest
 		{
-			var _loc5_:URLRequest = null;
-			var _loc6_:String = null;
-			var _loc7_:URLVariables = null;
+			var _loc2_:URLRequest = null;
+			var _loc3_:URLVariables = new URLVariables();
+			_configManager.appendURLVariables(_loc3_);
+			_loc2_ = new URLRequest(ServerConstants.ACTION_REBUILD_TTS);
+			_loc2_.method = URLRequestMethod.POST;
+			_loc3_[ServerConstants.PARAM_ASSET_ID] = param1;
+			_loc2_.data = _loc3_;
+			return _loc2_;
+		}
+		
+		public static function getGetSoundAssetRequest(param1:String, param2:String, param3:String) : URLRequest
+		{
+			var _loc4_:URLRequest = null;
+			var _loc5_:String = null;
+			var _loc6_:URLVariables = null;
 			if(param3 == AnimeConstants.DOWNLOAD_TYPE_PROGRESSIVE || param3 == AnimeConstants.DOWNLOAD_TYPE_STREAM)
 			{
-				_loc6_ = "mp3";
+				_loc5_ = "mp3";
 			}
 			else
 			{
-				_loc6_ = "swf";
+				_loc5_ = "swf";
 			}
+			param2 = changeExtension(param2,_loc5_);
 			if(param1 != "ugc")
 			{
-				param2 = changeExtension(param2,_loc6_);
 				if(param3 == AnimeConstants.DOWNLOAD_TYPE_STREAM)
 				{
-					_loc5_ = new URLRequest(ServerConstants.ACTION_GET_STREAM_SOUND);
+					_loc4_ = new URLRequest(ServerConstants.ACTION_GET_STREAM_SOUND);
 				}
 				else
 				{
-					_loc5_ = getGetThemeAssetRequest(param1,param2,ServerConstants.PARAM_SOUND);
+					_loc4_ = getGetThemeAssetRequest(param1,param2,ServerConstants.PARAM_SOUND);
 				}
 			}
 			else
 			{
-				_loc7_ = new URLVariables();
-				_configManager.appendURLVariables(_loc7_);
-				_loc5_ = new URLRequest(ServerConstants.ACTION_GET_ASSET_EX);
-				_loc5_.method = URLRequestMethod.POST;
-				_loc7_[ServerConstants.PARAM_ENC_ASSET_ID] = param2;
-				_loc7_[ServerConstants.PARAM_SIGNATURE] = param4;
-				_loc5_.data = _loc7_;
+				_loc6_ = new URLVariables();
+				_configManager.appendURLVariables(_loc6_);
+				_loc4_ = new URLRequest(ServerConstants.ACTION_GET_ASSET);
+				_loc4_.method = URLRequestMethod.POST;
+				_loc6_[ServerConstants.PARAM_ASSET_ID] = param2;
+				_loc4_.data = _loc6_;
 			}
-			return _loc5_;
+			return _loc4_;
 		}
 		
 		private static function changeExtension(param1:String, param2:String) : String
@@ -593,22 +603,14 @@ package anifire.util
 			return _loc5_;
 		}
 		
-		public static function getInnerImageRequest(param1:String, param2:String, param3:String = null) : URLRequest
+		public static function getInnerImageRequest(param1:String, param2:String) : URLRequest
 		{
-			var _loc4_:URLVariables = AppConfigManager.instance.createURLVariables();
-			if(param1 == ThemeConstants.UGC_THEME_ID)
-			{
-				_loc4_[ServerConstants.PARAM_ENC_ASSET_ID] = param2;
-				_loc4_[ServerConstants.PARAM_SIGNATURE] = param3;
-			}
-			else
-			{
-				_loc4_[ServerConstants.PARAM_ASSET_ID] = param2;
-			}
-			var _loc5_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET_EX);
-			_loc5_.method = URLRequestMethod.POST;
-			_loc5_.data = _loc4_;
-			return _loc5_;
+			var _loc3_:URLVariables = AppConfigManager.instance.createURLVariables();
+			_loc3_[ServerConstants.PARAM_ASSET_ID] = param2;
+			var _loc4_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET);
+			_loc4_.method = URLRequestMethod.POST;
+			_loc4_.data = _loc3_;
+			return _loc4_;
 		}
 	}
 }

@@ -80,7 +80,7 @@ package anifire.studio.components
 		
 		private var _sceneEditor:SceneEditor;
 		
-		private var _embed_mxml__styles_images_icons_ico_addtemp_init_png_1024164055:Class;
+		private var _embed_mxml__styles_images_icons_ico_addtemp_init_png_1660409921:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -94,7 +94,7 @@ package anifire.studio.components
 		{
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_icons_ico_addtemp_init_png_1024164055 = StarterDropLayer__embed_mxml__styles_images_icons_ico_addtemp_init_png_1024164055;
+			this._embed_mxml__styles_images_icons_ico_addtemp_init_png_1660409921 = StarterDropLayer__embed_mxml__styles_images_icons_ico_addtemp_init_png_1660409921;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -420,7 +420,7 @@ package anifire.studio.components
 			_loc1_.width = 32;
 			_loc1_.height = 17;
 			_loc1_.smooth = true;
-			_loc1_.source = this._embed_mxml__styles_images_icons_ico_addtemp_init_png_1024164055;
+			_loc1_.source = this._embed_mxml__styles_images_icons_ico_addtemp_init_png_1660409921;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

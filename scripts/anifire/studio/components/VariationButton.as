@@ -45,11 +45,11 @@ package anifire.studio.components
 		
 		protected var _previewOnly:Boolean;
 		
-		private var _embed_mxml__styles_images_tray_icon_version_over_png_1024164535:Class;
+		private var _embed_mxml__styles_images_tray_icon_version_disabled_png_2004487551:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_version_init_png_223058743:Class;
+		private var _embed_mxml__styles_images_tray_icon_version_init_png_1239704201:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_version_disabled_png_247095319:Class;
+		private var _embed_mxml__styles_images_tray_icon_version_over_png_1725422081:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -64,9 +64,9 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_icon_version_over_png_1024164535 = VariationButton__embed_mxml__styles_images_tray_icon_version_over_png_1024164535;
-			this._embed_mxml__styles_images_tray_icon_version_init_png_223058743 = VariationButton__embed_mxml__styles_images_tray_icon_version_init_png_223058743;
-			this._embed_mxml__styles_images_tray_icon_version_disabled_png_247095319 = VariationButton__embed_mxml__styles_images_tray_icon_version_disabled_png_247095319;
+			this._embed_mxml__styles_images_tray_icon_version_disabled_png_2004487551 = VariationButton__embed_mxml__styles_images_tray_icon_version_disabled_png_2004487551;
+			this._embed_mxml__styles_images_tray_icon_version_init_png_1239704201 = VariationButton__embed_mxml__styles_images_tray_icon_version_init_png_1239704201;
+			this._embed_mxml__styles_images_tray_icon_version_over_png_1725422081 = VariationButton__embed_mxml__styles_images_tray_icon_version_over_png_1725422081;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -209,7 +209,7 @@ package anifire.studio.components
 			var _loc1_:Image = new Image();
 			_loc1_.width = 28;
 			_loc1_.height = 14;
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_version_init_png_223058743;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_version_init_png_1239704201;
 			_loc1_.id = "_VariationButton_Image1";
 			if(!_loc1_.document)
 			{
@@ -225,7 +225,7 @@ package anifire.studio.components
 			var _loc1_:Image = new Image();
 			_loc1_.width = 28;
 			_loc1_.height = 14;
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_version_over_png_1024164535;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_version_over_png_1725422081;
 			_loc1_.id = "_VariationButton_Image2";
 			if(!_loc1_.document)
 			{
@@ -241,7 +241,7 @@ package anifire.studio.components
 			var _loc1_:Image = new Image();
 			_loc1_.width = 28;
 			_loc1_.height = 14;
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_version_disabled_png_247095319;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_version_disabled_png_2004487551;
 			_loc1_.id = "_VariationButton_Image3";
 			if(!_loc1_.document)
 			{

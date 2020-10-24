@@ -92,11 +92,11 @@ package anifire.studio.components
 		
 		private var _tutorialManager:TutorialManager;
 		
-		private var _embed_mxml__styles_images_tray_lock_icon_png_423648535:Class;
+		private var _embed_mxml__styles_images_tray_cc_copy_hover_png_2026741569:Class;
 		
-		private var _embed_mxml__styles_images_tray_cc_copy_hover_png_452539351:Class;
+		private var _embed_mxml__styles_images_tray_cc_copy_png_1403271745:Class;
 		
-		private var _embed_mxml__styles_images_tray_cc_copy_png_928026027:Class;
+		private var _embed_mxml__styles_images_tray_lock_icon_png_911801481:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -112,9 +112,9 @@ package anifire.studio.components
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
 			this._tutorialManager = TutorialManager.instance;
-			this._embed_mxml__styles_images_tray_lock_icon_png_423648535 = CharacterThumbRenderer__embed_mxml__styles_images_tray_lock_icon_png_423648535;
-			this._embed_mxml__styles_images_tray_cc_copy_hover_png_452539351 = CharacterThumbRenderer__embed_mxml__styles_images_tray_cc_copy_hover_png_452539351;
-			this._embed_mxml__styles_images_tray_cc_copy_png_928026027 = CharacterThumbRenderer__embed_mxml__styles_images_tray_cc_copy_png_928026027;
+			this._embed_mxml__styles_images_tray_cc_copy_hover_png_2026741569 = CharacterThumbRenderer__embed_mxml__styles_images_tray_cc_copy_hover_png_2026741569;
+			this._embed_mxml__styles_images_tray_cc_copy_png_1403271745 = CharacterThumbRenderer__embed_mxml__styles_images_tray_cc_copy_png_1403271745;
+			this._embed_mxml__styles_images_tray_lock_icon_png_911801481 = CharacterThumbRenderer__embed_mxml__styles_images_tray_lock_icon_png_911801481;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -525,7 +525,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.bottom = 3;
 			_loc1_.right = 3;
-			_loc1_.source = this._embed_mxml__styles_images_tray_lock_icon_png_423648535;
+			_loc1_.source = this._embed_mxml__styles_images_tray_lock_icon_png_911801481;
 			_loc1_.initialized(this,"lockIcon");
 			this.lockIcon = _loc1_;
 			BindingManager.executeBindings(this,"lockIcon",this.lockIcon);
@@ -613,8 +613,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.right = 0;
 			_loc1_.bottom = 0;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_tray_cc_copy_png_928026027);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_tray_cc_copy_hover_png_452539351);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_tray_cc_copy_png_1403271745);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_tray_cc_copy_hover_png_2026741569);
 			_loc1_.addEventListener("mouseDown",this.__copyButton_mouseDown);
 			_loc1_.id = "copyButton";
 			if(!_loc1_.document)

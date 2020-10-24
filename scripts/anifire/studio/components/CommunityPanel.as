@@ -185,7 +185,7 @@ package anifire.studio.components
 				else
 				{
 					_loc1_.title = "Community Library Warning";
-					_loc1_.message = "Items inside Community Library are submitted by users and they have not been reviewed by Vyond. VideoMaker stability and video playback performance may get adversely affected by items you select to use here.\n\nIf your video or our VideoMaker do not behave as normal, community items could be the cause.  Make a copy of your video and try removing them.";
+					_loc1_.message = "Items inside Community Library are submitted by users and they have not been reviewed by GoAnimate. VideoMaker stability and video playback performance may get adversely affected by items you select to use here.\n\nIf your video or our VideoMaker do not behave as normal, community items could be the cause.  Make a copy of your video and try removing them.";
 				}
 				_loc1_.confirmText = UtilDict.toDisplay("go","Continue");
 				_loc1_.open(FlexGlobals.topLevelApplication as DisplayObjectContainer,true);

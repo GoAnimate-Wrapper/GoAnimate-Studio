@@ -51,20 +51,20 @@ package anifire.studio.components
 		
 		protected var collapseMenuItem:MenuItemModel;
 		
-		private var _embed_mxml__styles_images_timeline_timeline_movie_png_837878007:Class;
+		private var _embed_mxml__styles_images_timeline_timeline_movie_png_134172991:Class;
 		
-		private var _embed_mxml__styles_images_timeline_timeline_music_png_1052862679:Class;
+		private var _embed_mxml__styles_images_timeline_timeline_settingicon_png_1783127615:Class;
 		
-		private var _embed_mxml__styles_images_timeline_timeline_settingicon_png_262732009:Class;
+		private var _embed_mxml__styles_images_timeline_timeline_music_png_1980800649:Class;
 		
-		private var _embed_mxml__styles_images_timeline_timeline_speech_png_1569168037:Class;
+		private var _embed_mxml__styles_images_timeline_timeline_speech_png_1159692353:Class;
 		
 		public function TimelineToolBar()
 		{
-			this._embed_mxml__styles_images_timeline_timeline_movie_png_837878007 = TimelineToolBar__embed_mxml__styles_images_timeline_timeline_movie_png_837878007;
-			this._embed_mxml__styles_images_timeline_timeline_music_png_1052862679 = TimelineToolBar__embed_mxml__styles_images_timeline_timeline_music_png_1052862679;
-			this._embed_mxml__styles_images_timeline_timeline_settingicon_png_262732009 = TimelineToolBar__embed_mxml__styles_images_timeline_timeline_settingicon_png_262732009;
-			this._embed_mxml__styles_images_timeline_timeline_speech_png_1569168037 = TimelineToolBar__embed_mxml__styles_images_timeline_timeline_speech_png_1569168037;
+			this._embed_mxml__styles_images_timeline_timeline_movie_png_134172991 = TimelineToolBar__embed_mxml__styles_images_timeline_timeline_movie_png_134172991;
+			this._embed_mxml__styles_images_timeline_timeline_settingicon_png_1783127615 = TimelineToolBar__embed_mxml__styles_images_timeline_timeline_settingicon_png_1783127615;
+			this._embed_mxml__styles_images_timeline_timeline_music_png_1980800649 = TimelineToolBar__embed_mxml__styles_images_timeline_timeline_music_png_1980800649;
+			this._embed_mxml__styles_images_timeline_timeline_speech_png_1159692353 = TimelineToolBar__embed_mxml__styles_images_timeline_timeline_speech_png_1159692353;
 			super();
 			mx_internal::_document = this;
 			this.gap = 0;
@@ -215,7 +215,7 @@ package anifire.studio.components
 			_loc1_.buttonMode = true;
 			_loc1_.percentWidth = 100;
 			_loc1_.percentHeight = 100;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_timeline_timeline_settingicon_png_262732009);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_timeline_timeline_settingicon_png_1783127615);
 			_loc1_.addEventListener("click",this.__menuButton_click);
 			_loc1_.id = "menuButton";
 			if(!_loc1_.document)
@@ -292,7 +292,7 @@ package anifire.studio.components
 		private function _TimelineToolBar_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_movie_png_837878007;
+			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_movie_png_134172991;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,null);
@@ -335,7 +335,7 @@ package anifire.studio.components
 		private function _TimelineToolBar_BitmapImage2_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_speech_png_1569168037;
+			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_speech_png_1159692353;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,null);
@@ -378,7 +378,7 @@ package anifire.studio.components
 		private function _TimelineToolBar_BitmapImage3_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_music_png_1052862679;
+			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_music_png_1980800649;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,null);

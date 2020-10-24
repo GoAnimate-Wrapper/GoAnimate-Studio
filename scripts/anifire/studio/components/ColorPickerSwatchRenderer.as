@@ -62,7 +62,7 @@ package anifire.studio.components
 		
 		protected var _dragProxy:IFlexDisplayObject;
 		
-		private var _embed_mxml__styles_images_icons_icon_add_png_429021847:Class;
+		private var _embed_mxml__styles_images_icons_icon_add_png_848902145:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -77,7 +77,7 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_icons_icon_add_png_429021847 = ColorPickerSwatchRenderer__embed_mxml__styles_images_icons_icon_add_png_429021847;
+			this._embed_mxml__styles_images_icons_icon_add_png_848902145 = ColorPickerSwatchRenderer__embed_mxml__styles_images_icons_icon_add_png_848902145;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -429,7 +429,7 @@ package anifire.studio.components
 			_loc1_.height = 16;
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_icons_icon_add_png_429021847;
+			_loc1_.source = this._embed_mxml__styles_images_icons_icon_add_png_848902145;
 			_loc1_.initialized(this,"addColorButton");
 			this.addColorButton = _loc1_;
 			BindingManager.executeBindings(this,"addColorButton",this.addColorButton);

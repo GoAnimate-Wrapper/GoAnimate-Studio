@@ -84,14 +84,6 @@ package anifire.studio.components
 		
 		private static const DEFAULT_TTS_VOICE:String = "joey";
 		
-		private static const REMOVED_MALE_VOICES:Array = ["eric"];
-		
-		private static const REMOVED_FEMALE_VOICES:Array = ["jennifer"];
-		
-		private static const FALLBACK_MALE_VOICE:String = "joey";
-		
-		private static const FALLBACK_FEMALE_VOICE:String = "joanna";
-		
 		private static const ADD_VOICE_BUTTON_LABEL:String = "Add Voice";
 		
 		private static const UPDATE_VOICE_BUTTON_LABEL:String = "Update";
@@ -114,7 +106,7 @@ package anifire.studio.components
 		
 		private static const ADVICE_TEXT_WHEN_GENERATING_VOICE:String = "p.s. Most folks use the robots as placeholders in rough cuts";
 		
-		private static const ADVICE_TEXT_WHEN_VOICE_PREPARED:String = "Sounds too robotic? Hire a human at inWhatLanguage or VoiceBunny";
+		private static const ADVICE_TEXT_WHEN_VOICE_PREPARED:String = "Sounds too robotic? Hire a human at buyvo or VoiceBunny";
 		
 		private static var _watcherSetupUtil:IWatcherSetupUtil2;
 		 
@@ -207,7 +199,7 @@ package anifire.studio.components
 		
 		private var _tutorialManager:TutorialManager;
 		
-		private var _embed_mxml__styles_images_voicetab_robot_icon_png_1858994797:Class;
+		private var _embed_mxml__styles_images_voicetab_robot_icon_png_1968108281:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -219,18 +211,19 @@ package anifire.studio.components
 		
 		public function TTSComponent()
 		{
+			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
 			this._834112942_addVoiceButtonLabel = UtilDict.toDisplay("go",ADD_VOICE_BUTTON_LABEL);
 			this._tutorialManager = TutorialManager.instance;
-			this._embed_mxml__styles_images_voicetab_robot_icon_png_1858994797 = TTSComponent__embed_mxml__styles_images_voicetab_robot_icon_png_1858994797;
+			this._embed_mxml__styles_images_voicetab_robot_icon_png_1968108281 = TTSComponent__embed_mxml__styles_images_voicetab_robot_icon_png_1968108281;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
 			this._bindingsBeginWithWord = {};
 			super();
 			mx_internal::_document = this;
-			var bindings:Array = this._TTSComponent_bindingsSetup();
+			bindings = this._TTSComponent_bindingsSetup();
 			var watchers:Array = [];
 			target = this;
 			if(_watcherSetupUtil == null)
@@ -554,11 +547,7 @@ package anifire.studio.components
 				return;
 			}
 			var _loc2_:VoiceModel = this.manager.getVoiceById(param1);
-			if(!_loc2_)
-			{
-				_loc2_ = this.getFallbackVoice(param1);
-			}
-			if(_loc2_)
+			if(param1)
 			{
 				_loc3_ = this.manager.getLanguageById(_loc2_.languageId);
 				if(_loc3_)
@@ -576,20 +565,6 @@ package anifire.studio.components
 					this.voiceList.selectedItem = _loc2_;
 				}
 			}
-		}
-		
-		private function getFallbackVoice(param1:String) : VoiceModel
-		{
-			var _loc2_:String = DEFAULT_TTS_VOICE;
-			if(REMOVED_MALE_VOICES.indexOf(param1) >= 0)
-			{
-				_loc2_ = FALLBACK_MALE_VOICE;
-			}
-			else if(REMOVED_FEMALE_VOICES.indexOf(param1) >= 0)
-			{
-				_loc2_ = FALLBACK_FEMALE_VOICE;
-			}
-			return this.manager.getVoiceById(_loc2_);
 		}
 		
 		private function textArea_changeHandler() : void
@@ -774,13 +749,13 @@ package anifire.studio.components
 			this.controlGroup._btnPlay.stopSound();
 		}
 		
-		private function inWhatLanguage_clickHandler(param1:FlowElementMouseEvent) : void
+		private function buyvo_clickHandler(param1:FlowElementMouseEvent) : void
 		{
 			param1.stopImmediatePropagation();
 			param1.preventDefault();
 			if(ExternalInterface.available)
 			{
-				ExternalInterface.call("voiceBanner","iw");
+				ExternalInterface.call("voiceBanner","vo");
 			}
 		}
 		
@@ -1198,7 +1173,7 @@ package anifire.studio.components
 			_loc1_.enabled = false;
 			_loc1_.includeInLayout = false;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_robot_icon_png_1858994797);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_robot_icon_png_1968108281);
 			_loc1_.addEventListener("click",this.__generateVoiceButton_click);
 			_loc1_.id = "generateVoiceButton";
 			if(!_loc1_.document)
@@ -1315,7 +1290,7 @@ package anifire.studio.components
 		private function _TTSComponent_ParagraphElement1_c() : ParagraphElement
 		{
 			var _loc1_:ParagraphElement = new ParagraphElement();
-			_loc1_.mxmlChildren = ["\n													 Too robotic? Hire a human at\n													 ",this._TTSComponent_LinkElement1_c(),"\n													 or\n													 ",this._TTSComponent_LinkElement2_c(),"\n												"];
+			_loc1_.mxmlChildren = ["\n													 Sounds too robotic? Hire a human at\n													 ",this._TTSComponent_LinkElement1_c(),"\n													 or\n													 ",this._TTSComponent_LinkElement2_c(),"\n												"];
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -1335,14 +1310,14 @@ package anifire.studio.components
 			var _loc1_:SpanElement = new SpanElement();
 			_loc1_.color = 1808298;
 			_loc1_.textDecoration = "none";
-			_loc1_.mxmlChildren = ["\n																inWhatLanguage\n														  "];
+			_loc1_.mxmlChildren = ["\n																buyvo\n														  "];
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
 		
 		public function ___TTSComponent_LinkElement1_click(param1:FlowElementMouseEvent) : void
 		{
-			this.inWhatLanguage_clickHandler(param1);
+			this.buyvo_clickHandler(param1);
 		}
 		
 		private function _TTSComponent_LinkElement2_c() : LinkElement

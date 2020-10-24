@@ -14,13 +14,13 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_opacity_slider_thumb_png_619012653:Class;
+		private var _embed_mxml__styles_images_panel_opacity_slider_thumb_png_1094986569:Class;
 		
 		private var _213507019hostComponent:Button;
 		
 		public function OpacitySliderThumbSkin()
 		{
-			this._embed_mxml__styles_images_panel_opacity_slider_thumb_png_619012653 = OpacitySliderThumbSkin__embed_mxml__styles_images_panel_opacity_slider_thumb_png_619012653;
+			this._embed_mxml__styles_images_panel_opacity_slider_thumb_png_1094986569 = OpacitySliderThumbSkin__embed_mxml__styles_images_panel_opacity_slider_thumb_png_1094986569;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._OpacitySliderThumbSkin_Image1_c()];
@@ -66,7 +66,7 @@ package anifire.studio.skins
 			var _loc1_:Image = new Image();
 			_loc1_.width = 25;
 			_loc1_.height = 25;
-			_loc1_.source = this._embed_mxml__styles_images_panel_opacity_slider_thumb_png_619012653;
+			_loc1_.source = this._embed_mxml__styles_images_panel_opacity_slider_thumb_png_1094986569;
 			if(!_loc1_.document)
 			{
 				_loc1_.document = this;

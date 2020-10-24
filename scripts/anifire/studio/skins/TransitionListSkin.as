@@ -43,7 +43,7 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_dragmotionhere_png_1374486455:Class;
+		private var _embed_mxml__styles_images_panel_dragmotionhere_png_2037241225:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -60,7 +60,7 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_dragmotionhere_png_1374486455 = TransitionListSkin__embed_mxml__styles_images_panel_dragmotionhere_png_1374486455;
+			this._embed_mxml__styles_images_panel_dragmotionhere_png_2037241225 = TransitionListSkin__embed_mxml__styles_images_panel_dragmotionhere_png_2037241225;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -156,7 +156,7 @@ package anifire.studio.skins
 		private function _TransitionListSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_dragmotionhere_png_1374486455;
+			_loc1_.source = this._embed_mxml__styles_images_panel_dragmotionhere_png_2037241225;
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.initialized(this,null);

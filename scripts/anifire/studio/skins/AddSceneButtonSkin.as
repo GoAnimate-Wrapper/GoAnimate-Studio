@@ -17,13 +17,13 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_timeline_timeline_add_png_1458572969:Class;
+		private var _embed_mxml__styles_images_timeline_timeline_add_png_156900351:Class;
 		
 		private var _213507019hostComponent:Button;
 		
 		public function AddSceneButtonSkin()
 		{
-			this._embed_mxml__styles_images_timeline_timeline_add_png_1458572969 = AddSceneButtonSkin__embed_mxml__styles_images_timeline_timeline_add_png_1458572969;
+			this._embed_mxml__styles_images_timeline_timeline_add_png_156900351 = AddSceneButtonSkin__embed_mxml__styles_images_timeline_timeline_add_png_156900351;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._AddSceneButtonSkin_Group1_c(),this._AddSceneButtonSkin_Line1_c()];
@@ -75,7 +75,7 @@ package anifire.studio.skins
 		private function _AddSceneButtonSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_add_png_1458572969;
+			_loc1_.source = this._embed_mxml__styles_images_timeline_timeline_add_png_156900351;
 			_loc1_.smooth = true;
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;

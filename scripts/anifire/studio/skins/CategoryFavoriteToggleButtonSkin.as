@@ -56,13 +56,13 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_icon_star_init_png_1835959913:Class;
+		private var _embed_mxml__styles_images_tray_icon_star_unfavorite_png_400160521:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_star_favorited_png_1002199881:Class;
+		private var _embed_mxml__styles_images_tray_icon_star_hover_png_1902728601:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_star_unfavorite_png_503746729:Class;
+		private var _embed_mxml__styles_images_tray_icon_star_init_png_1968081601:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_star_hover_png_1240121271:Class;
+		private var _embed_mxml__styles_images_tray_icon_star_favorited_png_622623617:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -77,10 +77,10 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_icon_star_init_png_1835959913 = CategoryFavoriteToggleButtonSkin__embed_mxml__styles_images_tray_icon_star_init_png_1835959913;
-			this._embed_mxml__styles_images_tray_icon_star_favorited_png_1002199881 = CategoryFavoriteToggleButtonSkin__embed_mxml__styles_images_tray_icon_star_favorited_png_1002199881;
-			this._embed_mxml__styles_images_tray_icon_star_unfavorite_png_503746729 = CategoryFavoriteToggleButtonSkin__embed_mxml__styles_images_tray_icon_star_unfavorite_png_503746729;
-			this._embed_mxml__styles_images_tray_icon_star_hover_png_1240121271 = CategoryFavoriteToggleButtonSkin__embed_mxml__styles_images_tray_icon_star_hover_png_1240121271;
+			this._embed_mxml__styles_images_tray_icon_star_unfavorite_png_400160521 = CategoryFavoriteToggleButtonSkin__embed_mxml__styles_images_tray_icon_star_unfavorite_png_400160521;
+			this._embed_mxml__styles_images_tray_icon_star_hover_png_1902728601 = CategoryFavoriteToggleButtonSkin__embed_mxml__styles_images_tray_icon_star_hover_png_1902728601;
+			this._embed_mxml__styles_images_tray_icon_star_init_png_1968081601 = CategoryFavoriteToggleButtonSkin__embed_mxml__styles_images_tray_icon_star_init_png_1968081601;
+			this._embed_mxml__styles_images_tray_icon_star_favorited_png_622623617 = CategoryFavoriteToggleButtonSkin__embed_mxml__styles_images_tray_icon_star_favorited_png_622623617;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -287,7 +287,7 @@ package anifire.studio.skins
 		private function _CategoryFavoriteToggleButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_star_init_png_1835959913;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_star_init_png_1968081601;
 			_loc1_.initialized(this,"_CategoryFavoriteToggleButtonSkin_BitmapImage1");
 			this._CategoryFavoriteToggleButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_CategoryFavoriteToggleButtonSkin_BitmapImage1",this._CategoryFavoriteToggleButtonSkin_BitmapImage1);
@@ -297,7 +297,7 @@ package anifire.studio.skins
 		private function _CategoryFavoriteToggleButtonSkin_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_star_hover_png_1240121271;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_star_hover_png_1902728601;
 			_loc1_.visible = false;
 			_loc1_.initialized(this,"_CategoryFavoriteToggleButtonSkin_BitmapImage2");
 			this._CategoryFavoriteToggleButtonSkin_BitmapImage2 = _loc1_;
@@ -323,7 +323,7 @@ package anifire.studio.skins
 		private function _CategoryFavoriteToggleButtonSkin_BitmapImage3_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_star_favorited_png_1002199881;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_star_favorited_png_622623617;
 			_loc1_.initialized(this,"_CategoryFavoriteToggleButtonSkin_BitmapImage3");
 			this._CategoryFavoriteToggleButtonSkin_BitmapImage3 = _loc1_;
 			BindingManager.executeBindings(this,"_CategoryFavoriteToggleButtonSkin_BitmapImage3",this._CategoryFavoriteToggleButtonSkin_BitmapImage3);
@@ -333,7 +333,7 @@ package anifire.studio.skins
 		private function _CategoryFavoriteToggleButtonSkin_BitmapImage4_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_star_unfavorite_png_503746729;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_star_unfavorite_png_400160521;
 			_loc1_.visible = false;
 			_loc1_.initialized(this,"_CategoryFavoriteToggleButtonSkin_BitmapImage4");
 			this._CategoryFavoriteToggleButtonSkin_BitmapImage4 = _loc1_;

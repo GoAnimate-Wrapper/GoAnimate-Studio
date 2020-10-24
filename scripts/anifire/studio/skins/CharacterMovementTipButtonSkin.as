@@ -40,7 +40,7 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_toolbar_ico_info_png_914860905:Class;
+		private var _embed_mxml__styles_images_toolbar_ico_info_png_1319306873:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -55,7 +55,7 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_toolbar_ico_info_png_914860905 = CharacterMovementTipButtonSkin__embed_mxml__styles_images_toolbar_ico_info_png_914860905;
+			this._embed_mxml__styles_images_toolbar_ico_info_png_1319306873 = CharacterMovementTipButtonSkin__embed_mxml__styles_images_toolbar_ico_info_png_1319306873;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -137,7 +137,7 @@ package anifire.studio.skins
 		private function _CharacterMovementTipButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_toolbar_ico_info_png_914860905;
+			_loc1_.source = this._embed_mxml__styles_images_toolbar_ico_info_png_1319306873;
 			_loc1_.smooth = true;
 			_loc1_.initialized(this,"_CharacterMovementTipButtonSkin_BitmapImage1");
 			this._CharacterMovementTipButtonSkin_BitmapImage1 = _loc1_;

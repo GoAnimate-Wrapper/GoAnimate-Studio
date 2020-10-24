@@ -20,7 +20,7 @@ package anifire.studio.models.tutorial
 			_loc2_ = new TutorialStepModel();
 			_loc2_.stepId = "start";
 			_loc2_.title = "Tutorial: Getting Started";
-			_loc2_.message = "Welcome to the Legacy Video Maker. We have prepared a quick interactive tutorial to help you get started.\n\nIt should take a couple of minutes to complete and will give you an overview of the basic features in our Video Maker.";
+			_loc2_.message = "Welcome to the GoAnimate Video Maker. We have prepared a quick interactive tutorial to help you get started.\n\nIt should take a couple of minutes to complete and will give you an overview of the basic features in our Video Maker.";
 			_loc2_.infoPosition = TutorialStepModel.INFO_PLACEMENT_STUDIO_CENTER;
 			_loc2_.expectedAction = TutorialStepModel.EXPECT_TUTORIAL_NEXT;
 			_loc2_.proceedButtonText = "Start Tutorial";
@@ -117,7 +117,7 @@ package anifire.studio.models.tutorial
 			_loc2_ = new TutorialStepModel();
 			_loc2_.stepId = "select_voice_tab";
 			_loc2_.title = "Make your Character Speak";
-			_loc2_.message = "There are four ways to add voice to your character. Record directly into Vyond using an ordinary microphone or headset, upload a file, retrieve an already uploaded file or use our text-to-speech function.\n\nClick on the Voice tab";
+			_loc2_.message = "There are four ways to add voice to your character. Record directly into GoAnimate using an ordinary microphone or headset, upload a file, retrieve an already uploaded file or use our text-to-speech function.\n\nClick on the Voice tab";
 			_loc2_.componentId = "voice_tab";
 			_loc2_.expectedAction = "voice_tab_select";
 			_loc2_.infoPosition = TutorialStepModel.INFO_PLACEMENT_COMP_RIGHT;

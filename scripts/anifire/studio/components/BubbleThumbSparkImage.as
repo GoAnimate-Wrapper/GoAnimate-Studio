@@ -13,13 +13,9 @@ package anifire.studio.components
 		
 		private static const imgAccidental:Class = BubbleThumbSparkImage_imgAccidental;
 		
-		private static const imgAlegreyaSansSc:Class = BubbleThumbSparkImage_imgAlegreyaSansSc;
-		
 		private static const imgArial:Class = BubbleThumbSparkImage_imgArial;
 		
 		private static const imgBangers:Class = BubbleThumbSparkImage_imgBangers;
-		
-		private static const imgBarrio:Class = BubbleThumbSparkImage_imgBarrio;
 		
 		private static const imgBodoniXT:Class = BubbleThumbSparkImage_imgBodoniXT;
 		
@@ -28,10 +24,6 @@ package anifire.studio.components
 		private static const imgBudmoJiggler:Class = BubbleThumbSparkImage_imgBudmoJiggler;
 		
 		private static const imgBudmoJigglish:Class = BubbleThumbSparkImage_imgBudmoJigglish;
-		
-		private static const imgBungeeInline:Class = BubbleThumbSparkImage_imgBungeeInline;
-		
-		private static const imgBungeeShade:Class = BubbleThumbSparkImage_imgBungeeShade;
 		
 		private static const imgBlackoutMidnight:Class = BubbleThumbSparkImage_imgBlackoutMidnight;
 		
@@ -51,23 +43,15 @@ package anifire.studio.components
 		
 		private static const imgGlegoo:Class = BubbleThumbSparkImage_imgGlegoo;
 		
-		private static const imgGochiHand:Class = BubbleThumbSparkImage_imgGochiHand;
-		
 		private static const imgHeartlandRegular:Class = BubbleThumbSparkImage_imgHeartlandRegular;
 		
 		private static const imgHoney:Class = BubbleThumbSparkImage_imgHoney;
 		
 		private static const imgIHate:Class = BubbleThumbSparkImage_imgIHate;
 		
-		private static const imgImFellEnglishSc:Class = BubbleThumbSparkImage_imgImFellEnglishSc;
-		
 		private static const imgImpactLabel:Class = BubbleThumbSparkImage_imgImpactLabel;
 		
-		private static const imgJosefin:Class = BubbleThumbSparkImage_imgJosefin;
-		
 		private static const imgJunction:Class = BubbleThumbSparkImage_imgJunction;
-		
-		private static const imgKaushan:Class = BubbleThumbSparkImage_imgKaushan;
 		
 		private static const imgLato:Class = BubbleThumbSparkImage_imgLato;
 		
@@ -77,23 +61,13 @@ package anifire.studio.components
 		
 		private static const imgLilitaOne:Class = BubbleThumbSparkImage_imgLilitaOne;
 		
-		private static const imgLobster:Class = BubbleThumbSparkImage_imgLobster;
-		
 		private static const imgLocoTV:Class = BubbleThumbSparkImage_imgLocoTV;
 		
 		private static const imgMailRayStuff:Class = BubbleThumbSparkImage_imgMailRayStuff;
 		
-		private static const imgMontserrat:Class = BubbleThumbSparkImage_imgMontserrat;
-		
-		private static const imgMouseMemoirs:Class = BubbleThumbSparkImage_imgMouseMemoirs;
-		
 		private static const imgOswald:Class = BubbleThumbSparkImage_imgOswald;
 		
 		private static const imgOstrichSansMedium:Class = BubbleThumbSparkImage_imgOstrichSansMedium;
-		
-		private static const imgPatrickHand:Class = BubbleThumbSparkImage_imgPatrickHand;
-		
-		private static const imgPermanentMarker:Class = BubbleThumbSparkImage_imgPermanentMarker;
 		
 		private static const imgPoiretOne:Class = BubbleThumbSparkImage_imgPoiretOne;
 		
@@ -101,19 +75,11 @@ package anifire.studio.components
 		
 		private static const imgRaleway:Class = BubbleThumbSparkImage_imgRaleway;
 		
-		private static const imgSatisfy:Class = BubbleThumbSparkImage_imgSatisfy;
-		
 		private static const imgShanghai:Class = BubbleThumbSparkImage_imgShanghai;
-		
-		private static const imgSriracha:Class = BubbleThumbSparkImage_imgSriracha;
-		
-		private static const imgTeko:Class = BubbleThumbSparkImage_imgTeko;
 		
 		private static const imgTelexRegular:Class = BubbleThumbSparkImage_imgTelexRegular;
 		
 		private static const imgTokyo:Class = BubbleThumbSparkImage_imgTokyo;
-		
-		private static const imgVidaloka:Class = BubbleThumbSparkImage_imgVidaloka;
 		
 		private static const imgWoodStamp:Class = BubbleThumbSparkImage_imgWoodStamp;
 		
@@ -214,14 +180,6 @@ package anifire.studio.components
 					return imgLato;
 				case "blank14":
 					return imgRaleway;
-				case "blank15":
-					return imgMouseMemoirs;
-				case "blank16":
-					return imgSatisfy;
-				case "blank17":
-					return imgGochiHand;
-				case "blank18":
-					return imgPatrickHand;
 				case "ellipse":
 					return imgSpeech1;
 				case "roundRect":
@@ -296,23 +254,6 @@ package anifire.studio.components
 				_imageClassLookup[FontManager.FONT_NAME_CAVEAT] = imgCaveat;
 				_imageClassLookup[FontManager.FONT_NAME_WALTER] = imgWalter;
 				_imageClassLookup[FontManager.FONT_NAME_NOTO] = imgNoto;
-				_imageClassLookup[FontManager.FONT_NAME_ALEGREYA_SANS_SC] = imgAlegreyaSansSc;
-				_imageClassLookup[FontManager.FONT_NAME_BARRIO] = imgBarrio;
-				_imageClassLookup[FontManager.FONT_NAME_BUNGEE_INLINE] = imgBungeeInline;
-				_imageClassLookup[FontManager.FONT_NAME_BUNGEE_SHADE] = imgBungeeShade;
-				_imageClassLookup[FontManager.FONT_NAME_GOCHI_HAND] = imgGochiHand;
-				_imageClassLookup[FontManager.FONT_NAME_IM_FELL_ENGLISH_SC] = imgImFellEnglishSc;
-				_imageClassLookup[FontManager.FONT_NAME_JOSEFIN] = imgJosefin;
-				_imageClassLookup[FontManager.FONT_NAME_KAUSHAN] = imgKaushan;
-				_imageClassLookup[FontManager.FONT_NAME_LOBSTER] = imgLobster;
-				_imageClassLookup[FontManager.FONT_NAME_MONTSERRAT] = imgMontserrat;
-				_imageClassLookup[FontManager.FONT_NAME_MOUSE_MEMOIRS] = imgMouseMemoirs;
-				_imageClassLookup[FontManager.FONT_NAME_PATRICK_HAND] = imgPatrickHand;
-				_imageClassLookup[FontManager.FONT_NAME_PERMANENT_MARKER] = imgPermanentMarker;
-				_imageClassLookup[FontManager.FONT_NAME_SATISFY] = imgSatisfy;
-				_imageClassLookup[FontManager.FONT_NAME_SRIRACHA] = imgSriracha;
-				_imageClassLookup[FontManager.FONT_NAME_TEKO] = imgTeko;
-				_imageClassLookup[FontManager.FONT_NAME_VIDALOKA] = imgVidaloka;
 			}
 			return _imageClassLookup[param1];
 		}

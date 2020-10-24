@@ -50,16 +50,16 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_img_format_init_png_1458588393:Class;
+		private var _embed_mxml__styles_images_panel_img_format_init_png_241851967:Class;
 		
-		private var _embed_mxml__styles_images_panel_img_format_hover_png_1028358827:Class;
+		private var _embed_mxml__styles_images_panel_img_format_hover_png_101307839:Class;
 		
 		private var _213507019hostComponent:DropDownList;
 		
 		public function NumberFormatDropDownListSkin()
 		{
-			this._embed_mxml__styles_images_panel_img_format_init_png_1458588393 = NumberFormatDropDownListSkin__embed_mxml__styles_images_panel_img_format_init_png_1458588393;
-			this._embed_mxml__styles_images_panel_img_format_hover_png_1028358827 = NumberFormatDropDownListSkin__embed_mxml__styles_images_panel_img_format_hover_png_1028358827;
+			this._embed_mxml__styles_images_panel_img_format_init_png_241851967 = NumberFormatDropDownListSkin__embed_mxml__styles_images_panel_img_format_init_png_241851967;
+			this._embed_mxml__styles_images_panel_img_format_hover_png_101307839 = NumberFormatDropDownListSkin__embed_mxml__styles_images_panel_img_format_hover_png_101307839;
 			super();
 			mx_internal::_document = this;
 			this.width = 20;
@@ -277,8 +277,8 @@ package anifire.studio.skins
 			_loc1_.buttonMode = true;
 			_loc1_.focusEnabled = false;
 			_loc1_.tabEnabled = false;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_img_format_init_png_1458588393);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_panel_img_format_hover_png_1028358827);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_img_format_init_png_241851967);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_panel_img_format_hover_png_101307839);
 			_loc1_.id = "openButton";
 			if(!_loc1_.document)
 			{

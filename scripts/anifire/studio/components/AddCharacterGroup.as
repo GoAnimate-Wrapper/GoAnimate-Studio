@@ -20,11 +20,11 @@ package anifire.studio.components
 		
 		protected var _active:Boolean;
 		
-		private var _embed_mxml__styles_images_tray_add_cc_png_1007439909:Class;
+		private var _embed_mxml__styles_images_tray_add_cc_png_962341247:Class;
 		
 		public function AddCharacterGroup()
 		{
-			this._embed_mxml__styles_images_tray_add_cc_png_1007439909 = AddCharacterGroup__embed_mxml__styles_images_tray_add_cc_png_1007439909;
+			this._embed_mxml__styles_images_tray_add_cc_png_962341247 = AddCharacterGroup__embed_mxml__styles_images_tray_add_cc_png_962341247;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [];
@@ -79,7 +79,7 @@ package anifire.studio.components
 		private function _AddCharacterGroup_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_add_cc_png_1007439909;
+			_loc1_.source = this._embed_mxml__styles_images_tray_add_cc_png_962341247;
 			_loc1_.initialized(this,"_AddCharacterGroup_BitmapImage1");
 			this._AddCharacterGroup_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_AddCharacterGroup_BitmapImage1",this._AddCharacterGroup_BitmapImage1);

@@ -48,13 +48,13 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_magglass_png_260745101:Class;
+		private var _embed_mxml__styles_images_tray_magglass_png_474504759:Class;
 		
 		private var _213507019hostComponent:SearchSuggestionInput;
 		
 		public function SearchSuggestionInputSkin()
 		{
-			this._embed_mxml__styles_images_tray_magglass_png_260745101 = SearchSuggestionInputSkin__embed_mxml__styles_images_tray_magglass_png_260745101;
+			this._embed_mxml__styles_images_tray_magglass_png_474504759 = SearchSuggestionInputSkin__embed_mxml__styles_images_tray_magglass_png_474504759;
 			super();
 			mx_internal::_document = this;
 			this.blendMode = "normal";
@@ -266,7 +266,7 @@ package anifire.studio.skins
 		private function _SearchSuggestionInputSkin_IconButton1_i() : IconButton
 		{
 			var _loc1_:IconButton = new IconButton();
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_tray_magglass_png_260745101);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_tray_magglass_png_474504759);
 			_loc1_.id = "confirmButton";
 			if(!_loc1_.document)
 			{

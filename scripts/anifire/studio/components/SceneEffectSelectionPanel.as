@@ -31,6 +31,8 @@ package anifire.studio.components
 	public class SceneEffectSelectionPanel extends Group implements IBindingClient
 	{
 		
+		public static const COMMON_THEME:String = "GoAnimateGoodies";
+		
 		private static var _watcherSetupUtil:IWatcherSetupUtil2;
 		 
 		

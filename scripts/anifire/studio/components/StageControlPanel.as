@@ -43,19 +43,19 @@ package anifire.studio.components
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_stage_fittoscreen_on_png_1357963283:Class;
+		private var _embed_mxml__styles_images_stage_fittoscreen_on_png_1989028343:Class;
 		
-		private var _embed_mxml__styles_images_stage_zoom_hover_png_1181296841:Class;
+		private var _embed_mxml__styles_images_stage_fittoscreen_hover_png_2014408329:Class;
 		
-		private var _embed_mxml__styles_images_stage_zoom_expand_on_png_284192567:Class;
+		private var _embed_mxml__styles_images_stage_zoom_hover_png_540223489:Class;
 		
-		private var _embed_mxml__styles_images_stage_zoom_expand_hover_png_780927699:Class;
+		private var _embed_mxml__styles_images_stage_zoom_collapse_png_1921954497:Class;
 		
-		private var _embed_mxml__styles_images_stage_fittoscreen_hover_png_834797815:Class;
+		private var _embed_mxml__styles_images_stage_zoom_expand_on_png_110013119:Class;
 		
-		private var _embed_mxml__styles_images_stage_zoom_collapse_png_651342345:Class;
+		private var _embed_mxml__styles_images_stage_zoom_expand_hover_png_2011076617:Class;
 		
-		private var _embed_mxml__styles_images_stage_fittoscreen_off_png_1454395365:Class;
+		private var _embed_mxml__styles_images_stage_fittoscreen_off_png_248937023:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -70,13 +70,13 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_stage_fittoscreen_on_png_1357963283 = StageControlPanel__embed_mxml__styles_images_stage_fittoscreen_on_png_1357963283;
-			this._embed_mxml__styles_images_stage_zoom_hover_png_1181296841 = StageControlPanel__embed_mxml__styles_images_stage_zoom_hover_png_1181296841;
-			this._embed_mxml__styles_images_stage_zoom_expand_on_png_284192567 = StageControlPanel__embed_mxml__styles_images_stage_zoom_expand_on_png_284192567;
-			this._embed_mxml__styles_images_stage_zoom_expand_hover_png_780927699 = StageControlPanel__embed_mxml__styles_images_stage_zoom_expand_hover_png_780927699;
-			this._embed_mxml__styles_images_stage_fittoscreen_hover_png_834797815 = StageControlPanel__embed_mxml__styles_images_stage_fittoscreen_hover_png_834797815;
-			this._embed_mxml__styles_images_stage_zoom_collapse_png_651342345 = StageControlPanel__embed_mxml__styles_images_stage_zoom_collapse_png_651342345;
-			this._embed_mxml__styles_images_stage_fittoscreen_off_png_1454395365 = StageControlPanel__embed_mxml__styles_images_stage_fittoscreen_off_png_1454395365;
+			this._embed_mxml__styles_images_stage_fittoscreen_on_png_1989028343 = StageControlPanel__embed_mxml__styles_images_stage_fittoscreen_on_png_1989028343;
+			this._embed_mxml__styles_images_stage_fittoscreen_hover_png_2014408329 = StageControlPanel__embed_mxml__styles_images_stage_fittoscreen_hover_png_2014408329;
+			this._embed_mxml__styles_images_stage_zoom_hover_png_540223489 = StageControlPanel__embed_mxml__styles_images_stage_zoom_hover_png_540223489;
+			this._embed_mxml__styles_images_stage_zoom_collapse_png_1921954497 = StageControlPanel__embed_mxml__styles_images_stage_zoom_collapse_png_1921954497;
+			this._embed_mxml__styles_images_stage_zoom_expand_on_png_110013119 = StageControlPanel__embed_mxml__styles_images_stage_zoom_expand_on_png_110013119;
+			this._embed_mxml__styles_images_stage_zoom_expand_hover_png_2011076617 = StageControlPanel__embed_mxml__styles_images_stage_zoom_expand_hover_png_2011076617;
+			this._embed_mxml__styles_images_stage_fittoscreen_off_png_248937023 = StageControlPanel__embed_mxml__styles_images_stage_fittoscreen_off_png_248937023;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -226,8 +226,8 @@ package anifire.studio.components
 		{
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.focusEnabled = false;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_stage_zoom_expand_on_png_284192567);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_stage_zoom_expand_hover_png_780927699);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_stage_zoom_expand_on_png_110013119);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_stage_zoom_expand_hover_png_2011076617);
 			_loc1_.addEventListener("click",this.__closeButton_click);
 			_loc1_.id = "closeButton";
 			if(!_loc1_.document)
@@ -282,9 +282,9 @@ package anifire.studio.components
 		{
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.focusEnabled = false;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_stage_fittoscreen_on_png_1357963283);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_stage_fittoscreen_hover_png_834797815);
-			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_stage_fittoscreen_off_png_1454395365);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_stage_fittoscreen_on_png_1989028343);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_stage_fittoscreen_hover_png_2014408329);
+			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_stage_fittoscreen_off_png_248937023);
 			_loc1_.setStyle("skinClass",TooltipIconButtonSkin);
 			_loc1_.addEventListener("click",this.__fitToStageButton_click);
 			_loc1_.id = "fitToStageButton";
@@ -307,8 +307,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.focusEnabled = false;
 			_loc1_.visible = false;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_stage_zoom_collapse_png_651342345);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_stage_zoom_hover_png_1181296841);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_stage_zoom_collapse_png_1921954497);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_stage_zoom_hover_png_540223489);
 			_loc1_.setStyle("skinClass",TooltipIconButtonSkin);
 			_loc1_.addEventListener("click",this.__openButton_click);
 			_loc1_.id = "openButton";

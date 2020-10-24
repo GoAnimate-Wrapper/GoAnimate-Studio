@@ -36,11 +36,11 @@ package anifire.studio.components
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_watermark_watermark_selected_png_595666505:Class;
+		private var _embed_mxml__styles_images_watermark_watermark_selected_png_1766553921:Class;
 		
 		public function WatermarkItemRenderer()
 		{
-			this._embed_mxml__styles_images_watermark_watermark_selected_png_595666505 = WatermarkItemRenderer__embed_mxml__styles_images_watermark_watermark_selected_png_595666505;
+			this._embed_mxml__styles_images_watermark_watermark_selected_png_1766553921 = WatermarkItemRenderer__embed_mxml__styles_images_watermark_watermark_selected_png_1766553921;
 			super();
 			mx_internal::_document = this;
 			this.width = 104;
@@ -110,7 +110,7 @@ package anifire.studio.components
 				if(_loc2_.id == WatermarkManager.DEFAULT_WATERMARK_ID)
 				{
 					this.watermarkImage.source = defaultWaterMarkImage;
-					toolTip = UtilDict.toDisplay("go","Vyond logo");
+					toolTip = UtilDict.toDisplay("go","GoAnimate logo");
 				}
 				else if(_loc2_.id == WatermarkManager.NO_WATERMARK_ID)
 				{
@@ -192,7 +192,7 @@ package anifire.studio.components
 		private function _WatermarkItemRenderer_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_watermark_watermark_selected_png_595666505;
+			_loc1_.source = this._embed_mxml__styles_images_watermark_watermark_selected_png_1766553921;
 			_loc1_.top = -8;
 			_loc1_.right = -12;
 			_loc1_.initialized(this,"_WatermarkItemRenderer_BitmapImage1");

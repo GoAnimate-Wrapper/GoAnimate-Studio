@@ -30,31 +30,41 @@ package anifire.studio.components
 		
 		private static const MENU_ITEM_LABEL_USER_FONT:String = "Your fonts";
 		
-		private static const alegreyaSansSc:Class = FontDropDownList_alegreyaSansSc;
+		private static const accidental_presidency:Class = FontDropDownList_accidental_presidency;
 		
-		private static const barrio:Class = FontDropDownList_barrio;
+		private static const arialImage:Class = FontDropDownList_arialImage;
+		
+		private static const bodoniXT:Class = FontDropDownList_bodoniXT;
 		
 		private static const brawler:Class = FontDropDownList_brawler;
 		
-		private static const bungeeInline:Class = FontDropDownList_bungeeInline;
+		private static const budmo:Class = FontDropDownList_budmo;
 		
-		private static const bungeeShade:Class = FontDropDownList_bungeeShade;
+		private static const budmoj:Class = FontDropDownList_budmoj;
+		
+		private static const comicbook:Class = FontDropDownList_comicbook;
 		
 		private static const coming_soon:Class = FontDropDownList_coming_soon;
 		
+		private static const existence_light:Class = FontDropDownList_existence_light;
+		
 		private static const glegoo:Class = FontDropDownList_glegoo;
 		
-		private static const gochiHand:Class = FontDropDownList_gochiHand;
+		private static const honey:Class = FontDropDownList_honey;
 		
-		private static const imFellEnglishSc:Class = FontDropDownList_imFellEnglishSc;
+		private static const ihate:Class = FontDropDownList_ihate;
 		
-		private static const josefin:Class = FontDropDownList_josefin;
-		
-		private static const kaushan:Class = FontDropDownList_kaushan;
+		private static const impactl:Class = FontDropDownList_impactl;
 		
 		private static const lilita_one:Class = FontDropDownList_lilita_one;
 		
 		private static const telex:Class = FontDropDownList_telex;
+		
+		private static const tokyo:Class = FontDropDownList_tokyo;
+		
+		private static const woodstamp:Class = FontDropDownList_woodstamp;
+		
+		private static const clairehand:Class = FontDropDownList_clairehand;
 		
 		private static const oswald:Class = FontDropDownList_oswald;
 		
@@ -72,31 +82,13 @@ package anifire.studio.components
 		
 		private static const lato:Class = FontDropDownList_lato;
 		
-		private static const lobster:Class = FontDropDownList_lobster;
-		
 		private static const leagueGothic:Class = FontDropDownList_leagueGothic;
 		
 		private static const leagueSpartan:Class = FontDropDownList_leagueSpartan;
 		
-		private static const montserrat:Class = FontDropDownList_montserrat;
-		
-		private static const mouseMemoirs:Class = FontDropDownList_mouseMemoirs;
-		
 		private static const ostrichSansMedium:Class = FontDropDownList_ostrichSansMedium;
 		
-		private static const patrickHand:Class = FontDropDownList_patrickHand;
-		
-		private static const permanentMarker:Class = FontDropDownList_permanentMarker;
-		
 		private static const prociono:Class = FontDropDownList_prociono;
-		
-		private static const satisfy:Class = FontDropDownList_satisfy;
-		
-		private static const sriracha:Class = FontDropDownList_sriracha;
-		
-		private static const teko:Class = FontDropDownList_teko;
-		
-		private static const vidaloka:Class = FontDropDownList_vidaloka;
 		
 		private static const FontImageBerkshire:Class = FontDropDownList_FontImageBerkshire;
 		
@@ -189,25 +181,25 @@ package anifire.studio.components
 		{
 			this._stockFonts = new ArrayCollection();
 			this.addStockFont(new FontModel(FontManager.FONT_NAME_NOTO,FontManager.FONT_NAME_NOTO,"",FontManager.FONT_TYPE_GOOGLE,FontImageNoto,true,true,FontModel.DEFAULT_FONT_SORT_ORDER_NOTO));
-			this.addStockFont(new FontModel(FontManager.FONT_NAME_ARIAL,FontManager.FONT_NAME_ARIAL,"",FontManager.FONT_TYPE_SYSTEM,null,false,true,FontModel.DEFAULT_FONT_SORT_ORDER_ARIAL));
-			this.addStockFont(new FontModel("Accidental Presidency","Accidental Presidency","",FontManager.FONT_TYPE_GO,null,false));
-			this.addStockFont(new FontModel("BodoniXT","BodoniXT","",FontManager.FONT_TYPE_GO,null,false));
+			this.addStockFont(new FontModel(FontManager.FONT_NAME_ARIAL,FontManager.FONT_NAME_ARIAL,"",FontManager.FONT_TYPE_SYSTEM,arialImage,true,true,FontModel.DEFAULT_FONT_SORT_ORDER_ARIAL));
+			this.addStockFont(new FontModel("Accidental Presidency","Accidental Presidency","",FontManager.FONT_TYPE_GO,accidental_presidency));
+			this.addStockFont(new FontModel("BodoniXT","BodoniXT","",FontManager.FONT_TYPE_GO,bodoniXT));
 			this.addStockFont(new FontModel("Brawler","Brawler","",FontManager.FONT_TYPE_GOOGLE,brawler));
-			this.addStockFont(new FontModel("Budmo Jiggler","Budmo Jiggler","",FontManager.FONT_TYPE_GO,null,false));
-			this.addStockFont(new FontModel("Budmo Jigglish","Budmo Jigglish","",FontManager.FONT_TYPE_GO,null,false));
+			this.addStockFont(new FontModel("Budmo Jiggler","Budmo Jiggler","",FontManager.FONT_TYPE_GO,budmo));
+			this.addStockFont(new FontModel("Budmo Jigglish","Budmo Jigglish","",FontManager.FONT_TYPE_GO,budmoj));
 			this.addStockFont(new FontModel("Casual","Blambot Casual","",FontManager.FONT_TYPE_GO,null,false));
-			this.addStockFont(new FontModel("Claire Hand","Claire Hand","",FontManager.FONT_TYPE_GO,null,false));
-			this.addStockFont(new FontModel("Comic Book","Comic Book","",FontManager.FONT_TYPE_GO,null,false));
+			this.addStockFont(new FontModel("Claire Hand","Claire Hand","",FontManager.FONT_TYPE_GO,clairehand));
+			this.addStockFont(new FontModel("Comic Book","Comic Book","",FontManager.FONT_TYPE_GO,comicbook));
 			this.addStockFont(new FontModel("Coming Soon","Coming Soon","",FontManager.FONT_TYPE_GOOGLE,coming_soon));
-			this.addStockFont(new FontModel("Existence Light","Existence Light","",FontManager.FONT_TYPE_GO,null,false));
+			this.addStockFont(new FontModel("Existence Light","Existence Light","",FontManager.FONT_TYPE_GO,existence_light));
 			this.addStockFont(new FontModel("Glegoo","Glegoo","",FontManager.FONT_TYPE_GOOGLE,glegoo));
 			if(!this._cffMode)
 			{
 				this.addStockFont(new FontModel("HeartlandRegular","HeartlandRegular","",FontManager.FONT_TYPE_GO,null,false));
 			}
-			this.addStockFont(new FontModel("Honey Script","Honey Script","",FontManager.FONT_TYPE_GO,null,false));
-			this.addStockFont(new FontModel("I hate Comic Sans","I hate Comic Sans","",FontManager.FONT_TYPE_GO,null,false));
-			this.addStockFont(new FontModel("Impact Label","Impact Label","",FontManager.FONT_TYPE_GO,null,false));
+			this.addStockFont(new FontModel("Honey Script","Honey Script","",FontManager.FONT_TYPE_GO,honey));
+			this.addStockFont(new FontModel("I hate Comic Sans","I hate Comic Sans","",FontManager.FONT_TYPE_GO,ihate));
+			this.addStockFont(new FontModel("Impact Label","Impact Label","",FontManager.FONT_TYPE_GO,impactl));
 			this.addStockFont(new FontModel("Lilita One","Lilita One","",FontManager.FONT_TYPE_GOOGLE,lilita_one));
 			if(!this._cffMode)
 			{
@@ -216,8 +208,8 @@ package anifire.studio.components
 			this.addStockFont(new FontModel("Mail Ray Stuff","Mail Ray Stuff","",FontManager.FONT_TYPE_GO,null,false));
 			this.addStockFont(new FontModel("Shanghai","Shanghai","",FontManager.FONT_TYPE_GO,null,false));
 			this.addStockFont(new FontModel("Telex Regular","Telex Regular","",FontManager.FONT_TYPE_GOOGLE,telex));
-			this.addStockFont(new FontModel("Tokyo","Tokyo Robot Intl BB","",FontManager.FONT_TYPE_GO,null,false));
-			this.addStockFont(new FontModel("Wood Stamp","Wood Stamp","",FontManager.FONT_TYPE_GO,null,false));
+			this.addStockFont(new FontModel("Tokyo","Tokyo Robot Intl BB","",FontManager.FONT_TYPE_GO,tokyo));
+			this.addStockFont(new FontModel("Wood Stamp","Wood Stamp","",FontManager.FONT_TYPE_GO,woodstamp));
 			this.addStockFont(new FontModel("Poiret One","Poiret One","Poiret One",FontManager.FONT_TYPE_GO,poiretone));
 			this.addStockFont(new FontModel("Raleway","Raleway","",FontManager.FONT_TYPE_GOOGLE,raleway));
 			this.addStockFont(new FontModel("Oswald","Oswald","Oswald",FontManager.FONT_TYPE_GO,oswald));
@@ -231,23 +223,6 @@ package anifire.studio.components
 			this.addStockFont(new FontModel("Ostrich Sans Medium","OstrichSansMedium","OstrichSansMedium",FontManager.FONT_TYPE_GO,ostrichSansMedium));
 			this.addStockFont(new FontModel("Lato","Lato","Lato",FontManager.FONT_TYPE_GO,lato));
 			this.addStockFont(new FontModel("Prociono","Prociono","Prociono",FontManager.FONT_TYPE_GO,prociono));
-			this.addStockFont(new FontModel("Alegreya Sans SC","Alegreya Sans SC","Alegreya Sans SC",FontManager.FONT_TYPE_GO,alegreyaSansSc));
-			this.addStockFont(new FontModel("Barrio","Barrio","Barrio",FontManager.FONT_TYPE_GO,barrio));
-			this.addStockFont(new FontModel("Bungee Inline","Bungee Inline","Bungee Inline",FontManager.FONT_TYPE_GO,bungeeInline));
-			this.addStockFont(new FontModel("Bungee Shade","Bungee Shade","Bungee Shade",FontManager.FONT_TYPE_GO,bungeeShade));
-			this.addStockFont(new FontModel("Gochi Hand","Gochi Hand","Gochi Hand",FontManager.FONT_TYPE_GO,gochiHand));
-			this.addStockFont(new FontModel("IM Fell English SC","IM Fell English SC","IM Fell English SC",FontManager.FONT_TYPE_GO,imFellEnglishSc));
-			this.addStockFont(new FontModel("Josefin","Josefin","Josefin",FontManager.FONT_TYPE_GO,josefin));
-			this.addStockFont(new FontModel("Kaushan","Kaushan","Kaushan",FontManager.FONT_TYPE_GO,kaushan));
-			this.addStockFont(new FontModel("Lobster","Lobster","Lobster",FontManager.FONT_TYPE_GO,lobster));
-			this.addStockFont(new FontModel("Montserrat","Montserrat","Montserrat",FontManager.FONT_TYPE_GO,montserrat));
-			this.addStockFont(new FontModel("Mouse Memoirs","Mouse Memoirs","Mouse Memoirs",FontManager.FONT_TYPE_GO,mouseMemoirs));
-			this.addStockFont(new FontModel("Patrick Hand","Patrick Hand","Patrick Hand",FontManager.FONT_TYPE_GO,patrickHand));
-			this.addStockFont(new FontModel("Permanent Marker","Permanent Marker","Permanent Marker",FontManager.FONT_TYPE_GO,permanentMarker));
-			this.addStockFont(new FontModel("Satisfy","Satisfy","Satisfy",FontManager.FONT_TYPE_GO,satisfy));
-			this.addStockFont(new FontModel("Sriracha","Sriracha","Sriracha",FontManager.FONT_TYPE_GO,sriracha));
-			this.addStockFont(new FontModel("Teko","Teko","Teko",FontManager.FONT_TYPE_GO,teko));
-			this.addStockFont(new FontModel("Vidaloka","Vidaloka","Vidaloka",FontManager.FONT_TYPE_GO,vidaloka));
 			this.addStockFont(new FontModel("Berkshire Swash",FontManager.FONT_NAME_BERKSHIRE,"",FontManager.FONT_TYPE_GOOGLE,FontImageBerkshire));
 			this.addStockFont(new FontModel("Caveat Brush",FontManager.FONT_NAME_CAVEAT,"",FontManager.FONT_TYPE_GOOGLE,FontImageCaveat));
 			this.addStockFont(new FontModel("Walter Turncoat",FontManager.FONT_NAME_WALTER,"",FontManager.FONT_TYPE_GOOGLE,FontImageWalter));

@@ -1,7 +1,6 @@
 package anifire.models.creator
 {
 	import anifire.constant.CcLibConstant;
-	import anifire.models.AssetModel;
 	import anifire.util.UtilNetwork;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
@@ -23,12 +22,6 @@ package anifire.models.creator
 		
 		public var faces:Object;
 		
-		public var props:Object;
-		
-		public var backgrounds:Object;
-		
-		public var sounds:Object;
-		
 		public var completed:Boolean = false;
 		
 		protected var loader:URLLoader;
@@ -43,9 +36,6 @@ package anifire.models.creator
 			this.faces = {};
 			this.components = {};
 			this._actionModels = {};
-			this.props = {};
-			this.backgrounds = {};
-			this.sounds = {};
 		}
 		
 		public function load() : void
@@ -62,35 +52,6 @@ package anifire.models.creator
 		{
 			this.loader.removeEventListener(Event.COMPLETE,this.onLoaderComplete);
 			this.parse(XML(this.loader.data));
-		}
-		
-		public function parseThemeXML(param1:XML) : void
-		{
-			var _loc4_:XML = null;
-			var _loc6_:AssetModel = null;
-			var _loc7_:String = null;
-			var _loc2_:XMLList = param1.children();
-			var _loc3_:int = _loc2_.length();
-			var _loc5_:int = 0;
-			while(_loc5_ < _loc3_)
-			{
-				_loc4_ = _loc2_[_loc5_];
-				_loc6_ = new AssetModel();
-				_loc6_.parse(_loc4_);
-				_loc7_ = _loc4_.localName() as String;
-				switch(_loc7_)
-				{
-					case "prop":
-						this.props[_loc6_.id] = _loc6_;
-						break;
-					case "background":
-						this.backgrounds[_loc6_.id] = _loc6_;
-						break;
-					case "sound":
-						this.sounds[_loc6_.id] = _loc6_;
-				}
-				_loc5_++;
-			}
 		}
 		
 		public function parse(param1:XML) : void
@@ -408,21 +369,6 @@ package anifire.models.creator
 		{
 			var _loc2_:CCBodyShapeModel = this.bodyShapes[param1];
 			return _loc2_.defaultMotionId;
-		}
-		
-		public function getPropModel(param1:String) : AssetModel
-		{
-			return this.props[param1];
-		}
-		
-		public function getBackgroundModel(param1:String) : AssetModel
-		{
-			return this.backgrounds[param1];
-		}
-		
-		public function getSoundModel(param1:String) : AssetModel
-		{
-			return this.sounds[param1];
 		}
 	}
 }

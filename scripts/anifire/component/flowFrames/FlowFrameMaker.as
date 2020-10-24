@@ -48,10 +48,6 @@ package anifire.component.flowFrames
 		
 		protected var _innerAssetId:String;
 		
-		protected var _innerEncAssetId:String;
-		
-		protected var _innerSignature:String;
-		
 		protected var _gridLeft:Number;
 		
 		protected var _autoFlowInnerImage:Boolean = true;
@@ -332,9 +328,9 @@ package anifire.component.flowFrames
 		
 		private function processInnerImage() : void
 		{
-			if(this._innerThemeId != null && this._innerEncAssetId != null)
+			if(this._innerThemeId != null && this._innerAssetId != null)
 			{
-				this.updateInnerImageSource(this._innerThemeId,this._innerEncAssetId,this._autoFlowInnerImage,this._innerSignature);
+				this.updateInnerImageSource(this._innerThemeId,this._innerAssetId,this._autoFlowInnerImage);
 			}
 			else
 			{
@@ -365,28 +361,26 @@ package anifire.component.flowFrames
 			this.clearInnerImageSource();
 		}
 		
-		public function initInnerImageSource(param1:String, param2:String, param3:Boolean = true, param4:String = null) : void
+		public function initInnerImageSource(param1:String, param2:String, param3:Boolean = true) : void
 		{
 			this._innerThemeId = param1;
-			this._innerEncAssetId = param2;
-			this._innerSignature = param4;
+			this._innerAssetId = param2;
 			this._autoFlowInnerImage = param3;
 		}
 		
-		public function updateInnerImageSource(param1:String, param2:String, param3:Boolean = true, param4:String = null) : void
+		public function updateInnerImageSource(param1:String, param2:String, param3:Boolean = true) : void
 		{
 			this._innerThemeId = param1;
-			this._innerEncAssetId = param2;
+			this._innerAssetId = param2;
 			this._autoFlowInnerImage = param3;
-			this._innerSignature = param4;
 			this.clearInnerImageSource();
-			var _loc5_:URLRequest = UtilNetwork.getInnerImageRequest(this._innerThemeId,this._innerEncAssetId,this._innerSignature);
-			var _loc6_:LoaderContext = new LoaderContext();
-			_loc6_.applicationDomain = new ApplicationDomain();
+			var _loc4_:URLRequest = UtilNetwork.getInnerImageRequest(this._innerThemeId,this._innerAssetId);
+			var _loc5_:LoaderContext = new LoaderContext();
+			_loc5_.applicationDomain = new ApplicationDomain();
 			this._innerImageSource = new Loader();
 			this._innerImageSource.contentLoaderInfo.addEventListener(Event.INIT,this.innerImageSource_initHandler);
 			this._innerImageSource.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR,this.innerImageSource_errorHandler);
-			this._innerImageSource.load(_loc5_,_loc6_);
+			this._innerImageSource.load(_loc4_,_loc5_);
 		}
 		
 		private function innerImageSource_initHandler(param1:Event) : void

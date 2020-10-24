@@ -256,7 +256,7 @@ package anifire.studio.components
 			if(this._isStarter)
 			{
 				_dragProxyImageAlpha = 0.8;
-				if(UtilUser.isContentAdmin)
+				if(UtilUser.hasAdminFeatures)
 				{
 					this._editable = true;
 				}

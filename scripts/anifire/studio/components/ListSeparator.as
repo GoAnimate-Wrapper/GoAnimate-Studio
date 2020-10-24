@@ -29,7 +29,7 @@ package anifire.studio.components
 		
 		private var _3556653text:String;
 		
-		private var _embed_mxml__styles_images_panel_narration_icon_png_756367561:Class;
+		private var _embed_mxml__styles_images_panel_narration_icon_png_378710719:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -43,7 +43,7 @@ package anifire.studio.components
 		{
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_narration_icon_png_756367561 = ListSeparator__embed_mxml__styles_images_panel_narration_icon_png_756367561;
+			this._embed_mxml__styles_images_panel_narration_icon_png_378710719 = ListSeparator__embed_mxml__styles_images_panel_narration_icon_png_378710719;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -149,7 +149,7 @@ package anifire.studio.components
 		private function _ListSeparator_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_narration_icon_png_756367561;
+			_loc1_.source = this._embed_mxml__styles_images_panel_narration_icon_png_378710719;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

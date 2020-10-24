@@ -19,11 +19,11 @@ package anifire.studio.skins
 		
 		private var cornerRadius:Number = 2;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_add_png_651343369:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_add_png_1988917465:Class;
 		
 		public function AddAssetTransitionButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_enterexit_add_png_651343369 = AddAssetTransitionButtonSkin__embed_mxml__styles_images_panel_enterexit_add_png_651343369;
+			this._embed_mxml__styles_images_panel_enterexit_add_png_1988917465 = AddAssetTransitionButtonSkin__embed_mxml__styles_images_panel_enterexit_add_png_1988917465;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 21;
@@ -115,7 +115,7 @@ package anifire.studio.skins
 		private function _AddAssetTransitionButtonSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_add_png_651343369;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_add_png_1988917465;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

@@ -17,11 +17,11 @@ package anifire.studio.skins
 		
 		private var cornerRadius:Number = 2;
 		
-		private var _embed_mxml__styles_images_panel_recordingbar_stop_png_1049365015:Class;
+		private var _embed_mxml__styles_images_panel_recordingbar_stop_png_136405815:Class;
 		
 		public function MicStopButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_recordingbar_stop_png_1049365015 = MicStopButtonSkin__embed_mxml__styles_images_panel_recordingbar_stop_png_1049365015;
+			this._embed_mxml__styles_images_panel_recordingbar_stop_png_136405815 = MicStopButtonSkin__embed_mxml__styles_images_panel_recordingbar_stop_png_136405815;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 21;
@@ -85,7 +85,7 @@ package anifire.studio.skins
 		private function _MicStopButtonSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_recordingbar_stop_png_1049365015;
+			_loc1_.source = this._embed_mxml__styles_images_panel_recordingbar_stop_png_136405815;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

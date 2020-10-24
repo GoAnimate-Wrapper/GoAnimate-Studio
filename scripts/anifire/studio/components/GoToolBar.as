@@ -117,27 +117,27 @@ package anifire.studio.components
 		
 		protected var workNoteSidebarItem:MenuItemModel;
 		
-		private var _embed_mxml__styles_images_toolbar_main_undo_disable_png_1777962859:Class;
+		private var _embed_mxml__styles_images_toolbar_main_undo_enable_png_1117750393:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_main_redo_disable_png_1026457833:Class;
+		private var _embed_mxml__styles_images_toolbar_main_redo_disable_png_150075329:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_main_paste_enable_png_1627225975:Class;
+		private var _embed_mxml__styles_images_toolbar_main_copy_disable_png_400373697:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_main_undo_enable_png_1535614633:Class;
+		private var _embed_mxml__styles_images_toolbar_top_settings_png_1903023681:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_main_copy_disable_png_1509801751:Class;
+		private var _embed_mxml__styles_images_toolbar_main_paste_disable_png_1225358081:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_top_settings_png_1456650295:Class;
+		private var _embed_mxml__styles_images_toolbar_main_copy_enable_png_1168081729:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_main_paste_disable_png_818353749:Class;
+		private var _embed_mxml__styles_images_toolbar_main_paste_enable_png_446560129:Class;
 		
-		private var _embed_mxml__styles_images_stage_preview_icon_png_468634825:Class;
+		private var _embed_mxml__styles_images_toolbar_main_redo_enable_png_1172302593:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_top_exit_png_1324951753:Class;
+		private var _embed_mxml__styles_images_toolbar_top_exit_png_966944345:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_main_redo_enable_png_1501854693:Class;
+		private var _embed_mxml__styles_images_toolbar_main_undo_disable_png_320370625:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_main_copy_enable_png_1166821205:Class;
+		private var _embed_mxml__styles_images_stage_preview_icon_png_909271423:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -152,17 +152,17 @@ package anifire.studio.components
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
 			this._tutorialManager = TutorialManager.instance;
-			this._embed_mxml__styles_images_toolbar_main_undo_disable_png_1777962859 = GoToolBar__embed_mxml__styles_images_toolbar_main_undo_disable_png_1777962859;
-			this._embed_mxml__styles_images_toolbar_main_redo_disable_png_1026457833 = GoToolBar__embed_mxml__styles_images_toolbar_main_redo_disable_png_1026457833;
-			this._embed_mxml__styles_images_toolbar_main_paste_enable_png_1627225975 = GoToolBar__embed_mxml__styles_images_toolbar_main_paste_enable_png_1627225975;
-			this._embed_mxml__styles_images_toolbar_main_undo_enable_png_1535614633 = GoToolBar__embed_mxml__styles_images_toolbar_main_undo_enable_png_1535614633;
-			this._embed_mxml__styles_images_toolbar_main_copy_disable_png_1509801751 = GoToolBar__embed_mxml__styles_images_toolbar_main_copy_disable_png_1509801751;
-			this._embed_mxml__styles_images_toolbar_top_settings_png_1456650295 = GoToolBar__embed_mxml__styles_images_toolbar_top_settings_png_1456650295;
-			this._embed_mxml__styles_images_toolbar_main_paste_disable_png_818353749 = GoToolBar__embed_mxml__styles_images_toolbar_main_paste_disable_png_818353749;
-			this._embed_mxml__styles_images_stage_preview_icon_png_468634825 = GoToolBar__embed_mxml__styles_images_stage_preview_icon_png_468634825;
-			this._embed_mxml__styles_images_toolbar_top_exit_png_1324951753 = GoToolBar__embed_mxml__styles_images_toolbar_top_exit_png_1324951753;
-			this._embed_mxml__styles_images_toolbar_main_redo_enable_png_1501854693 = GoToolBar__embed_mxml__styles_images_toolbar_main_redo_enable_png_1501854693;
-			this._embed_mxml__styles_images_toolbar_main_copy_enable_png_1166821205 = GoToolBar__embed_mxml__styles_images_toolbar_main_copy_enable_png_1166821205;
+			this._embed_mxml__styles_images_toolbar_main_undo_enable_png_1117750393 = GoToolBar__embed_mxml__styles_images_toolbar_main_undo_enable_png_1117750393;
+			this._embed_mxml__styles_images_toolbar_main_redo_disable_png_150075329 = GoToolBar__embed_mxml__styles_images_toolbar_main_redo_disable_png_150075329;
+			this._embed_mxml__styles_images_toolbar_main_copy_disable_png_400373697 = GoToolBar__embed_mxml__styles_images_toolbar_main_copy_disable_png_400373697;
+			this._embed_mxml__styles_images_toolbar_top_settings_png_1903023681 = GoToolBar__embed_mxml__styles_images_toolbar_top_settings_png_1903023681;
+			this._embed_mxml__styles_images_toolbar_main_paste_disable_png_1225358081 = GoToolBar__embed_mxml__styles_images_toolbar_main_paste_disable_png_1225358081;
+			this._embed_mxml__styles_images_toolbar_main_copy_enable_png_1168081729 = GoToolBar__embed_mxml__styles_images_toolbar_main_copy_enable_png_1168081729;
+			this._embed_mxml__styles_images_toolbar_main_paste_enable_png_446560129 = GoToolBar__embed_mxml__styles_images_toolbar_main_paste_enable_png_446560129;
+			this._embed_mxml__styles_images_toolbar_main_redo_enable_png_1172302593 = GoToolBar__embed_mxml__styles_images_toolbar_main_redo_enable_png_1172302593;
+			this._embed_mxml__styles_images_toolbar_top_exit_png_966944345 = GoToolBar__embed_mxml__styles_images_toolbar_top_exit_png_966944345;
+			this._embed_mxml__styles_images_toolbar_main_undo_disable_png_320370625 = GoToolBar__embed_mxml__styles_images_toolbar_main_undo_disable_png_320370625;
+			this._embed_mxml__styles_images_stage_preview_icon_png_909271423 = GoToolBar__embed_mxml__styles_images_stage_preview_icon_png_909271423;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -290,7 +290,7 @@ package anifire.studio.components
 				_loc5_ = new MenuItemModel(UtilDict.toDisplay("go","Save As Starter"),null,MenuItemModel.MENU_TYPE_NORMAL,_loc4_);
 				_loc1_.addItem(_loc5_);
 			}
-			if(UtilUser.isContentAdmin)
+			if(UtilUser.hasAdminFeatures)
 			{
 				_loc6_ = new MenuItemModel(UtilDict.translate("Save As Text Component"),SAVE_TEXT_COMPONENT);
 				_loc1_.addItem(_loc6_);
@@ -557,12 +557,12 @@ package anifire.studio.components
 		
 		private function openTutorialHub() : void
 		{
-			ExternalLinkManager.instance.navigate("http://ga.vyond.com/video-maker-tips/topic/tutorials/","wndtutorial");
+			ExternalLinkManager.instance.navigate("http://goanimate.com/video-maker-tips/topic/tutorials/","wndtutorial");
 		}
 		
 		private function openHelpCenter() : void
 		{
-			ExternalLinkManager.instance.navigate("https://support.vyond.com/","wndhc");
+			ExternalLinkManager.instance.navigate("https://support.goanimate.com/","wndhc");
 		}
 		
 		private function restartTutorial() : void
@@ -618,8 +618,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.buttonMode = true;
 			_loc1_.setStyle("skinClass",TopToolBarButtonSkin);
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_main_copy_enable_png_1166821205);
-			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_toolbar_main_copy_disable_png_1509801751);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_main_copy_enable_png_1168081729);
+			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_toolbar_main_copy_disable_png_400373697);
 			_loc1_.addEventListener("click",this.__copyButton_click);
 			_loc1_.id = "copyButton";
 			if(!_loc1_.document)
@@ -641,8 +641,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.buttonMode = true;
 			_loc1_.setStyle("skinClass",TopToolBarButtonSkin);
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_main_paste_enable_png_1627225975);
-			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_toolbar_main_paste_disable_png_818353749);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_main_paste_enable_png_446560129);
+			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_toolbar_main_paste_disable_png_1225358081);
 			_loc1_.addEventListener("click",this.__pasteButton_click);
 			_loc1_.id = "pasteButton";
 			if(!_loc1_.document)
@@ -665,8 +665,8 @@ package anifire.studio.components
 			_loc1_.buttonMode = true;
 			_loc1_.enabled = false;
 			_loc1_.setStyle("skinClass",TopToolBarButtonSkin);
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_main_undo_enable_png_1535614633);
-			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_toolbar_main_undo_disable_png_1777962859);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_main_undo_enable_png_1117750393);
+			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_toolbar_main_undo_disable_png_320370625);
 			_loc1_.addEventListener("click",this.__undoButton_click);
 			_loc1_.id = "undoButton";
 			if(!_loc1_.document)
@@ -689,8 +689,8 @@ package anifire.studio.components
 			_loc1_.buttonMode = true;
 			_loc1_.enabled = false;
 			_loc1_.setStyle("skinClass",TopToolBarButtonSkin);
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_main_redo_enable_png_1501854693);
-			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_toolbar_main_redo_disable_png_1026457833);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_main_redo_enable_png_1172302593);
+			_loc1_.setStyle("iconDisabled",this._embed_mxml__styles_images_toolbar_main_redo_disable_png_150075329);
 			_loc1_.addEventListener("click",this.__redoButton_click);
 			_loc1_.id = "redoButton";
 			if(!_loc1_.document)
@@ -747,7 +747,7 @@ package anifire.studio.components
 			var _loc1_:Button = new Button();
 			_loc1_.buttonMode = true;
 			_loc1_.styleName = "primary";
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_stage_preview_icon_png_468634825);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_stage_preview_icon_png_909271423);
 			_loc1_.addEventListener("click",this.__previewButton_click);
 			_loc1_.id = "previewButton";
 			if(!_loc1_.document)
@@ -820,7 +820,7 @@ package anifire.studio.components
 			_loc1_.percentHeight = 100;
 			_loc1_.focusEnabled = false;
 			_loc1_.tabEnabled = false;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_top_settings_png_1456650295);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_top_settings_png_1903023681);
 			_loc1_.addEventListener("click",this.__extraMenuButton_click);
 			_loc1_.id = "extraMenuButton";
 			if(!_loc1_.document)
@@ -928,7 +928,7 @@ package anifire.studio.components
 			_loc1_.percentHeight = 100;
 			_loc1_.focusEnabled = false;
 			_loc1_.tabEnabled = false;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_top_exit_png_1324951753);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_top_exit_png_966944345);
 			_loc1_.setStyle("skinClass",TopToolBarButtonSkin);
 			_loc1_.addEventListener("click",this.__exitButton_click);
 			_loc1_.id = "exitButton";

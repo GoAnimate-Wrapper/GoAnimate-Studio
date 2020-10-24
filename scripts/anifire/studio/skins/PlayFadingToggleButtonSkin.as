@@ -17,20 +17,20 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_fading_play_hover_png_1336749435:Class;
+		private var _embed_mxml__styles_images_fading_play_hover_png_742779967:Class;
 		
-		private var _embed_mxml__styles_images_fading_pause_hover_png_47643447:Class;
+		private var _embed_mxml__styles_images_fading_play_png_165402329:Class;
 		
-		private var _embed_mxml__styles_images_fading_pause_png_930516407:Class;
+		private var _embed_mxml__styles_images_fading_pause_png_1734118847:Class;
 		
-		private var _embed_mxml__styles_images_fading_play_png_51113971:Class;
+		private var _embed_mxml__styles_images_fading_pause_hover_png_527589543:Class;
 		
 		public function PlayFadingToggleButtonSkin()
 		{
-			this._embed_mxml__styles_images_fading_play_hover_png_1336749435 = PlayFadingToggleButtonSkin__embed_mxml__styles_images_fading_play_hover_png_1336749435;
-			this._embed_mxml__styles_images_fading_pause_hover_png_47643447 = PlayFadingToggleButtonSkin__embed_mxml__styles_images_fading_pause_hover_png_47643447;
-			this._embed_mxml__styles_images_fading_pause_png_930516407 = PlayFadingToggleButtonSkin__embed_mxml__styles_images_fading_pause_png_930516407;
-			this._embed_mxml__styles_images_fading_play_png_51113971 = PlayFadingToggleButtonSkin__embed_mxml__styles_images_fading_play_png_51113971;
+			this._embed_mxml__styles_images_fading_play_hover_png_742779967 = PlayFadingToggleButtonSkin__embed_mxml__styles_images_fading_play_hover_png_742779967;
+			this._embed_mxml__styles_images_fading_play_png_165402329 = PlayFadingToggleButtonSkin__embed_mxml__styles_images_fading_play_png_165402329;
+			this._embed_mxml__styles_images_fading_pause_png_1734118847 = PlayFadingToggleButtonSkin__embed_mxml__styles_images_fading_pause_png_1734118847;
+			this._embed_mxml__styles_images_fading_pause_hover_png_527589543 = PlayFadingToggleButtonSkin__embed_mxml__styles_images_fading_pause_hover_png_527589543;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 21;
@@ -46,7 +46,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayFadingToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_fading_play_hover_png_1336749435
+					"value":this._embed_mxml__styles_images_fading_play_hover_png_742779967
 				})]
 			}),new State({
 				"name":"down",
@@ -54,7 +54,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayFadingToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_fading_play_hover_png_1336749435
+					"value":this._embed_mxml__styles_images_fading_play_hover_png_742779967
 				})]
 			}),new State({
 				"name":"disabled",
@@ -69,7 +69,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayFadingToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_fading_pause_png_930516407
+					"value":this._embed_mxml__styles_images_fading_pause_png_1734118847
 				})]
 			}),new State({
 				"name":"overAndSelected",
@@ -77,7 +77,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayFadingToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_fading_pause_hover_png_47643447
+					"value":this._embed_mxml__styles_images_fading_pause_hover_png_527589543
 				})]
 			}),new State({
 				"name":"downAndSelected",
@@ -85,7 +85,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayFadingToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_fading_pause_hover_png_47643447
+					"value":this._embed_mxml__styles_images_fading_pause_hover_png_527589543
 				})]
 			}),new State({
 				"name":"disabledAndSelected",
@@ -96,7 +96,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_PlayFadingToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_fading_pause_png_930516407
+					"value":this._embed_mxml__styles_images_fading_pause_png_1734118847
 				})]
 			})];
 		}
@@ -121,7 +121,7 @@ package anifire.studio.skins
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_fading_play_png_51113971;
+			_loc1_.source = this._embed_mxml__styles_images_fading_play_png_165402329;
 			_loc1_.initialized(this,"_PlayFadingToggleButtonSkin_BitmapImage1");
 			this._PlayFadingToggleButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_PlayFadingToggleButtonSkin_BitmapImage1",this._PlayFadingToggleButtonSkin_BitmapImage1);

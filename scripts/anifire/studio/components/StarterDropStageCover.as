@@ -61,9 +61,9 @@ package anifire.studio.components
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_icons_ico_replacetemp_init_png_824534605:Class;
+		private var _embed_mxml__styles_images_icons_ico_replacetemp_init_png_1225274441:Class;
 		
-		private var _embed_mxml__styles_images_icons_ico_replacetemp_hover_png_1696191483:Class;
+		private var _embed_mxml__styles_images_icons_ico_replacetemp_hover_png_633702657:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -78,8 +78,8 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_icons_ico_replacetemp_init_png_824534605 = StarterDropStageCover__embed_mxml__styles_images_icons_ico_replacetemp_init_png_824534605;
-			this._embed_mxml__styles_images_icons_ico_replacetemp_hover_png_1696191483 = StarterDropStageCover__embed_mxml__styles_images_icons_ico_replacetemp_hover_png_1696191483;
+			this._embed_mxml__styles_images_icons_ico_replacetemp_init_png_1225274441 = StarterDropStageCover__embed_mxml__styles_images_icons_ico_replacetemp_init_png_1225274441;
+			this._embed_mxml__styles_images_icons_ico_replacetemp_hover_png_633702657 = StarterDropStageCover__embed_mxml__styles_images_icons_ico_replacetemp_hover_png_633702657;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -271,7 +271,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.width = 51;
 			_loc1_.height = 32;
-			_loc1_.source = this._embed_mxml__styles_images_icons_ico_replacetemp_init_png_824534605;
+			_loc1_.source = this._embed_mxml__styles_images_icons_ico_replacetemp_init_png_1225274441;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -347,7 +347,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.width = 51;
 			_loc1_.height = 32;
-			_loc1_.source = this._embed_mxml__styles_images_icons_ico_replacetemp_hover_png_1696191483;
+			_loc1_.source = this._embed_mxml__styles_images_icons_ico_replacetemp_hover_png_633702657;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

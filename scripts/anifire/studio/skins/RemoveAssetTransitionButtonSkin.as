@@ -23,14 +23,14 @@ package anifire.studio.skins
 		
 		private var cornerRadius:Number = 2;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_delete_png_1027840691:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_delete_png_1041866215:Class;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_delete_hover_png_477646263:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_delete_hover_png_1229237657:Class;
 		
 		public function RemoveAssetTransitionButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_enterexit_delete_png_1027840691 = RemoveAssetTransitionButtonSkin__embed_mxml__styles_images_panel_enterexit_delete_png_1027840691;
-			this._embed_mxml__styles_images_panel_enterexit_delete_hover_png_477646263 = RemoveAssetTransitionButtonSkin__embed_mxml__styles_images_panel_enterexit_delete_hover_png_477646263;
+			this._embed_mxml__styles_images_panel_enterexit_delete_png_1041866215 = RemoveAssetTransitionButtonSkin__embed_mxml__styles_images_panel_enterexit_delete_png_1041866215;
+			this._embed_mxml__styles_images_panel_enterexit_delete_hover_png_1229237657 = RemoveAssetTransitionButtonSkin__embed_mxml__styles_images_panel_enterexit_delete_hover_png_1229237657;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._RemoveAssetTransitionButtonSkin_BitmapImage1_i(),this._RemoveAssetTransitionButtonSkin_BitmapImage2_i()];
@@ -97,7 +97,7 @@ package anifire.studio.skins
 		private function _RemoveAssetTransitionButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_delete_png_1027840691;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_delete_png_1041866215;
 			_loc1_.initialized(this,"_RemoveAssetTransitionButtonSkin_BitmapImage1");
 			this._RemoveAssetTransitionButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_RemoveAssetTransitionButtonSkin_BitmapImage1",this._RemoveAssetTransitionButtonSkin_BitmapImage1);
@@ -107,7 +107,7 @@ package anifire.studio.skins
 		private function _RemoveAssetTransitionButtonSkin_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_delete_hover_png_477646263;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_delete_hover_png_1229237657;
 			_loc1_.visible = false;
 			_loc1_.initialized(this,"_RemoveAssetTransitionButtonSkin_BitmapImage2");
 			this._RemoveAssetTransitionButtonSkin_BitmapImage2 = _loc1_;

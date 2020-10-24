@@ -23,14 +23,14 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_text_aligncenter_png_760455835:Class;
+		private var _embed_mxml__styles_images_panel_text_aligncenter_png_487569151:Class;
 		
-		private var _embed_mxml__styles_images_panel_text_aligncenter_on_png_1074904691:Class;
+		private var _embed_mxml__styles_images_panel_text_aligncenter_on_png_468793241:Class;
 		
 		public function FontAlignToggleButtonBarMiddleButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_text_aligncenter_png_760455835 = FontAlignToggleButtonBarMiddleButtonSkin__embed_mxml__styles_images_panel_text_aligncenter_png_760455835;
-			this._embed_mxml__styles_images_panel_text_aligncenter_on_png_1074904691 = FontAlignToggleButtonBarMiddleButtonSkin__embed_mxml__styles_images_panel_text_aligncenter_on_png_1074904691;
+			this._embed_mxml__styles_images_panel_text_aligncenter_png_487569151 = FontAlignToggleButtonBarMiddleButtonSkin__embed_mxml__styles_images_panel_text_aligncenter_png_487569151;
+			this._embed_mxml__styles_images_panel_text_aligncenter_on_png_468793241 = FontAlignToggleButtonBarMiddleButtonSkin__embed_mxml__styles_images_panel_text_aligncenter_on_png_468793241;
 			super();
 			mx_internal::_document = this;
 			this.width = 38;
@@ -65,7 +65,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_FontAlignToggleButtonBarMiddleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_text_aligncenter_on_png_1074904691
+					"value":this._embed_mxml__styles_images_panel_text_aligncenter_on_png_468793241
 				})]
 			}),new State({
 				"name":"overAndSelected",
@@ -77,7 +77,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_FontAlignToggleButtonBarMiddleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_text_aligncenter_on_png_1074904691
+					"value":this._embed_mxml__styles_images_panel_text_aligncenter_on_png_468793241
 				})]
 			}),new State({
 				"name":"downAndSelected",
@@ -89,7 +89,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_FontAlignToggleButtonBarMiddleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_text_aligncenter_on_png_1074904691
+					"value":this._embed_mxml__styles_images_panel_text_aligncenter_on_png_468793241
 				})]
 			}),new State({
 				"name":"disabledAndSelected",
@@ -101,7 +101,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_FontAlignToggleButtonBarMiddleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_text_aligncenter_on_png_1074904691
+					"value":this._embed_mxml__styles_images_panel_text_aligncenter_on_png_468793241
 				})]
 			})];
 		}
@@ -149,7 +149,7 @@ package anifire.studio.skins
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_panel_text_aligncenter_png_760455835;
+			_loc1_.source = this._embed_mxml__styles_images_panel_text_aligncenter_png_487569151;
 			_loc1_.initialized(this,"_FontAlignToggleButtonBarMiddleButtonSkin_BitmapImage1");
 			this._FontAlignToggleButtonBarMiddleButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_FontAlignToggleButtonBarMiddleButtonSkin_BitmapImage1",this._FontAlignToggleButtonBarMiddleButtonSkin_BitmapImage1);

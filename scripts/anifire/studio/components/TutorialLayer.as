@@ -201,11 +201,11 @@ package anifire.studio.components
 		
 		private var _1919900262_isHideSkipTutorialButton:Boolean;
 		
-		private var _embed_mxml__styles_images_tutorial_tutorial_arrow_png_817898199:Class;
+		private var _embed_mxml__styles_images_tutorial_final_png_698666121:Class;
 		
-		private var _embed_mxml__styles_images_tutorial_final_png_280777271:Class;
+		private var _embed_mxml__styles_images_tutorial_tutorial_arrow_png_2013173889:Class;
 		
-		private var _embed_mxml__styles_images_tutorial_hero_png_2053514099:Class;
+		private var _embed_mxml__styles_images_tutorial_hero_png_1252293081:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -221,9 +221,9 @@ package anifire.studio.components
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
 			this.manager = TutorialManager.instance;
-			this._embed_mxml__styles_images_tutorial_tutorial_arrow_png_817898199 = TutorialLayer__embed_mxml__styles_images_tutorial_tutorial_arrow_png_817898199;
-			this._embed_mxml__styles_images_tutorial_final_png_280777271 = TutorialLayer__embed_mxml__styles_images_tutorial_final_png_280777271;
-			this._embed_mxml__styles_images_tutorial_hero_png_2053514099 = TutorialLayer__embed_mxml__styles_images_tutorial_hero_png_2053514099;
+			this._embed_mxml__styles_images_tutorial_final_png_698666121 = TutorialLayer__embed_mxml__styles_images_tutorial_final_png_698666121;
+			this._embed_mxml__styles_images_tutorial_tutorial_arrow_png_2013173889 = TutorialLayer__embed_mxml__styles_images_tutorial_tutorial_arrow_png_2013173889;
+			this._embed_mxml__styles_images_tutorial_hero_png_1252293081 = TutorialLayer__embed_mxml__styles_images_tutorial_hero_png_1252293081;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -1247,7 +1247,7 @@ package anifire.studio.components
 			_loc1_.visible = false;
 			_loc1_.width = 130;
 			_loc1_.height = 66;
-			_loc1_.source = this._embed_mxml__styles_images_tutorial_tutorial_arrow_png_817898199;
+			_loc1_.source = this._embed_mxml__styles_images_tutorial_tutorial_arrow_png_2013173889;
 			_loc1_.initialized(this,"arrow");
 			this.arrow = _loc1_;
 			BindingManager.executeBindings(this,"arrow",this.arrow);
@@ -1421,7 +1421,7 @@ package anifire.studio.components
 		private function _TutorialLayer_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tutorial_hero_png_2053514099;
+			_loc1_.source = this._embed_mxml__styles_images_tutorial_hero_png_1252293081;
 			_loc1_.initialized(this,"heroImage");
 			this.heroImage = _loc1_;
 			BindingManager.executeBindings(this,"heroImage",this.heroImage);
@@ -1470,7 +1470,7 @@ package anifire.studio.components
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.top = 35;
-			_loc1_.source = this._embed_mxml__styles_images_tutorial_final_png_280777271;
+			_loc1_.source = this._embed_mxml__styles_images_tutorial_final_png_698666121;
 			_loc1_.initialized(this,"finalImage");
 			this.finalImage = _loc1_;
 			BindingManager.executeBindings(this,"finalImage",this.finalImage);

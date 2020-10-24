@@ -1,6 +1,7 @@
 package anifire.studio.core
 {
 	import anifire.constant.AnimeConstants;
+	import anifire.constant.ThemeConstants;
 	import anifire.studio.events.AssetEvent;
 	import anifire.studio.events.FlowFrameEvent;
 	import anifire.studio.interfaces.IResizable;
@@ -263,6 +264,10 @@ package anifire.studio.core
 					_loc2_ = this._innerImageId.substring(0,_loc1_);
 					_loc3_ = this._innerImageId.substring(_loc1_ + 1);
 					_loc1_ = _loc3_.indexOf(".");
+					if(_loc2_ == ThemeConstants.UGC_THEME_ID)
+					{
+						_loc3_ = _loc3_.substring(0,_loc1_);
+					}
 					if(_loc1_ > 0 && _loc1_ != _loc3_.length - 4)
 					{
 						_loc3_ = _loc3_.substring(0,_loc1_);

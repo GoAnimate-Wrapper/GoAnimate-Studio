@@ -37,14 +37,13 @@ package anifire.studio.components
 		{
 			var _loc3_:IEventDispatcher = null;
 			var _loc2_:Object = OpacitySlider._1130117411PERCENTAGE_SYMBOL;
-			if(_loc2_ !== param1)
+			switch(param1)
 			{
-				OpacitySlider._1130117411PERCENTAGE_SYMBOL = param1;
-				_loc3_ = OpacitySlider.staticEventDispatcher;
-				if(_loc3_ !== null)
-				{
+				default:
 					_loc3_.dispatchEvent(PropertyChangeEvent.createUpdateEvent(OpacitySlider,"PERCENTAGE_SYMBOL",_loc2_,param1));
-				}
+					break;
+				case _loc2_:
+				case _loc3_:
 			}
 		}
 		

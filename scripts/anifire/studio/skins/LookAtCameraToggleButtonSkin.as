@@ -21,14 +21,14 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_facecamera_icon_png_165870647:Class;
+		private var _embed_mxml__styles_images_tray_sideway_icon_png_634197055:Class;
 		
-		private var _embed_mxml__styles_images_tray_sideway_icon_png_1043085847:Class;
+		private var _embed_mxml__styles_images_tray_facecamera_icon_png_1903023641:Class;
 		
 		public function LookAtCameraToggleButtonSkin()
 		{
-			this._embed_mxml__styles_images_tray_facecamera_icon_png_165870647 = LookAtCameraToggleButtonSkin__embed_mxml__styles_images_tray_facecamera_icon_png_165870647;
-			this._embed_mxml__styles_images_tray_sideway_icon_png_1043085847 = LookAtCameraToggleButtonSkin__embed_mxml__styles_images_tray_sideway_icon_png_1043085847;
+			this._embed_mxml__styles_images_tray_sideway_icon_png_634197055 = LookAtCameraToggleButtonSkin__embed_mxml__styles_images_tray_sideway_icon_png_634197055;
+			this._embed_mxml__styles_images_tray_facecamera_icon_png_1903023641 = LookAtCameraToggleButtonSkin__embed_mxml__styles_images_tray_facecamera_icon_png_1903023641;
 			super();
 			mx_internal::_document = this;
 			this.percentHeight = 100;
@@ -58,7 +58,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_LookAtCameraToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_tray_facecamera_icon_png_165870647
+					"value":this._embed_mxml__styles_images_tray_facecamera_icon_png_1903023641
 				})]
 			}),new State({
 				"name":"overAndSelected",
@@ -66,7 +66,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_LookAtCameraToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_tray_facecamera_icon_png_165870647
+					"value":this._embed_mxml__styles_images_tray_facecamera_icon_png_1903023641
 				})]
 			}),new State({
 				"name":"downAndSelected",
@@ -74,7 +74,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_LookAtCameraToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_tray_facecamera_icon_png_165870647
+					"value":this._embed_mxml__styles_images_tray_facecamera_icon_png_1903023641
 				})]
 			}),new State({
 				"name":"disabledAndSelected",
@@ -85,7 +85,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_LookAtCameraToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_tray_facecamera_icon_png_165870647
+					"value":this._embed_mxml__styles_images_tray_facecamera_icon_png_1903023641
 				})]
 			})];
 		}
@@ -148,7 +148,7 @@ package anifire.studio.skins
 			_loc1_.verticalCenter = 0;
 			_loc1_.left = 8;
 			_loc1_.right = 8;
-			_loc1_.source = this._embed_mxml__styles_images_tray_sideway_icon_png_1043085847;
+			_loc1_.source = this._embed_mxml__styles_images_tray_sideway_icon_png_634197055;
 			_loc1_.initialized(this,"_LookAtCameraToggleButtonSkin_BitmapImage1");
 			this._LookAtCameraToggleButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_LookAtCameraToggleButtonSkin_BitmapImage1",this._LookAtCameraToggleButtonSkin_BitmapImage1);

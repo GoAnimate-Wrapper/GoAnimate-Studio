@@ -11,17 +11,17 @@ package anifire.studio.components
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_preloader_loading_fill_png_1032553651:Class;
+		private var _embed_mxml__styles_images_preloader_loading_track_png_2029973121:Class;
 		
-		private var _embed_mxml__styles_images_preloader_loading_logo_png_756253875:Class;
+		private var _embed_mxml__styles_images_preloader_loading_fill_png_1641426009:Class;
 		
-		private var _embed_mxml__styles_images_preloader_loading_track_png_835519723:Class;
+		private var _embed_mxml__styles_images_preloader_loading_logo_png_1794595849:Class;
 		
 		public function StudioLoadingScreen()
 		{
-			this._embed_mxml__styles_images_preloader_loading_fill_png_1032553651 = StudioLoadingScreen__embed_mxml__styles_images_preloader_loading_fill_png_1032553651;
-			this._embed_mxml__styles_images_preloader_loading_logo_png_756253875 = StudioLoadingScreen__embed_mxml__styles_images_preloader_loading_logo_png_756253875;
-			this._embed_mxml__styles_images_preloader_loading_track_png_835519723 = StudioLoadingScreen__embed_mxml__styles_images_preloader_loading_track_png_835519723;
+			this._embed_mxml__styles_images_preloader_loading_track_png_2029973121 = StudioLoadingScreen__embed_mxml__styles_images_preloader_loading_track_png_2029973121;
+			this._embed_mxml__styles_images_preloader_loading_fill_png_1641426009 = StudioLoadingScreen__embed_mxml__styles_images_preloader_loading_fill_png_1641426009;
+			this._embed_mxml__styles_images_preloader_loading_logo_png_1794595849 = StudioLoadingScreen__embed_mxml__styles_images_preloader_loading_logo_png_1794595849;
 			super();
 			mx_internal::_document = this;
 			this.percentWidth = 100;
@@ -62,7 +62,7 @@ package anifire.studio.components
 		private function _StudioLoadingScreen_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_logo_png_756253875;
+			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_logo_png_1794595849;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -81,7 +81,7 @@ package anifire.studio.components
 		private function _StudioLoadingScreen_BitmapImage2_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_track_png_835519723;
+			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_track_png_2029973121;
 			_loc1_.smooth = true;
 			_loc1_.initialized(this,null);
 			return _loc1_;
@@ -90,7 +90,7 @@ package anifire.studio.components
 		private function _StudioLoadingScreen_BitmapImage3_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_fill_png_1032553651;
+			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_fill_png_1641426009;
 			_loc1_.smooth = true;
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;

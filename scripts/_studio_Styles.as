@@ -9,7 +9,9 @@ package
 	import mx.skins.halo.DefaultDragImage;
 	import mx.skins.halo.HaloFocusRect;
 	import mx.skins.halo.ToolTipBorder;
+	import mx.skins.spark.ButtonSkin;
 	import mx.skins.spark.ContainerBorderSkin;
+	import mx.skins.spark.DefaultButtonSkin;
 	import mx.skins.spark.PanelBorderSkin;
 	import mx.skins.spark.ScrollBarDownButtonSkin;
 	import mx.skins.spark.ScrollBarThumbSkin;
@@ -23,11 +25,9 @@ package
 	import spark.components.supportClasses.ListItemDragProxy;
 	import spark.skins.spark.ApplicationSkin;
 	import spark.skins.spark.ButtonBarSkin;
-	import spark.skins.spark.ButtonSkin;
 	import spark.skins.spark.CheckBoxSkin;
 	import spark.skins.spark.ComboBoxSkin;
 	import spark.skins.spark.DataGridSkin;
-	import spark.skins.spark.DefaultButtonSkin;
 	import spark.skins.spark.DropDownListSkin;
 	import spark.skins.spark.ErrorSkin;
 	import spark.skins.spark.FocusSkin;
@@ -57,23 +57,23 @@ package
 	public class _studio_Styles
 	{
 		
-		private static var _embed_css_Assets_swf__547990506_mx_skins_cursor_BusyCursor_624195339:Class = _class_embed_css_Assets_swf__547990506_mx_skins_cursor_BusyCursor_624195339;
+		private static var _embed_css_Assets_swf_1135953132_mx_skins_cursor_DragCopy_535650521:Class = _class_embed_css_Assets_swf_1135953132_mx_skins_cursor_DragCopy_535650521;
 		
-		private static var _embed_css_Assets_swf__547990506_mx_skins_cursor_DragCopy_942374773:Class = _class_embed_css_Assets_swf__547990506_mx_skins_cursor_DragCopy_942374773;
+		private static var _embed_css_assets_RequiredIndicator_png__1461639755_1137332995:Class = _class_embed_css_assets_RequiredIndicator_png__1461639755_1137332995;
 		
-		private static var _embed_css_Assets_swf__547990506_mx_skins_cursor_DragMove_942662353:Class = _class_embed_css_Assets_swf__547990506_mx_skins_cursor_DragMove_942662353;
+		private static var _embed_css_Assets_swf_1135953132_mx_skins_cursor_DragReject_951602013:Class = _class_embed_css_Assets_swf_1135953132_mx_skins_cursor_DragReject_951602013;
 		
-		private static var _embed_css_Assets_swf__547990506_mx_skins_cursor_DragReject_544877761:Class = _class_embed_css_Assets_swf__547990506_mx_skins_cursor_DragReject_544877761;
+		private static var _embed_css_Assets_swf_1135953132_cursorStretch_1743950478:Class = _class_embed_css_Assets_swf_1135953132_cursorStretch_1743950478;
 		
-		private static var _embed_css_assets_ErrorIndicator_png__376103378_812094512:Class = _class_embed_css_assets_ErrorIndicator_png__376103378_812094512;
+		private static var _embed_css_Assets_swf_1135953132___brokenImage_928590503:Class = _class_embed_css_Assets_swf_1135953132___brokenImage_928590503;
 		
-		private static var _embed_css_assets_RequiredIndicator_png_1878745951_1202345407:Class = _class_embed_css_assets_RequiredIndicator_png_1878745951_1202345407;
+		private static var _embed_css_Assets_swf_1135953132_mx_skins_cursor_BusyCursor_217471087:Class = _class_embed_css_Assets_swf_1135953132_mx_skins_cursor_BusyCursor_217471087;
 		
-		private static var _embed_css_Assets_swf__547990506_cursorStretch_1337226226:Class = _class_embed_css_Assets_swf__547990506_cursorStretch_1337226226;
+		private static var _embed_css_assets_ErrorIndicator_png__1207932008_273805716:Class = _class_embed_css_assets_ErrorIndicator_png__1207932008_273805716;
 		
-		private static var _embed_css_Assets_swf__547990506___brokenImage_521866251:Class = _class_embed_css_Assets_swf__547990506___brokenImage_521866251;
+		private static var _embed_css_Assets_swf_1135953132_mx_skins_cursor_DragMove_535938101:Class = _class_embed_css_Assets_swf_1135953132_mx_skins_cursor_DragMove_535938101;
 		
-		private static var _embed_css_Assets_swf__547990506_mx_skins_cursor_DragLink_942636778:Class = _class_embed_css_Assets_swf__547990506_mx_skins_cursor_DragLink_942636778;
+		private static var _embed_css_Assets_swf_1135953132_mx_skins_cursor_DragLink_535912526:Class = _class_embed_css_Assets_swf_1135953132_mx_skins_cursor_DragLink_535912526;
 		 
 		
 		public function _studio_Styles()
@@ -439,7 +439,7 @@ package
 				style.defaultFactory = function():void
 				{
 					this.busyCursor = BusyCursor;
-					this.busyCursorBackground = _embed_css_Assets_swf__547990506_mx_skins_cursor_BusyCursor_624195339;
+					this.busyCursorBackground = _embed_css_Assets_swf_1135953132_mx_skins_cursor_BusyCursor_217471087;
 				};
 			}
 			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
@@ -456,10 +456,10 @@ package
 			{
 				style.defaultFactory = function():void
 				{
-					this.copyCursor = _embed_css_Assets_swf__547990506_mx_skins_cursor_DragCopy_942374773;
-					this.moveCursor = _embed_css_Assets_swf__547990506_mx_skins_cursor_DragMove_942662353;
-					this.rejectCursor = _embed_css_Assets_swf__547990506_mx_skins_cursor_DragReject_544877761;
-					this.linkCursor = _embed_css_Assets_swf__547990506_mx_skins_cursor_DragLink_942636778;
+					this.copyCursor = _embed_css_Assets_swf_1135953132_mx_skins_cursor_DragCopy_535650521;
+					this.moveCursor = _embed_css_Assets_swf_1135953132_mx_skins_cursor_DragMove_535938101;
+					this.rejectCursor = _embed_css_Assets_swf_1135953132_mx_skins_cursor_DragReject_951602013;
+					this.linkCursor = _embed_css_Assets_swf_1135953132_mx_skins_cursor_DragLink_535912526;
 					this.defaultDragImageSkin = DefaultDragImage;
 				};
 			}
@@ -477,7 +477,7 @@ package
 			{
 				style.defaultFactory = function():void
 				{
-					this.brokenImageSkin = _embed_css_Assets_swf__547990506___brokenImage_521866251;
+					this.brokenImageSkin = _embed_css_Assets_swf_1135953132___brokenImage_928590503;
 					this.brokenImageBorderSkin = BrokenImageBorderSkin;
 				};
 			}
@@ -506,6 +506,209 @@ package
 					this.paddingBottom = 2;
 					this.backgroundAlpha = 0.95;
 					this.paddingRight = 4;
+				};
+			}
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = null;
+			selector = new CSSSelector("mx.controls.Alert",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.Alert");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
+					this.paddingTop = 2;
+					this.paddingLeft = 10;
+					this.paddingBottom = 10;
+					this.paddingRight = 10;
+				};
+			}
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = null;
+			selector = new CSSSelector("mx.controls.Button",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.Button");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
+					this.textAlign = "center";
+					this.labelVerticalOffset = 1;
+					this.emphasizedSkin = DefaultButtonSkin;
+					this.verticalGap = 2;
+					this.horizontalGap = 2;
+					this.skin = ButtonSkin;
+					this.paddingLeft = 6;
+					this.paddingRight = 6;
+				};
+			}
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = null;
+			selector = new CSSSelector("mx.core.Container",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.core.Container");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
+					this.borderStyle = "none";
+					this.borderSkin = ContainerBorderSkin;
+					this.cornerRadius = 0;
+				};
+			}
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = null;
+			selector = new CSSSelector("mx.containers.ControlBar",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.containers.ControlBar");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
+					this.disabledOverlayAlpha = 0;
+					this.borderStyle = "none";
+					this.paddingTop = 11;
+					this.verticalAlign = "middle";
+					this.paddingLeft = 11;
+					this.paddingBottom = 11;
+					this.paddingRight = 11;
+				};
+			}
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = null;
+			selector = new CSSSelector("mx.controls.Image",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.Image");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
+					this.layoutDirection = "ltr";
+				};
+			}
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = null;
+			selector = new CSSSelector("mx.containers.Panel",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.containers.Panel");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
+					this.statusStyleName = "windowStatus";
+					this.borderStyle = "default";
+					this.borderColor = 0;
+					this.paddingTop = 0;
+					this.backgroundColor = 16777215;
+					this.cornerRadius = 0;
+					this.titleBackgroundSkin = UIComponent;
+					this.borderAlpha = 0.5;
+					this.paddingLeft = 0;
+					this.paddingRight = 0;
+					this.resizeEndEffect = "Dissolve";
+					this.titleStyleName = "windowStyles";
+					this.resizeStartEffect = "Dissolve";
+					this.dropShadowVisible = true;
+					this.borderSkin = PanelBorderSkin;
+					this.paddingBottom = 0;
+				};
+			}
+			effects = style.mx_internal::effects;
+			if(!effects)
+			{
+				effects = style.mx_internal::effects = [];
+			}
+			effects.push("resizeEndEffect");
+			effects.push("resizeStartEffect");
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = null;
+			selector = new CSSSelector("mx.controls.scrollClasses.ScrollBar",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.scrollClasses.ScrollBar");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
+					this.thumbOffset = 0;
+					this.paddingTop = 0;
+					this.trackSkin = ScrollBarTrackSkin;
+					this.downArrowSkin = ScrollBarDownButtonSkin;
+					this.upArrowSkin = ScrollBarUpButtonSkin;
+					this.paddingLeft = 0;
+					this.paddingBottom = 0;
+					this.thumbSkin = ScrollBarThumbSkin;
+					this.paddingRight = 0;
+				};
+			}
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = [];
+			condition = new CSSCondition("class","textAreaVScrollBarStyle");
+			conditions.push(condition);
+			selector = new CSSSelector("mx.controls.HScrollBar",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.HScrollBar.textAreaVScrollBarStyle");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
+				};
+			}
+			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
+			{
+				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
+			}
+			selector = null;
+			conditions = null;
+			conditions = [];
+			condition = new CSSCondition("class","textAreaHScrollBarStyle");
+			conditions.push(condition);
+			selector = new CSSSelector("mx.controls.VScrollBar",conditions,selector);
+			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.VScrollBar.textAreaHScrollBarStyle");
+			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
+			if(style.defaultFactory == null)
+			{
+				style.defaultFactory = function():void
+				{
 				};
 			}
 			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
@@ -632,7 +835,7 @@ package
 			{
 				style.defaultFactory = function():void
 				{
-					this.stretchCursor = _embed_css_Assets_swf__547990506_cursorStretch_1337226226;
+					this.stretchCursor = _embed_css_Assets_swf_1135953132_cursorStretch_1743950478;
 					this.skinClass = DataGridSkin;
 				};
 			}
@@ -704,9 +907,9 @@ package
 			{
 				style.defaultFactory = function():void
 				{
-					this.requiredIndicatorSource = _embed_css_assets_RequiredIndicator_png_1878745951_1202345407;
+					this.requiredIndicatorSource = _embed_css_assets_RequiredIndicator_png__1461639755_1137332995;
 					this.skinClass = FormItemSkin;
-					this.errorIndicatorSource = _embed_css_assets_ErrorIndicator_png__376103378_812094512;
+					this.errorIndicatorSource = _embed_css_assets_ErrorIndicator_png__1207932008_273805716;
 				};
 			}
 			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
@@ -1141,209 +1344,6 @@ package
 				style.defaultFactory = function():void
 				{
 					this.skinClass = VSliderSkin;
-				};
-			}
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = null;
-			selector = new CSSSelector("mx.controls.Alert",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.Alert");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
-					this.paddingTop = 2;
-					this.paddingLeft = 10;
-					this.paddingBottom = 10;
-					this.paddingRight = 10;
-				};
-			}
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = null;
-			selector = new CSSSelector("mx.controls.Button",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.Button");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
-					this.textAlign = "center";
-					this.labelVerticalOffset = 1;
-					this.emphasizedSkin = DefaultButtonSkin;
-					this.verticalGap = 2;
-					this.horizontalGap = 2;
-					this.skin = ButtonSkin;
-					this.paddingLeft = 6;
-					this.paddingRight = 6;
-				};
-			}
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = null;
-			selector = new CSSSelector("mx.core.Container",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.core.Container");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
-					this.borderStyle = "none";
-					this.borderSkin = ContainerBorderSkin;
-					this.cornerRadius = 0;
-				};
-			}
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = null;
-			selector = new CSSSelector("mx.containers.ControlBar",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.containers.ControlBar");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
-					this.disabledOverlayAlpha = 0;
-					this.borderStyle = "none";
-					this.paddingTop = 11;
-					this.verticalAlign = "middle";
-					this.paddingLeft = 11;
-					this.paddingBottom = 11;
-					this.paddingRight = 11;
-				};
-			}
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = null;
-			selector = new CSSSelector("mx.controls.Image",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.Image");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
-					this.layoutDirection = "ltr";
-				};
-			}
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = null;
-			selector = new CSSSelector("mx.containers.Panel",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.containers.Panel");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
-					this.statusStyleName = "windowStatus";
-					this.borderStyle = "default";
-					this.borderColor = 0;
-					this.paddingTop = 0;
-					this.backgroundColor = 16777215;
-					this.cornerRadius = 0;
-					this.titleBackgroundSkin = UIComponent;
-					this.borderAlpha = 0.5;
-					this.paddingLeft = 0;
-					this.paddingRight = 0;
-					this.resizeEndEffect = "Dissolve";
-					this.titleStyleName = "windowStyles";
-					this.resizeStartEffect = "Dissolve";
-					this.dropShadowVisible = true;
-					this.borderSkin = PanelBorderSkin;
-					this.paddingBottom = 0;
-				};
-			}
-			effects = style.mx_internal::effects;
-			if(!effects)
-			{
-				effects = style.mx_internal::effects = [];
-			}
-			effects.push("resizeEndEffect");
-			effects.push("resizeStartEffect");
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = null;
-			selector = new CSSSelector("mx.controls.scrollClasses.ScrollBar",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.scrollClasses.ScrollBar");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
-					this.thumbOffset = 0;
-					this.paddingTop = 0;
-					this.trackSkin = ScrollBarTrackSkin;
-					this.downArrowSkin = ScrollBarDownButtonSkin;
-					this.upArrowSkin = ScrollBarUpButtonSkin;
-					this.paddingLeft = 0;
-					this.paddingBottom = 0;
-					this.thumbSkin = ScrollBarThumbSkin;
-					this.paddingRight = 0;
-				};
-			}
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = [];
-			condition = new CSSCondition("class","textAreaVScrollBarStyle");
-			conditions.push(condition);
-			selector = new CSSSelector("mx.controls.HScrollBar",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.HScrollBar.textAreaVScrollBarStyle");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
-				};
-			}
-			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))
-			{
-				styleManager.setStyleDeclaration(style.mx_internal::selectorString,style,false);
-			}
-			selector = null;
-			conditions = null;
-			conditions = [];
-			condition = new CSSCondition("class","textAreaHScrollBarStyle");
-			conditions.push(condition);
-			selector = new CSSSelector("mx.controls.VScrollBar",conditions,selector);
-			mergedStyle = styleManager.getMergedStyleDeclaration("mx.controls.VScrollBar.textAreaHScrollBarStyle");
-			style = new CSSStyleDeclaration(selector,styleManager,mergedStyle == null);
-			if(style.defaultFactory == null)
-			{
-				style.defaultFactory = function():void
-				{
 				};
 			}
 			if(mergedStyle != null && (mergedStyle.defaultFactory == null || ObjectUtil.compare(new style.defaultFactory(),new mergedStyle.defaultFactory())))

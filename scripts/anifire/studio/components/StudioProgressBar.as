@@ -18,14 +18,14 @@ package anifire.studio.components
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_preloader_loading_fill_png_1032553651:Class;
+		private var _embed_mxml__styles_images_preloader_loading_track_png_2029973121:Class;
 		
-		private var _embed_mxml__styles_images_preloader_loading_track_png_835519723:Class;
+		private var _embed_mxml__styles_images_preloader_loading_fill_png_1641426009:Class;
 		
 		public function StudioProgressBar()
 		{
-			this._embed_mxml__styles_images_preloader_loading_fill_png_1032553651 = StudioProgressBar__embed_mxml__styles_images_preloader_loading_fill_png_1032553651;
-			this._embed_mxml__styles_images_preloader_loading_track_png_835519723 = StudioProgressBar__embed_mxml__styles_images_preloader_loading_track_png_835519723;
+			this._embed_mxml__styles_images_preloader_loading_track_png_2029973121 = StudioProgressBar__embed_mxml__styles_images_preloader_loading_track_png_2029973121;
+			this._embed_mxml__styles_images_preloader_loading_fill_png_1641426009 = StudioProgressBar__embed_mxml__styles_images_preloader_loading_fill_png_1641426009;
 			super();
 			mx_internal::_document = this;
 			this.width = 224;
@@ -80,7 +80,7 @@ package anifire.studio.components
 		private function _StudioProgressBar_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_track_png_835519723;
+			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_track_png_2029973121;
 			_loc1_.smooth = true;
 			_loc1_.initialized(this,null);
 			return _loc1_;
@@ -107,7 +107,7 @@ package anifire.studio.components
 			_loc1_.percentHeight = 100;
 			_loc1_.fillMode = "clip";
 			_loc1_.smooth = true;
-			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_fill_png_1032553651;
+			_loc1_.source = this._embed_mxml__styles_images_preloader_loading_fill_png_1641426009;
 			_loc1_.initialized(this,"barDisplay");
 			this.barDisplay = _loc1_;
 			BindingManager.executeBindings(this,"barDisplay",this.barDisplay);

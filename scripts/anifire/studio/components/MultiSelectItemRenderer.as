@@ -48,9 +48,9 @@ package anifire.studio.components
 		
 		protected var _956783549displaySeparator:Boolean = false;
 		
-		private var _embed_mxml__styles_images_common_checkbox_selected_png_1245997339:Class;
+		private var _embed_mxml__styles_images_common_checkbox_selected_png_622821889:Class;
 		
-		private var _embed_mxml__styles_images_common_checkbox_base_png_1458081719:Class;
+		private var _embed_mxml__styles_images_common_checkbox_base_png_1989553855:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -65,8 +65,8 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_common_checkbox_selected_png_1245997339 = MultiSelectItemRenderer__embed_mxml__styles_images_common_checkbox_selected_png_1245997339;
-			this._embed_mxml__styles_images_common_checkbox_base_png_1458081719 = MultiSelectItemRenderer__embed_mxml__styles_images_common_checkbox_base_png_1458081719;
+			this._embed_mxml__styles_images_common_checkbox_selected_png_622821889 = MultiSelectItemRenderer__embed_mxml__styles_images_common_checkbox_selected_png_622821889;
+			this._embed_mxml__styles_images_common_checkbox_base_png_1989553855 = MultiSelectItemRenderer__embed_mxml__styles_images_common_checkbox_base_png_1989553855;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -259,7 +259,7 @@ package anifire.studio.components
 		private function _MultiSelectItemRenderer_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_common_checkbox_base_png_1458081719;
+			_loc1_.source = this._embed_mxml__styles_images_common_checkbox_base_png_1989553855;
 			_loc1_.initialized(this,"_MultiSelectItemRenderer_BitmapImage1");
 			this._MultiSelectItemRenderer_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_MultiSelectItemRenderer_BitmapImage1",this._MultiSelectItemRenderer_BitmapImage1);
@@ -270,7 +270,7 @@ package anifire.studio.components
 		{
 			var _loc1_:BitmapImage = null;
 			_loc1_ = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_common_checkbox_selected_png_1245997339;
+			_loc1_.source = this._embed_mxml__styles_images_common_checkbox_selected_png_622821889;
 			_loc1_.initialized(this,"_MultiSelectItemRenderer_BitmapImage2");
 			this._MultiSelectItemRenderer_BitmapImage2 = _loc1_;
 			BindingManager.executeBindings(this,"_MultiSelectItemRenderer_BitmapImage2",this._MultiSelectItemRenderer_BitmapImage2);

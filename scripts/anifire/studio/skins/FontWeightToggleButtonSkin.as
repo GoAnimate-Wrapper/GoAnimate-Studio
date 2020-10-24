@@ -34,9 +34,9 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_text_style_bold_on_png_1572608329:Class;
+		private var _embed_mxml__styles_images_panel_text_style_bold_on_png_1174373193:Class;
 		
-		private var _embed_mxml__styles_images_panel_text_style_bold_png_1991265133:Class;
+		private var _embed_mxml__styles_images_panel_text_style_bold_png_1899340281:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -53,8 +53,8 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_text_style_bold_on_png_1572608329 = FontWeightToggleButtonSkin__embed_mxml__styles_images_panel_text_style_bold_on_png_1572608329;
-			this._embed_mxml__styles_images_panel_text_style_bold_png_1991265133 = FontWeightToggleButtonSkin__embed_mxml__styles_images_panel_text_style_bold_png_1991265133;
+			this._embed_mxml__styles_images_panel_text_style_bold_on_png_1174373193 = FontWeightToggleButtonSkin__embed_mxml__styles_images_panel_text_style_bold_on_png_1174373193;
+			this._embed_mxml__styles_images_panel_text_style_bold_png_1899340281 = FontWeightToggleButtonSkin__embed_mxml__styles_images_panel_text_style_bold_png_1899340281;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -110,7 +110,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_FontWeightToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_text_style_bold_on_png_1572608329
+					"value":this._embed_mxml__styles_images_panel_text_style_bold_on_png_1174373193
 				})]
 			}),new State({
 				"name":"overAndSelected",
@@ -122,7 +122,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_FontWeightToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_text_style_bold_on_png_1572608329
+					"value":this._embed_mxml__styles_images_panel_text_style_bold_on_png_1174373193
 				})]
 			}),new State({
 				"name":"downAndSelected",
@@ -134,7 +134,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_FontWeightToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_text_style_bold_on_png_1572608329
+					"value":this._embed_mxml__styles_images_panel_text_style_bold_on_png_1174373193
 				})]
 			}),new State({
 				"name":"disabledAndSelected",
@@ -149,7 +149,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_FontWeightToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_text_style_bold_on_png_1572608329
+					"value":this._embed_mxml__styles_images_panel_text_style_bold_on_png_1174373193
 				})]
 			})];
 			var i:uint = 0;
@@ -207,7 +207,7 @@ package anifire.studio.skins
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_panel_text_style_bold_png_1991265133;
+			_loc1_.source = this._embed_mxml__styles_images_panel_text_style_bold_png_1899340281;
 			_loc1_.initialized(this,"_FontWeightToggleButtonSkin_BitmapImage1");
 			this._FontWeightToggleButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_FontWeightToggleButtonSkin_BitmapImage1",this._FontWeightToggleButtonSkin_BitmapImage1);

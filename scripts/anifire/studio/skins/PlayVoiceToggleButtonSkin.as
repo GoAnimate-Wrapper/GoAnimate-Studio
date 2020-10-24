@@ -18,19 +18,19 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_voice_playbutton_png_1032554675:Class;
+		private var _embed_mxml__styles_images_panel_voice_playbutton_png_1042866151:Class;
 		
-		private var _embed_mxml__styles_images_panel_voice_playbutton_hover_png_1282989099:Class;
+		private var _embed_mxml__styles_images_panel_voice_stopbutton_png_1184254329:Class;
 		
-		private var _embed_mxml__styles_images_panel_voice_stopbutton_png_223076567:Class;
+		private var _embed_mxml__styles_images_panel_voice_playbutton_hover_png_286555137:Class;
 		
 		private var _213507019hostComponent:ToggleButton;
 		
 		public function PlayVoiceToggleButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_voice_playbutton_png_1032554675 = PlayVoiceToggleButtonSkin__embed_mxml__styles_images_panel_voice_playbutton_png_1032554675;
-			this._embed_mxml__styles_images_panel_voice_playbutton_hover_png_1282989099 = PlayVoiceToggleButtonSkin__embed_mxml__styles_images_panel_voice_playbutton_hover_png_1282989099;
-			this._embed_mxml__styles_images_panel_voice_stopbutton_png_223076567 = PlayVoiceToggleButtonSkin__embed_mxml__styles_images_panel_voice_stopbutton_png_223076567;
+			this._embed_mxml__styles_images_panel_voice_playbutton_png_1042866151 = PlayVoiceToggleButtonSkin__embed_mxml__styles_images_panel_voice_playbutton_png_1042866151;
+			this._embed_mxml__styles_images_panel_voice_stopbutton_png_1184254329 = PlayVoiceToggleButtonSkin__embed_mxml__styles_images_panel_voice_stopbutton_png_1184254329;
+			this._embed_mxml__styles_images_panel_voice_playbutton_hover_png_286555137 = PlayVoiceToggleButtonSkin__embed_mxml__styles_images_panel_voice_playbutton_hover_png_286555137;
 			super();
 			mx_internal::_document = this;
 			this.width = 42;
@@ -46,7 +46,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayVoiceToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_voice_playbutton_hover_png_1282989099
+					"value":this._embed_mxml__styles_images_panel_voice_playbutton_hover_png_286555137
 				})]
 			}),new State({
 				"name":"down",
@@ -54,7 +54,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayVoiceToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_voice_playbutton_hover_png_1282989099
+					"value":this._embed_mxml__styles_images_panel_voice_playbutton_hover_png_286555137
 				})]
 			}),new State({
 				"name":"disabled",
@@ -69,7 +69,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayVoiceToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_voice_stopbutton_png_223076567
+					"value":this._embed_mxml__styles_images_panel_voice_stopbutton_png_1184254329
 				})]
 			}),new State({
 				"name":"overAndSelected",
@@ -77,7 +77,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayVoiceToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_voice_stopbutton_png_223076567
+					"value":this._embed_mxml__styles_images_panel_voice_stopbutton_png_1184254329
 				})]
 			}),new State({
 				"name":"downAndSelected",
@@ -85,7 +85,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_PlayVoiceToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_voice_stopbutton_png_223076567
+					"value":this._embed_mxml__styles_images_panel_voice_stopbutton_png_1184254329
 				})]
 			}),new State({
 				"name":"disabledAndSelected",
@@ -96,7 +96,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"_PlayVoiceToggleButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_panel_voice_stopbutton_png_223076567
+					"value":this._embed_mxml__styles_images_panel_voice_stopbutton_png_1184254329
 				})]
 			})];
 		}
@@ -121,7 +121,7 @@ package anifire.studio.skins
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_panel_voice_playbutton_png_1032554675;
+			_loc1_.source = this._embed_mxml__styles_images_panel_voice_playbutton_png_1042866151;
 			_loc1_.initialized(this,"_PlayVoiceToggleButtonSkin_BitmapImage1");
 			this._PlayVoiceToggleButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_PlayVoiceToggleButtonSkin_BitmapImage1",this._PlayVoiceToggleButtonSkin_BitmapImage1);

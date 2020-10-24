@@ -3,7 +3,6 @@ package anifire.studio.core
 	import anifire.constant.AnimeConstants;
 	import anifire.constant.ProductConstants;
 	import anifire.constant.ServerConstants;
-	import anifire.constant.ThemeConstants;
 	import anifire.errors.SerializeError;
 	import anifire.event.CoreEvent;
 	import anifire.studio.core.sound.EmbedSound;
@@ -96,7 +95,7 @@ package anifire.studio.core
 			if(param2.downloadType == AnimeConstants.DOWNLOAD_TYPE_PROGRESSIVE)
 			{
 				_loc3_ = param1 as ProgressiveSound;
-				_loc3_.init(UtilNetwork.getGetSoundAssetRequest(param2.theme.id,param2.theme.id == ThemeConstants.UGC_THEME_ID?param2.encAssetId:param2.id,param2.downloadType,param2.signature),param2.duration,param2.subType);
+				_loc3_.init(UtilNetwork.getGetSoundAssetRequest(param2.theme.id,param2.id,param2.downloadType),param2.duration,param2.subType);
 			}
 			else if(param2.downloadType == AnimeConstants.DOWNLOAD_TYPE_STREAM)
 			{
@@ -113,7 +112,7 @@ package anifire.studio.core
 				else
 				{
 					_loc5_.addEventListener(ProgressEvent.PROGRESS,Console.getConsole().showProgress);
-					_loc5_.initByUrl(UtilNetwork.getGetSoundAssetRequest(param2.theme.id,param2.theme.id == ThemeConstants.UGC_THEME_ID?param2.encAssetId:param2.id,param2.downloadType,param2.signature),false,param2.theme.id != "ugc");
+					_loc5_.initByUrl(UtilNetwork.getGetSoundAssetRequest(param2.theme.id,param2.id,param2.downloadType),false,param2.theme.id != "ugc");
 				}
 			}
 		}
@@ -234,7 +233,6 @@ package anifire.studio.core
 			this.aid = param1.@aid;
 			this.encAssetId = param1.@enc_asset_id;
 			this.name = param1.@name;
-			this.signature = param1.@signature;
 			this.theme = param2;
 			this.enable = param1.@enable != "N";
 			if(Console.getConsole().excludedIds.containsKey(this.aid))
@@ -322,17 +320,10 @@ package anifire.studio.core
 			if(this.theme.id == "ugc")
 			{
 				this.tags = param1.tags;
-				this.isPublished = param1.published == "1";
+				this.isPublished = param1.published == "1"?true:false;
 			}
-			this.encAssetId = param1.child("enc_asset_id")[0].toString();
-			this.signature = param1.child("signature")[0].toString();
-			this.mergeIntoTheme(param2);
-		}
-		
-		public function mergeIntoTheme(param1:Theme) : void
-		{
-			var _loc2_:XML = new XML("<theme id=\"ugc\"><sound id=\"" + this.id + "\" name=\"" + UtilXmlInfo.xmlEscape(this.name) + "\" enable=\"Y\" downloadtype=\"" + this._downloadType + "\" enc_asset_id=\"" + this.encAssetId + "\" signature=\"" + this.signature + "\" subtype=\"" + this.subType + "\" duration=\"" + this.duration + "\" /></theme>");
-			param1.mergeThemeXML(_loc2_);
+			var _loc3_:XML = new XML("<theme id=\"ugc\"><sound id=\"" + this.id + "\" name=\"" + UtilXmlInfo.xmlEscape(this.name) + "\" enable=\"Y\" downloadtype=\"" + this._downloadType + "\" subtype=\"" + this.subType + "\" duration=\"" + this.duration + "\" /></theme>");
+			param2.mergeThemeXML(_loc3_);
 		}
 		
 		private function getSubTypeLabel(param1:String) : String

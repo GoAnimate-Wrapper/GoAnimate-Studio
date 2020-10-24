@@ -66,9 +66,9 @@ package anifire.studio.components
 		
 		public static const EVENT_PLAY_BUT_CLICK:String = "play_but_click";
 		
-		public static const LABEL_GOTEAM_ONLY:String = "Professional only";
+		public static const LABEL_GOTEAM_ONLY:String = "GoTeam only";
 		
-		public static const LABEL_GOPREMIUM_GOTEAM_ONLY:String = "Premium & Professional only";
+		public static const LABEL_GOPREMIUM_GOTEAM_ONLY:String = "GoPremium & GoTeam only";
 		
 		private static var _watcherSetupUtil:IWatcherSetupUtil2;
 		 

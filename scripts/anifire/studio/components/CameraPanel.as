@@ -148,13 +148,13 @@ package anifire.studio.components
 		
 		private var _command:ChangeCameraTimingCommand;
 		
-		private var _embed_mxml__styles_images_panel_scenesetting_zoomin_png_534933897:Class;
+		private var _embed_mxml__styles_images_panel_arrow_png_1721981121:Class;
 		
-		private var _embed_mxml__styles_images_panel_arrow_png_2077458411:Class;
+		private var _embed_mxml__styles_images_panel_composition_splash_png_631142921:Class;
 		
-		private var _embed_mxml__styles_images_panel_composition_splash_png_2072795853:Class;
+		private var _embed_mxml__styles_images_panel_scenesetting_zoomin_png_469514177:Class;
 		
-		private var _embed_mxml__styles_images_panel_scenesetting_trash_png_1543272905:Class;
+		private var _embed_mxml__styles_images_panel_scenesetting_trash_png_100645697:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -170,10 +170,10 @@ package anifire.studio.components
 			var watcherSetupUtilClass:Object = null;
 			this._cam1 = LicenseConstants.getStageRect();
 			this._cam2 = LicenseConstants.getStageRect();
-			this._embed_mxml__styles_images_panel_scenesetting_zoomin_png_534933897 = CameraPanel__embed_mxml__styles_images_panel_scenesetting_zoomin_png_534933897;
-			this._embed_mxml__styles_images_panel_arrow_png_2077458411 = CameraPanel__embed_mxml__styles_images_panel_arrow_png_2077458411;
-			this._embed_mxml__styles_images_panel_composition_splash_png_2072795853 = CameraPanel__embed_mxml__styles_images_panel_composition_splash_png_2072795853;
-			this._embed_mxml__styles_images_panel_scenesetting_trash_png_1543272905 = CameraPanel__embed_mxml__styles_images_panel_scenesetting_trash_png_1543272905;
+			this._embed_mxml__styles_images_panel_arrow_png_1721981121 = CameraPanel__embed_mxml__styles_images_panel_arrow_png_1721981121;
+			this._embed_mxml__styles_images_panel_composition_splash_png_631142921 = CameraPanel__embed_mxml__styles_images_panel_composition_splash_png_631142921;
+			this._embed_mxml__styles_images_panel_scenesetting_zoomin_png_469514177 = CameraPanel__embed_mxml__styles_images_panel_scenesetting_zoomin_png_469514177;
+			this._embed_mxml__styles_images_panel_scenesetting_trash_png_100645697 = CameraPanel__embed_mxml__styles_images_panel_scenesetting_trash_png_100645697;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -898,7 +898,7 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 15;
 			_loc1_.height = 20;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_scenesetting_zoomin_png_534933897);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_scenesetting_zoomin_png_469514177);
 			_loc1_.addEventListener("click",this.___CameraPanel_IconButton1_click);
 			if(!_loc1_.document)
 			{
@@ -1171,7 +1171,7 @@ package anifire.studio.components
 			_loc1_.width = 15;
 			_loc1_.height = 20;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_scenesetting_trash_png_1543272905);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_scenesetting_trash_png_100645697);
 			_loc1_.addEventListener("click",this.___CameraPanel_IconButton2_click);
 			if(!_loc1_.document)
 			{
@@ -1564,7 +1564,7 @@ package anifire.studio.components
 		private function _CameraPanel_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_composition_splash_png_2072795853;
+			_loc1_.source = this._embed_mxml__styles_images_panel_composition_splash_png_631142921;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -1690,7 +1690,7 @@ package anifire.studio.components
 		private function _CameraPanel_BitmapImage2_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_arrow_png_2077458411;
+			_loc1_.source = this._embed_mxml__styles_images_panel_arrow_png_1721981121;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

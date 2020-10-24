@@ -244,7 +244,7 @@ package anifire.studio.components
 		
 		protected function creationCompleteHandler(param1:FlexEvent) : void
 		{
-			this._allowDelete = UtilUser.isContentAdmin;
+			this._allowDelete = UtilUser.hasAdminFeatures;
 		}
 		
 		private function _TextComponentThumbRenderer_Rect1_c() : Rect

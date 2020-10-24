@@ -17,14 +17,14 @@ package anifire.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_icons_icon_colorpicker_active_png_941909322:Class;
+		private var _embed_mxml__styles_images_icons_icon_colorpicker_active_png_574257180:Class;
 		
-		private var _embed_mxml__styles_images_icons_icon_colorpicker_png_2013338078:Class;
+		private var _embed_mxml__styles_images_icons_icon_colorpicker_png_2048739724:Class;
 		
 		public function EyeDropperButtonSkin()
 		{
-			this._embed_mxml__styles_images_icons_icon_colorpicker_active_png_941909322 = EyeDropperButtonSkin__embed_mxml__styles_images_icons_icon_colorpicker_active_png_941909322;
-			this._embed_mxml__styles_images_icons_icon_colorpicker_png_2013338078 = EyeDropperButtonSkin__embed_mxml__styles_images_icons_icon_colorpicker_png_2013338078;
+			this._embed_mxml__styles_images_icons_icon_colorpicker_active_png_574257180 = EyeDropperButtonSkin__embed_mxml__styles_images_icons_icon_colorpicker_active_png_574257180;
+			this._embed_mxml__styles_images_icons_icon_colorpicker_png_2048739724 = EyeDropperButtonSkin__embed_mxml__styles_images_icons_icon_colorpicker_png_2048739724;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._EyeDropperButtonSkin_BitmapImage1_i()];
@@ -37,7 +37,7 @@ package anifire.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_EyeDropperButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_icons_icon_colorpicker_active_png_941909322
+					"value":this._embed_mxml__styles_images_icons_icon_colorpicker_active_png_574257180
 				})]
 			}),new State({
 				"name":"down",
@@ -71,7 +71,7 @@ package anifire.skins
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_icons_icon_colorpicker_png_2013338078;
+			_loc1_.source = this._embed_mxml__styles_images_icons_icon_colorpicker_png_2048739724;
 			_loc1_.initialized(this,"_EyeDropperButtonSkin_BitmapImage1");
 			this._EyeDropperButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_EyeDropperButtonSkin_BitmapImage1",this._EyeDropperButtonSkin_BitmapImage1);

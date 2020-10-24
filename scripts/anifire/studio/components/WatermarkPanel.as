@@ -54,7 +54,7 @@ package anifire.studio.components
 		
 		private var watermarkList:List;
 		
-		private var _embed_mxml__styles_images_watermark_watermark_illustration_png_641380435:Class;
+		private var _embed_mxml__styles_images_watermark_watermark_illustration_png_115924809:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -68,7 +68,7 @@ package anifire.studio.components
 		{
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_watermark_watermark_illustration_png_641380435 = WatermarkPanel__embed_mxml__styles_images_watermark_watermark_illustration_png_641380435;
+			this._embed_mxml__styles_images_watermark_watermark_illustration_png_115924809 = WatermarkPanel__embed_mxml__styles_images_watermark_watermark_illustration_png_115924809;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -342,7 +342,7 @@ package anifire.studio.components
 		private function _WatermarkPanel_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_watermark_watermark_illustration_png_641380435;
+			_loc1_.source = this._embed_mxml__styles_images_watermark_watermark_illustration_png_115924809;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

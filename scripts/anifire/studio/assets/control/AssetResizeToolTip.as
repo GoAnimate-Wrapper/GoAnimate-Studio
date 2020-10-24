@@ -33,14 +33,14 @@ package anifire.studio.assets.control
 		
 		protected var _lock:Boolean = true;
 		
-		private var _embed_mxml__styles_images_icons_icon_lock_png_1677396265:Class;
+		private var _embed_mxml__styles_images_icons_icon_unlock_png_1732766775:Class;
 		
-		private var _embed_mxml__styles_images_icons_icon_unlock_png_1017725463:Class;
+		private var _embed_mxml__styles_images_icons_icon_lock_png_638469383:Class;
 		
 		public function AssetResizeToolTip()
 		{
-			this._embed_mxml__styles_images_icons_icon_lock_png_1677396265 = AssetResizeToolTip__embed_mxml__styles_images_icons_icon_lock_png_1677396265;
-			this._embed_mxml__styles_images_icons_icon_unlock_png_1017725463 = AssetResizeToolTip__embed_mxml__styles_images_icons_icon_unlock_png_1017725463;
+			this._embed_mxml__styles_images_icons_icon_unlock_png_1732766775 = AssetResizeToolTip__embed_mxml__styles_images_icons_icon_unlock_png_1732766775;
+			this._embed_mxml__styles_images_icons_icon_lock_png_638469383 = AssetResizeToolTip__embed_mxml__styles_images_icons_icon_lock_png_638469383;
 			super();
 			mx_internal::_document = this;
 			this.width = 50;
@@ -265,7 +265,7 @@ package anifire.studio.assets.control
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_icons_icon_lock_png_1677396265;
+			_loc1_.source = this._embed_mxml__styles_images_icons_icon_lock_png_638469383;
 			_loc1_.initialized(this,"iconLock");
 			this.iconLock = _loc1_;
 			BindingManager.executeBindings(this,"iconLock",this.iconLock);
@@ -276,7 +276,7 @@ package anifire.studio.assets.control
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_icons_icon_unlock_png_1017725463;
+			_loc1_.source = this._embed_mxml__styles_images_icons_icon_unlock_png_1732766775;
 			_loc1_.initialized(this,"iconUnlock");
 			this.iconUnlock = _loc1_;
 			BindingManager.executeBindings(this,"iconUnlock",this.iconUnlock);

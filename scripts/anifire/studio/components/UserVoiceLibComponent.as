@@ -119,11 +119,11 @@ package anifire.studio.components
 		
 		private var _503942753_lineChanged:Boolean;
 		
-		private var _embed_mxml__styles_images_voicetab_file_back_png_1679321139:Class;
+		private var _embed_mxml__styles_images_voicetab_yourlibrary_png_1768706457:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_yourlibrary_png_283938743:Class;
+		private var _embed_mxml__styles_images_voicetab_fileicon_png_1841491071:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_fileicon_png_774652023:Class;
+		private var _embed_mxml__styles_images_voicetab_file_back_png_2043513945:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -139,9 +139,9 @@ package anifire.studio.components
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
 			this._834112942_addVoiceButtonLabel = ADD_VOICE_COPY;
-			this._embed_mxml__styles_images_voicetab_file_back_png_1679321139 = UserVoiceLibComponent__embed_mxml__styles_images_voicetab_file_back_png_1679321139;
-			this._embed_mxml__styles_images_voicetab_yourlibrary_png_283938743 = UserVoiceLibComponent__embed_mxml__styles_images_voicetab_yourlibrary_png_283938743;
-			this._embed_mxml__styles_images_voicetab_fileicon_png_774652023 = UserVoiceLibComponent__embed_mxml__styles_images_voicetab_fileicon_png_774652023;
+			this._embed_mxml__styles_images_voicetab_yourlibrary_png_1768706457 = UserVoiceLibComponent__embed_mxml__styles_images_voicetab_yourlibrary_png_1768706457;
+			this._embed_mxml__styles_images_voicetab_fileicon_png_1841491071 = UserVoiceLibComponent__embed_mxml__styles_images_voicetab_fileicon_png_1841491071;
+			this._embed_mxml__styles_images_voicetab_file_back_png_2043513945 = UserVoiceLibComponent__embed_mxml__styles_images_voicetab_file_back_png_2043513945;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -637,7 +637,7 @@ package anifire.studio.components
 		private function _UserVoiceLibComponent_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_voicetab_yourlibrary_png_283938743;
+			_loc1_.source = this._embed_mxml__styles_images_voicetab_yourlibrary_png_1768706457;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -749,7 +749,7 @@ package anifire.studio.components
 		private function _UserVoiceLibComponent_BitmapImage2_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_voicetab_file_back_png_1679321139;
+			_loc1_.source = this._embed_mxml__styles_images_voicetab_file_back_png_2043513945;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -787,7 +787,7 @@ package anifire.studio.components
 		private function _UserVoiceLibComponent_BitmapImage3_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_voicetab_fileicon_png_774652023;
+			_loc1_.source = this._embed_mxml__styles_images_voicetab_fileicon_png_1841491071;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -1043,7 +1043,7 @@ package anifire.studio.components
 			},null,"addVoiceButton.enabled");
 			result[6] = new Binding(this,function():String
 			{
-				var _loc1_:* = UtilDict.toDisplay("go","Select a file from your Vyond Library");
+				var _loc1_:* = UtilDict.toDisplay("go","Select a file from your GoAnimate Library");
 				return _loc1_ == undefined?null:String(_loc1_);
 			},null,"_UserVoiceLibComponent_Label1.text");
 			result[7] = new Binding(this,function():String

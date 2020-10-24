@@ -192,7 +192,7 @@ package anifire.studio.components
 		
 		private var directionLabelText:String;
 		
-		private var _embed_mxml__styles_images_panel_fx_delete_png_1136997623:Class;
+		private var _embed_mxml__styles_images_panel_fx_delete_png_1980079335:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -209,7 +209,7 @@ package anifire.studio.components
 			var watcherSetupUtilClass:Object = null;
 			this.referencePointLabelText = UtilDict.translate("Reference");
 			this.directionLabelText = UtilDict.translate("Direction");
-			this._embed_mxml__styles_images_panel_fx_delete_png_1136997623 = SceneTransitionOptionPanel__embed_mxml__styles_images_panel_fx_delete_png_1136997623;
+			this._embed_mxml__styles_images_panel_fx_delete_png_1980079335 = SceneTransitionOptionPanel__embed_mxml__styles_images_panel_fx_delete_png_1980079335;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -2076,8 +2076,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.top = 15;
 			_loc1_.right = 11;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_fx_delete_png_1136997623);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_panel_fx_delete_png_1136997623);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_fx_delete_png_1980079335);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_panel_fx_delete_png_1980079335);
 			_loc1_.addEventListener("click",this.___SceneTransitionOptionPanel_IconButton1_click);
 			if(!_loc1_.document)
 			{

@@ -15,11 +15,11 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_widget_img_add_row_png_462844951:Class;
+		private var _embed_mxml__styles_images_widget_img_add_row_png_2043515017:Class;
 		
 		public function ChartDataGridAddColumnButtonSkin()
 		{
-			this._embed_mxml__styles_images_widget_img_add_row_png_462844951 = ChartDataGridAddColumnButtonSkin__embed_mxml__styles_images_widget_img_add_row_png_462844951;
+			this._embed_mxml__styles_images_widget_img_add_row_png_2043515017 = ChartDataGridAddColumnButtonSkin__embed_mxml__styles_images_widget_img_add_row_png_2043515017;
 			super();
 			mx_internal::_document = this;
 			this.width = 15;
@@ -81,7 +81,7 @@ package anifire.studio.skins
 		private function _ChartDataGridAddColumnButtonSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_widget_img_add_row_png_462844951;
+			_loc1_.source = this._embed_mxml__styles_images_widget_img_add_row_png_2043515017;
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.initialized(this,null);

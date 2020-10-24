@@ -71,7 +71,7 @@ package anifire.studio.components
 		
 		private var _1494719488_tutorialMode:Boolean;
 		
-		private var _embed_mxml__styles_images_tray_lock_icon_png_423648535:Class;
+		private var _embed_mxml__styles_images_tray_lock_icon_png_911801481:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -86,7 +86,7 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_lock_icon_png_423648535 = CategorizedProductExplorerCategoryRenderer__embed_mxml__styles_images_tray_lock_icon_png_423648535;
+			this._embed_mxml__styles_images_tray_lock_icon_png_911801481 = CategorizedProductExplorerCategoryRenderer__embed_mxml__styles_images_tray_lock_icon_png_911801481;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -553,7 +553,7 @@ package anifire.studio.components
 		private function _CategorizedProductExplorerCategoryRenderer_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_lock_icon_png_423648535;
+			_loc1_.source = this._embed_mxml__styles_images_tray_lock_icon_png_911801481;
 			_loc1_.initialized(this,"_CategorizedProductExplorerCategoryRenderer_BitmapImage2");
 			this._CategorizedProductExplorerCategoryRenderer_BitmapImage2 = _loc1_;
 			BindingManager.executeBindings(this,"_CategorizedProductExplorerCategoryRenderer_BitmapImage2",this._CategorizedProductExplorerCategoryRenderer_BitmapImage2);

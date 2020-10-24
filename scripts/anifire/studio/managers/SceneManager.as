@@ -164,7 +164,7 @@ package anifire.studio.managers
 			if(param1 < _loc2_)
 			{
 				_hasShownCameraWarning = true;
-				displayPopUp(UtilDict.toDisplay("go","We don\'t recommend zooming this far. It could slow down the video maker and may also prevent you from downloading this video.\n\nSorry for any inconvenience. We are always working to improve your experience with Vyond."));
+				displayPopUp(UtilDict.toDisplay("go","We don\'t recommend zooming this far. It could slow down the video maker and may also prevent you from downloading this video.\n\nSorry for any inconvenience. We are always working to improve your experience with GoAnimate."));
 			}
 		}
 		

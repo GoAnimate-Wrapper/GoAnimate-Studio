@@ -681,7 +681,7 @@ package anifire.studio.core
 			}
 			this.encryptId = param1.@encryptId;
 			this._locked = param1.@locked == "Y";
-			editable = UtilUser.isContentAdmin && isCC;
+			editable = UtilUser.hasAdminFeatures && isCC;
 			this._copyable = param1.@copyable != "N";
 			this._thumbnailUrl = param1.@thumbnail_url;
 			if(param1.hasOwnProperty("@path"))

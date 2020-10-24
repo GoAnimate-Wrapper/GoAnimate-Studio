@@ -91,9 +91,9 @@ package anifire.bubble
 		
 		private var _textURL:String = "";
 		
-		private var _islinkNewWin:Boolean;
-		
 		private var _textAlpha:Number = 100;
+		
+		private var _islinkNewWin:Boolean = false;
 		
 		private var _gradientType:String = null;
 		

@@ -113,24 +113,23 @@ package anifire.component.widgets
 			return _displayValueLabel || _displayPercentageLabel;
 		}
 		
-		public function updateIconImage(param1:String, param2:String, param3:String = null, param4:String = null) : void
+		public function updateIconImage(param1:String, param2:String, param3:String = null) : void
 		{
-			var _loc5_:URLVariables = null;
+			var _loc4_:URLVariables = null;
 			this._themeId = param1;
 			this._thumbId = param2;
 			this.clearByteLoader();
 			if(param1 == "ugc")
 			{
-				_loc5_ = AppConfigManager.instance.createURLVariables();
-				if(_loc5_.hasOwnProperty(ServerConstants.PARAM_ENC_ASSET_ID))
+				_loc4_ = AppConfigManager.instance.createURLVariables();
+				if(_loc4_.hasOwnProperty(ServerConstants.PARAM_ASSET_ID))
 				{
-					delete _loc5_[ServerConstants.PARAM_ENC_ASSET_ID];
+					delete _loc4_[ServerConstants.PARAM_ASSET_ID];
 				}
-				_loc5_[ServerConstants.PARAM_ENC_ASSET_ID] = param2;
-				_loc5_[ServerConstants.PARAM_SIGNATURE] = param4;
-				this._imageRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET_EX);
+				_loc4_[ServerConstants.PARAM_ASSET_ID] = param2;
+				this._imageRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET);
 				this._imageRequest.method = URLRequestMethod.POST;
-				this._imageRequest.data = _loc5_;
+				this._imageRequest.data = _loc4_;
 			}
 			else if(param3)
 			{

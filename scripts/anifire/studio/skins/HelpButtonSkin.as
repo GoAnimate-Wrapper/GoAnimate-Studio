@@ -37,11 +37,11 @@ package anifire.studio.skins
 		
 		private var cornerRadius:Number = 2;
 		
-		private var _embed_mxml__styles_images_icons_icon_help_png_1589982355:Class;
+		private var _embed_mxml__styles_images_icons_icon_help_png_1728972599:Class;
 		
 		public function HelpButtonSkin()
 		{
-			this._embed_mxml__styles_images_icons_icon_help_png_1589982355 = HelpButtonSkin__embed_mxml__styles_images_icons_icon_help_png_1589982355;
+			this._embed_mxml__styles_images_icons_icon_help_png_1728972599 = HelpButtonSkin__embed_mxml__styles_images_icons_icon_help_png_1728972599;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 10;
@@ -139,7 +139,7 @@ package anifire.studio.skins
 		private function _HelpButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_icons_icon_help_png_1589982355;
+			_loc1_.source = this._embed_mxml__styles_images_icons_icon_help_png_1728972599;
 			_loc1_.initialized(this,"_HelpButtonSkin_BitmapImage1");
 			this._HelpButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_HelpButtonSkin_BitmapImage1",this._HelpButtonSkin_BitmapImage1);

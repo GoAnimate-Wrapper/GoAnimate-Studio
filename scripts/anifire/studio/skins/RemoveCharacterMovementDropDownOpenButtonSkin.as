@@ -22,14 +22,14 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_2116188137:Class;
+		private var _embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_872794167:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_ico_walk_on_init_png_2074893289:Class;
+		private var _embed_mxml__styles_images_toolbar_ico_walk_on_init_png_587201281:Class;
 		
 		public function RemoveCharacterMovementDropDownOpenButtonSkin()
 		{
-			this._embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_2116188137 = RemoveCharacterMovementDropDownOpenButtonSkin__embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_2116188137;
-			this._embed_mxml__styles_images_toolbar_ico_walk_on_init_png_2074893289 = RemoveCharacterMovementDropDownOpenButtonSkin__embed_mxml__styles_images_toolbar_ico_walk_on_init_png_2074893289;
+			this._embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_872794167 = RemoveCharacterMovementDropDownOpenButtonSkin__embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_872794167;
+			this._embed_mxml__styles_images_toolbar_ico_walk_on_init_png_587201281 = RemoveCharacterMovementDropDownOpenButtonSkin__embed_mxml__styles_images_toolbar_ico_walk_on_init_png_587201281;
 			super();
 			mx_internal::_document = this;
 			this.width = 46;
@@ -45,7 +45,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_RemoveCharacterMovementDropDownOpenButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_2116188137
+					"value":this._embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_872794167
 				}),new SetProperty().initializeFromObject({
 					"target":"_RemoveCharacterMovementDropDownOpenButtonSkin_SolidColor2",
 					"name":"color",
@@ -57,7 +57,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_RemoveCharacterMovementDropDownOpenButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_2116188137
+					"value":this._embed_mxml__styles_images_toolbar_ico_walk_on_hover_png_872794167
 				}),new SetProperty().initializeFromObject({
 					"target":"_RemoveCharacterMovementDropDownOpenButtonSkin_SolidColor2",
 					"name":"color",
@@ -108,7 +108,7 @@ package anifire.studio.skins
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_toolbar_ico_walk_on_init_png_2074893289;
+			_loc1_.source = this._embed_mxml__styles_images_toolbar_ico_walk_on_init_png_587201281;
 			_loc1_.initialized(this,"_RemoveCharacterMovementDropDownOpenButtonSkin_BitmapImage1");
 			this._RemoveCharacterMovementDropDownOpenButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_RemoveCharacterMovementDropDownOpenButtonSkin_BitmapImage1",this._RemoveCharacterMovementDropDownOpenButtonSkin_BitmapImage1);

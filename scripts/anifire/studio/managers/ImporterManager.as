@@ -108,9 +108,8 @@ package anifire.studio.managers
 		public function createBackgroundThumb(param1:String, param2:Object) : void
 		{
 			var _loc3_:URLVariables = AppConfigManager.instance.createURLVariables();
-			_loc3_[ServerConstants.PARAM_ENC_ASSET_ID] = param2["enc_asset_id"];
-			_loc3_[ServerConstants.PARAM_SIGNATURE] = param2["signature"];
-			var _loc4_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET_EX);
+			_loc3_[ServerConstants.PARAM_ASSET_ID] = param1;
+			var _loc4_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET);
 			_loc4_.method = URLRequestMethod.POST;
 			_loc4_.data = _loc3_;
 			var _loc5_:ThumbDataLoader = new ThumbDataLoader();
@@ -136,7 +135,6 @@ package anifire.studio.managers
 			var _loc5_:Object = _loc2_.data;
 			_loc4_.id = _loc4_.thumbId = _loc5_["file"];
 			_loc4_.encAssetId = _loc5_["enc_asset_id"];
-			_loc4_.signature = _loc5_["signature"];
 			_loc4_.name = _loc5_["title"];
 			_loc4_.tags = _loc5_["tags"];
 			_loc4_.setFileName("bg/" + _loc5_["file"]);
@@ -156,9 +154,8 @@ package anifire.studio.managers
 		protected function createPropThumb(param1:String, param2:Object) : void
 		{
 			var _loc3_:URLVariables = AppConfigManager.instance.createURLVariables();
-			_loc3_[ServerConstants.PARAM_ENC_ASSET_ID] = param2["enc_asset_id"];
-			_loc3_[ServerConstants.PARAM_SIGNATURE] = param2["signature"];
-			var _loc4_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET_EX);
+			_loc3_[ServerConstants.PARAM_ASSET_ID] = param1;
+			var _loc4_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET);
 			_loc4_.method = URLRequestMethod.POST;
 			_loc4_.data = _loc3_;
 			var _loc5_:ThumbDataLoader = new ThumbDataLoader();
@@ -184,7 +181,6 @@ package anifire.studio.managers
 			var _loc5_:Object = _loc2_.data;
 			_loc4_.id = _loc5_["file"];
 			_loc4_.encAssetId = _loc5_["enc_asset_id"];
-			_loc4_.signature = _loc5_["signature"];
 			_loc4_.name = _loc5_["title"];
 			_loc4_.tags = _loc5_["tags"];
 			_loc4_.setFileName("prop/" + _loc5_["file"]);
@@ -196,7 +192,7 @@ package anifire.studio.managers
 			_loc4_.facing = AnimeConstants.FACING_LEFT;
 			_loc4_.enable = true;
 			_loc4_.isPublished = false;
-			ThemeManager.instance.userTheme.addThumb(_loc4_,_loc4_.xml);
+			ThemeManager.instance.userTheme.propThumbs.push(_loc4_.id,_loc4_);
 			UserAssetManager.instance.addPropByThumb(_loc4_);
 			UserAssetManager.instance.notifyUploadComplete();
 			_loc2_.removeAllEventListeners();
@@ -207,9 +203,8 @@ package anifire.studio.managers
 		protected function createSoundThumb(param1:String, param2:Object) : void
 		{
 			var _loc3_:URLVariables = AppConfigManager.instance.createURLVariables();
-			_loc3_[ServerConstants.PARAM_ENC_ASSET_ID] = param2["enc_asset_id"];
-			_loc3_[ServerConstants.PARAM_SIGNATURE] = param2["signature"];
-			var _loc4_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET_EX);
+			_loc3_[ServerConstants.PARAM_ASSET_ID] = param1;
+			var _loc4_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET);
 			_loc4_.method = URLRequestMethod.POST;
 			_loc4_.data = _loc3_;
 			var _loc5_:ThumbDataLoader = new ThumbDataLoader();
@@ -224,6 +219,7 @@ package anifire.studio.managers
 		
 		protected function onSoundDataComplete(param1:Event) : void
 		{
+			var _loc5_:Object = null;
 			var _loc2_:ThumbDataLoader = param1.currentTarget as ThumbDataLoader;
 			if(!_loc2_)
 			{
@@ -232,10 +228,9 @@ package anifire.studio.managers
 			var _loc3_:ByteArray = new ByteArray();
 			_loc2_.readBytes(_loc3_);
 			var _loc4_:SoundThumb = new SoundThumb();
-			var _loc5_:Object = _loc2_.data;
+			_loc5_ = _loc2_.data;
 			_loc4_.id = _loc5_["file"];
 			_loc4_.encAssetId = _loc5_["enc_asset_id"];
-			_loc4_.signature = _loc5_["signature"];
 			_loc4_.name = _loc5_["title"];
 			_loc4_.theme = ThemeManager.instance.userTheme;
 			if(_loc5_["subtype"])
@@ -250,7 +245,6 @@ package anifire.studio.managers
 			_loc4_.duration = parseInt(_loc5_["duration"]);
 			_loc4_.tags = _loc5_["tags"];
 			_loc4_.isPublished = false;
-			_loc4_.mergeIntoTheme(ThemeManager.instance.userTheme);
 			_loc4_.addEventListener(CoreEvent.LOAD_THUMB_COMPLETE,this.onSoundThumbComplete);
 			_loc4_.initSoundByByteArray(_loc3_);
 			_loc2_.removeAllEventListeners();
@@ -291,13 +285,12 @@ package anifire.studio.managers
 		
 		protected function onVideoDataComplete(param1:Event) : void
 		{
-			var _loc3_:ByteArray = null;
 			var _loc2_:ThumbDataLoader = param1.currentTarget as ThumbDataLoader;
 			if(!_loc2_)
 			{
 				return;
 			}
-			_loc3_ = new ByteArray();
+			var _loc3_:ByteArray = new ByteArray();
 			_loc2_.readBytes(_loc3_);
 			var _loc4_:VideoPropThumb = new VideoPropThumb();
 			var _loc5_:Object = _loc2_.data;

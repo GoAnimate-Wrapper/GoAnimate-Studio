@@ -35,14 +35,14 @@ package anifire.studio.skins
 		
 		private var cornerRadius:Number = 2;
 		
-		private var _embed_mxml__styles_images_panel_voice_record_png_1657158583:Class;
+		private var _embed_mxml__styles_images_panel_voice_record_hover_png_1155513161:Class;
 		
-		private var _embed_mxml__styles_images_panel_voice_record_hover_png_1434745677:Class;
+		private var _embed_mxml__styles_images_panel_voice_record_png_1082760769:Class;
 		
 		public function MicRecordButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_voice_record_png_1657158583 = MicRecordButtonSkin__embed_mxml__styles_images_panel_voice_record_png_1657158583;
-			this._embed_mxml__styles_images_panel_voice_record_hover_png_1434745677 = MicRecordButtonSkin__embed_mxml__styles_images_panel_voice_record_hover_png_1434745677;
+			this._embed_mxml__styles_images_panel_voice_record_hover_png_1155513161 = MicRecordButtonSkin__embed_mxml__styles_images_panel_voice_record_hover_png_1155513161;
+			this._embed_mxml__styles_images_panel_voice_record_png_1082760769 = MicRecordButtonSkin__embed_mxml__styles_images_panel_voice_record_png_1082760769;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 21;
@@ -117,7 +117,7 @@ package anifire.studio.skins
 		private function _MicRecordButtonSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_voice_record_png_1657158583;
+			_loc1_.source = this._embed_mxml__styles_images_panel_voice_record_png_1082760769;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -125,7 +125,7 @@ package anifire.studio.skins
 		private function _MicRecordButtonSkin_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_voice_record_hover_png_1434745677;
+			_loc1_.source = this._embed_mxml__styles_images_panel_voice_record_hover_png_1155513161;
 			_loc1_.visible = false;
 			_loc1_.initialized(this,"_MicRecordButtonSkin_BitmapImage2");
 			this._MicRecordButtonSkin_BitmapImage2 = _loc1_;

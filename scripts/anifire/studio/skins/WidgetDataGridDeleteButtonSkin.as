@@ -28,14 +28,14 @@ package anifire.studio.skins
 		
 		private var cornerRadius:Number = 2;
 		
-		private var _embed_mxml__styles_images_widget_img_del_init_png_651304461:Class;
+		private var _embed_mxml__styles_images_widget_img_del_hover_png_1231934977:Class;
 		
-		private var _embed_mxml__styles_images_widget_img_del_hover_png_300580919:Class;
+		private var _embed_mxml__styles_images_widget_img_del_init_png_1968107673:Class;
 		
 		public function WidgetDataGridDeleteButtonSkin()
 		{
-			this._embed_mxml__styles_images_widget_img_del_init_png_651304461 = WidgetDataGridDeleteButtonSkin__embed_mxml__styles_images_widget_img_del_init_png_651304461;
-			this._embed_mxml__styles_images_widget_img_del_hover_png_300580919 = WidgetDataGridDeleteButtonSkin__embed_mxml__styles_images_widget_img_del_hover_png_300580919;
+			this._embed_mxml__styles_images_widget_img_del_hover_png_1231934977 = WidgetDataGridDeleteButtonSkin__embed_mxml__styles_images_widget_img_del_hover_png_1231934977;
+			this._embed_mxml__styles_images_widget_img_del_init_png_1968107673 = WidgetDataGridDeleteButtonSkin__embed_mxml__styles_images_widget_img_del_init_png_1968107673;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 21;
@@ -153,7 +153,7 @@ package anifire.studio.skins
 		private function _WidgetDataGridDeleteButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_widget_img_del_init_png_651304461;
+			_loc1_.source = this._embed_mxml__styles_images_widget_img_del_init_png_1968107673;
 			_loc1_.initialized(this,"_WidgetDataGridDeleteButtonSkin_BitmapImage1");
 			this._WidgetDataGridDeleteButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_WidgetDataGridDeleteButtonSkin_BitmapImage1",this._WidgetDataGridDeleteButtonSkin_BitmapImage1);
@@ -163,7 +163,7 @@ package anifire.studio.skins
 		private function _WidgetDataGridDeleteButtonSkin_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_widget_img_del_hover_png_300580919;
+			_loc1_.source = this._embed_mxml__styles_images_widget_img_del_hover_png_1231934977;
 			_loc1_.visible = false;
 			_loc1_.initialized(this,"_WidgetDataGridDeleteButtonSkin_BitmapImage2");
 			this._WidgetDataGridDeleteButtonSkin_BitmapImage2 = _loc1_;

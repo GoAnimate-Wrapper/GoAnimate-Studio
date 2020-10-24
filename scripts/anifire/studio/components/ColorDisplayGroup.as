@@ -32,7 +32,7 @@ package anifire.studio.components
 		
 		protected var _color:uint;
 		
-		private var _embed_mxml__styles_images_panel_text_nocolor_png_102167083:Class;
+		private var _embed_mxml__styles_images_panel_text_nocolor_png_1640861249:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -46,7 +46,7 @@ package anifire.studio.components
 		{
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_text_nocolor_png_102167083 = ColorDisplayGroup__embed_mxml__styles_images_panel_text_nocolor_png_102167083;
+			this._embed_mxml__styles_images_panel_text_nocolor_png_1640861249 = ColorDisplayGroup__embed_mxml__styles_images_panel_text_nocolor_png_1640861249;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -152,7 +152,7 @@ package anifire.studio.components
 			_loc1_.right = 0;
 			_loc1_.top = 0;
 			_loc1_.bottom = 0;
-			_loc1_.source = this._embed_mxml__styles_images_panel_text_nocolor_png_102167083;
+			_loc1_.source = this._embed_mxml__styles_images_panel_text_nocolor_png_1640861249;
 			_loc1_.initialized(this,"_ColorDisplayGroup_BitmapImage1");
 			this._ColorDisplayGroup_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_ColorDisplayGroup_BitmapImage1",this._ColorDisplayGroup_BitmapImage1);

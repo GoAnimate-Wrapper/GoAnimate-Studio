@@ -198,15 +198,15 @@ package anifire.studio.components
 		
 		private var _timer:Timer;
 		
-		private var _embed_mxml__styles_images_voicetab_recording_2_png_1508568599:Class;
+		private var _embed_mxml__styles_images_voicetab_recording_3_png_1902793985:Class;
 		
-		private var _embed_mxml__styles_images_panel_recordingbar_png_113703831:Class;
+		private var _embed_mxml__styles_images_voicetab_recording_1_png_1903023369:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_recording_1_png_1524809491:Class;
+		private var _embed_mxml__styles_images_voicetab_recording_2_png_1902760961:Class;
 		
-		private var _embed_mxml__styles_images_icons_message_alert_png_1504559595:Class;
+		private var _embed_mxml__styles_images_icons_message_alert_png_183717631:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_recording_3_png_1508556567:Class;
+		private var _embed_mxml__styles_images_panel_recordingbar_png_2022547321:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -222,11 +222,11 @@ package anifire.studio.components
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
 			this._834112942_addVoiceButtonLabel = ADD_VOICE_COPY;
-			this._embed_mxml__styles_images_voicetab_recording_2_png_1508568599 = MicRecordingComponent__embed_mxml__styles_images_voicetab_recording_2_png_1508568599;
-			this._embed_mxml__styles_images_panel_recordingbar_png_113703831 = MicRecordingComponent__embed_mxml__styles_images_panel_recordingbar_png_113703831;
-			this._embed_mxml__styles_images_voicetab_recording_1_png_1524809491 = MicRecordingComponent__embed_mxml__styles_images_voicetab_recording_1_png_1524809491;
-			this._embed_mxml__styles_images_icons_message_alert_png_1504559595 = MicRecordingComponent__embed_mxml__styles_images_icons_message_alert_png_1504559595;
-			this._embed_mxml__styles_images_voicetab_recording_3_png_1508556567 = MicRecordingComponent__embed_mxml__styles_images_voicetab_recording_3_png_1508556567;
+			this._embed_mxml__styles_images_voicetab_recording_3_png_1902793985 = MicRecordingComponent__embed_mxml__styles_images_voicetab_recording_3_png_1902793985;
+			this._embed_mxml__styles_images_voicetab_recording_1_png_1903023369 = MicRecordingComponent__embed_mxml__styles_images_voicetab_recording_1_png_1903023369;
+			this._embed_mxml__styles_images_voicetab_recording_2_png_1902760961 = MicRecordingComponent__embed_mxml__styles_images_voicetab_recording_2_png_1902760961;
+			this._embed_mxml__styles_images_icons_message_alert_png_183717631 = MicRecordingComponent__embed_mxml__styles_images_icons_message_alert_png_183717631;
+			this._embed_mxml__styles_images_panel_recordingbar_png_2022547321 = MicRecordingComponent__embed_mxml__styles_images_panel_recordingbar_png_2022547321;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -1313,7 +1313,7 @@ package anifire.studio.components
 		private function _MicRecordingComponent_Image1_i() : Image
 		{
 			var _loc1_:Image = new Image();
-			_loc1_.source = this._embed_mxml__styles_images_panel_recordingbar_png_113703831;
+			_loc1_.source = this._embed_mxml__styles_images_panel_recordingbar_png_2022547321;
 			_loc1_.id = "micLevelImage";
 			if(!_loc1_.document)
 			{
@@ -1407,7 +1407,7 @@ package anifire.studio.components
 		{
 			var _loc1_:Image = new Image();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_voicetab_recording_3_png_1508556567;
+			_loc1_.source = this._embed_mxml__styles_images_voicetab_recording_3_png_1902793985;
 			_loc1_.id = "countdown3";
 			if(!_loc1_.document)
 			{
@@ -1422,7 +1422,7 @@ package anifire.studio.components
 		{
 			var _loc1_:Image = new Image();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_voicetab_recording_2_png_1508568599;
+			_loc1_.source = this._embed_mxml__styles_images_voicetab_recording_2_png_1902760961;
 			_loc1_.id = "countdown2";
 			if(!_loc1_.document)
 			{
@@ -1437,7 +1437,7 @@ package anifire.studio.components
 		{
 			var _loc1_:Image = new Image();
 			_loc1_.visible = false;
-			_loc1_.source = this._embed_mxml__styles_images_voicetab_recording_1_png_1524809491;
+			_loc1_.source = this._embed_mxml__styles_images_voicetab_recording_1_png_1903023369;
 			_loc1_.id = "countdown1";
 			if(!_loc1_.document)
 			{
@@ -1737,7 +1737,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.scaleX = 0.5;
 			_loc1_.scaleY = 0.5;
-			_loc1_.source = this._embed_mxml__styles_images_icons_message_alert_png_1504559595;
+			_loc1_.source = this._embed_mxml__styles_images_icons_message_alert_png_183717631;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -1831,7 +1831,7 @@ package anifire.studio.components
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.baseline = -15;
-			_loc1_.source = this._embed_mxml__styles_images_icons_message_alert_png_1504559595;
+			_loc1_.source = this._embed_mxml__styles_images_icons_message_alert_png_183717631;
 			_loc1_.initialized(this,"iconDisplay");
 			this.iconDisplay = _loc1_;
 			BindingManager.executeBindings(this,"iconDisplay",this.iconDisplay);

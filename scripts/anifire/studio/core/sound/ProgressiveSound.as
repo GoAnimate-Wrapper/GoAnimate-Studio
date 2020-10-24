@@ -1,8 +1,11 @@
 package anifire.studio.core.sound
 {
+	import anifire.constant.ServerConstants;
+	import anifire.sound.TTSManager;
 	import anifire.studio.components.SoundContainer;
 	import anifire.studio.utils.UtilSound;
 	import anifire.util.Util;
+	import anifire.util.UtilNetwork;
 	import anifire.util.UtilUnitConvert;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
@@ -283,8 +286,21 @@ package anifire.studio.core.sound
 		
 		private function onLoadSoundFail(param1:IOErrorEvent) : void
 		{
+			var _loc2_:String = null;
 			(param1.target as IEventDispatcher).removeEventListener(param1.type,this.onLoadSoundComplete);
 			(param1.target as IEventDispatcher).removeEventListener(param1.type,this.onLoadSoundFail);
+			if(this._subType)
+			{
+				if(TTSManager.isSoundRebuildable(this._subType))
+				{
+					_loc2_ = this._urlRequest.data[ServerConstants.PARAM_ASSET_ID];
+					this._urlRequest = UtilNetwork.getRebuildTTSRequest(_loc2_);
+					this._sound = new Sound();
+					this._sound.addEventListener(Event.COMPLETE,this.onLoadSoundComplete);
+					this._sound.addEventListener(IOErrorEvent.IO_ERROR,this.onLoadSoundFail);
+					this._sound.load(this._urlRequest);
+				}
+			}
 		}
 		
 		private function onLoadSoundComplete(param1:Event) : void

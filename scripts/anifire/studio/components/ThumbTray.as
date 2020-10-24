@@ -830,7 +830,7 @@ package anifire.studio.components
 			StudioFontManager.instance.addEventListener(FontEvent.FONT_FAMILY_USED,this.studioFontManager_fontFamilyUsedHandler);
 			this._serverConnector = ServerConnector.instance;
 			this._serverConnector.addEventListener(StudioEvent.OPEN_YOUR_LIBRARY,this.openYourLibrary);
-			if(UtilUser.isContentAdmin)
+			if(UtilUser.hasAdminFeatures)
 			{
 				this._showTextComponentCreationPanel = true;
 			}

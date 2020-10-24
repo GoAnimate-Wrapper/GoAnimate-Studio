@@ -9,6 +9,7 @@ package anifire.util
 	import com.jumpeye.flashEff2.symbol.scale.FESScale;
 	import com.jumpeye.flashEff2.symbol.sparkle.FESSparkle;
 	import com.jumpeye.flashEff2.symbol.unpack.FESUnpack;
+	import com.jumpeye.flashEff2.symbol.zoomBlur.FESZoomBlur;
 	import fl.transitions.Blinds;
 	import fl.transitions.Fade;
 	import fl.transitions.Fly;
@@ -152,6 +153,7 @@ package anifire.util
 			param1.push("FESUnpack_2",FESUnpack);
 			param1.push("FESUnpack_1",FESUnpack);
 			param1.push("FESUnpack_8",FESUnpack);
+			param1.push("FESZoomBlur",FESZoomBlur);
 			param1.push("FESDisc",FESDisc);
 			param1.push("InfoBlinds",FadeOutInTransition);
 			param1.push("InfoIris",FadeOutInTransition);
@@ -244,6 +246,7 @@ package anifire.util
 			param1.push("FESUnpack_2","Split - Horizontal");
 			param1.push("FESUnpack_1","Split - Vertical");
 			param1.push("FESUnpack_8","Unpack");
+			param1.push("FESZoomBlur","Zoom - blur");
 			param1.push("FESDisc","Circular reveal");
 			param1.push("Pan","Slide");
 			param1.push("InfoBlinds","Motion graphics - Stripes and Rings");

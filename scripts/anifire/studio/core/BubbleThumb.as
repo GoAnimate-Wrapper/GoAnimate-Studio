@@ -130,7 +130,7 @@ package anifire.studio.core
 		
 		override public function get isWhiteboardAsset() : Boolean
 		{
-			return this.id == "blank8" || this.id == "blank9" || this.id == "blank10" || this.id == "blank18";
+			return this.id == "blank8" || this.id == "blank9" || this.id == "blank10";
 		}
 	}
 }

@@ -19,14 +19,14 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_icon_reset_hover_png_1991266197:Class;
+		private var _embed_mxml__styles_images_tray_icon_reset_init_png_2037536121:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_reset_init_png_301109143:Class;
+		private var _embed_mxml__styles_images_tray_icon_reset_hover_png_1898554817:Class;
 		
 		public function ClearSearchButtonSkin()
 		{
-			this._embed_mxml__styles_images_tray_icon_reset_hover_png_1991266197 = ClearSearchButtonSkin__embed_mxml__styles_images_tray_icon_reset_hover_png_1991266197;
-			this._embed_mxml__styles_images_tray_icon_reset_init_png_301109143 = ClearSearchButtonSkin__embed_mxml__styles_images_tray_icon_reset_init_png_301109143;
+			this._embed_mxml__styles_images_tray_icon_reset_init_png_2037536121 = ClearSearchButtonSkin__embed_mxml__styles_images_tray_icon_reset_init_png_2037536121;
+			this._embed_mxml__styles_images_tray_icon_reset_hover_png_1898554817 = ClearSearchButtonSkin__embed_mxml__styles_images_tray_icon_reset_hover_png_1898554817;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 5;
@@ -77,7 +77,7 @@ package anifire.studio.skins
 		private function _ClearSearchButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_reset_init_png_301109143;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_reset_init_png_2037536121;
 			_loc1_.initialized(this,"_ClearSearchButtonSkin_BitmapImage1");
 			this._ClearSearchButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_ClearSearchButtonSkin_BitmapImage1",this._ClearSearchButtonSkin_BitmapImage1);
@@ -87,7 +87,7 @@ package anifire.studio.skins
 		private function _ClearSearchButtonSkin_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_reset_hover_png_1991266197;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_reset_hover_png_1898554817;
 			_loc1_.visible = false;
 			_loc1_.initialized(this,"_ClearSearchButtonSkin_BitmapImage2");
 			this._ClearSearchButtonSkin_BitmapImage2 = _loc1_;

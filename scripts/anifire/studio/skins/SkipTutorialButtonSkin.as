@@ -28,13 +28,13 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tutorial_stop_btn_png_866942295:Class;
+		private var _embed_mxml__styles_images_tutorial_stop_btn_png_675474687:Class;
 		
 		private var _213507019hostComponent:Button;
 		
 		public function SkipTutorialButtonSkin()
 		{
-			this._embed_mxml__styles_images_tutorial_stop_btn_png_866942295 = SkipTutorialButtonSkin__embed_mxml__styles_images_tutorial_stop_btn_png_866942295;
+			this._embed_mxml__styles_images_tutorial_stop_btn_png_675474687 = SkipTutorialButtonSkin__embed_mxml__styles_images_tutorial_stop_btn_png_675474687;
 			super();
 			mx_internal::_document = this;
 			this.mxmlContent = [this._SkipTutorialButtonSkin_Rect1_c(),this._SkipTutorialButtonSkin_BitmapImage1_c(),this._SkipTutorialButtonSkin_PopUpAnchor1_i()];
@@ -102,7 +102,7 @@ package anifire.studio.skins
 		private function _SkipTutorialButtonSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tutorial_stop_btn_png_866942295;
+			_loc1_.source = this._embed_mxml__styles_images_tutorial_stop_btn_png_675474687;
 			_loc1_.smooth = true;
 			_loc1_.initialized(this,null);
 			return _loc1_;

@@ -332,7 +332,7 @@ package anifire.studio.skins
 		private function _InternationalLanguagePopUpSkin_LinkElement1_c() : LinkElement
 		{
 			var _loc1_:LinkElement = new LinkElement();
-			_loc1_.href = "https://support.vyond.com/hc/en-us/articles/205081320";
+			_loc1_.href = "https://support.goanimate.com/hc/en-us/articles/205081320";
 			_loc1_.target = "_blank";
 			_loc1_.mxmlChildren = [this._InternationalLanguagePopUpSkin_SpanElement1_c()];
 			_loc1_.initialized(this,null);

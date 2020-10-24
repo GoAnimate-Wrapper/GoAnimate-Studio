@@ -1,6 +1,7 @@
 package anifire.component
 {
 	import anifire.constant.AnimeConstants;
+	import anifire.constant.ServerConstants;
 	import anifire.event.VideoNetStreamEvent;
 	import flash.display.Sprite;
 	import flash.events.AsyncErrorEvent;
@@ -8,6 +9,7 @@ package anifire.component
 	import flash.media.Video;
 	import flash.net.NetConnection;
 	import flash.net.NetStream;
+	import flash.net.URLRequest;
 	import flash.utils.setTimeout;
 	
 	public class VideoPlayback extends Sprite
@@ -46,6 +48,20 @@ package anifire.component
 			this.vid.visible = true;
 			this.pause();
 			this.seekAndPlay(_loc2_);
+		}
+		
+		public function loadAndSeekPlayVideoByAssetId(param1:String, param2:Number) : void
+		{
+			var _loc3_:Object = new Object();
+			this.ns.client = _loc3_;
+			this.ns.addEventListener(AsyncErrorEvent.ASYNC_ERROR,this.asyncErrorHandler);
+			var _loc4_:URLRequest = new URLRequest(ServerConstants.ACTION_GET_ASSET);
+			this.ns.play(_loc4_.url + param1);
+			this.vid.attachNetStream(this.ns);
+			this.vid.visible = false;
+			this.addEventListener(VideoNetStreamEvent.VIDEO_START_TO_PLAY,this.correctVideoScaling);
+			addChild(this.vid);
+			this.doDetectWhenVideoStartPlay(param2);
 		}
 		
 		private function doDetectWhenVideoStartPlay(param1:Number) : void

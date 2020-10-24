@@ -31,13 +31,13 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_icon_whiteboardhand_png_507380613:Class;
+		private var _embed_mxml__styles_images_panel_icon_whiteboardhand_png_467826625:Class;
 		
 		private var _213507019hostComponent:Button;
 		
 		public function WhiteboardHandButtonSkin()
 		{
-			this._embed_mxml__styles_images_panel_icon_whiteboardhand_png_507380613 = WhiteboardHandButtonSkin__embed_mxml__styles_images_panel_icon_whiteboardhand_png_507380613;
+			this._embed_mxml__styles_images_panel_icon_whiteboardhand_png_467826625 = WhiteboardHandButtonSkin__embed_mxml__styles_images_panel_icon_whiteboardhand_png_467826625;
 			super();
 			mx_internal::_document = this;
 			this.width = 32;
@@ -104,7 +104,7 @@ package anifire.studio.skins
 			_loc1_.smooth = true;
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_panel_icon_whiteboardhand_png_507380613;
+			_loc1_.source = this._embed_mxml__styles_images_panel_icon_whiteboardhand_png_467826625;
 			_loc1_.initialized(this,"_WhiteboardHandButtonSkin_BitmapImage1");
 			this._WhiteboardHandButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_WhiteboardHandButtonSkin_BitmapImage1",this._WhiteboardHandButtonSkin_BitmapImage1);

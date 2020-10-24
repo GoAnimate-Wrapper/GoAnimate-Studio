@@ -55,9 +55,9 @@ package anifire.studio.components
 		
 		private var _expandUp:Boolean = true;
 		
-		private var _embed_mxml__styles_images_voicetab_voice_pitch_png_451591219:Class;
+		private var _embed_mxml__styles_images_voicetab_voice_pitch_hover_png_1601817463:Class;
 		
-		private var _embed_mxml__styles_images_voicetab_voice_pitch_hover_png_785687095:Class;
+		private var _embed_mxml__styles_images_voicetab_voice_pitch_png_1902794249:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -72,8 +72,8 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_voicetab_voice_pitch_png_451591219 = SpeechPitchControl__embed_mxml__styles_images_voicetab_voice_pitch_png_451591219;
-			this._embed_mxml__styles_images_voicetab_voice_pitch_hover_png_785687095 = SpeechPitchControl__embed_mxml__styles_images_voicetab_voice_pitch_hover_png_785687095;
+			this._embed_mxml__styles_images_voicetab_voice_pitch_hover_png_1601817463 = SpeechPitchControl__embed_mxml__styles_images_voicetab_voice_pitch_hover_png_1601817463;
+			this._embed_mxml__styles_images_voicetab_voice_pitch_png_1902794249 = SpeechPitchControl__embed_mxml__styles_images_voicetab_voice_pitch_png_1902794249;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -350,8 +350,8 @@ package anifire.studio.components
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
 			_loc1_.buttonMode = true;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_voice_pitch_png_451591219);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_voicetab_voice_pitch_hover_png_785687095);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_voicetab_voice_pitch_png_1902794249);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_voicetab_voice_pitch_hover_png_1601817463);
 			_loc1_.addEventListener("click",this.__volumeButton_click);
 			_loc1_.id = "volumeButton";
 			if(!_loc1_.document)

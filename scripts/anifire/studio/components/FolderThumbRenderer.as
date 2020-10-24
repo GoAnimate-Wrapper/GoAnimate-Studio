@@ -64,7 +64,7 @@ package anifire.studio.components
 		
 		protected var _1692934083_editable:Boolean;
 		
-		private var _embed_mxml__styles_images_tray_icon_folder_png_1320890197:Class;
+		private var _embed_mxml__styles_images_tray_icon_folder_png_950756929:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -79,7 +79,7 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_icon_folder_png_1320890197 = FolderThumbRenderer__embed_mxml__styles_images_tray_icon_folder_png_1320890197;
+			this._embed_mxml__styles_images_tray_icon_folder_png_950756929 = FolderThumbRenderer__embed_mxml__styles_images_tray_icon_folder_png_950756929;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -306,7 +306,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.width = 15;
 			_loc1_.height = 14;
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_folder_png_1320890197;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_folder_png_950756929;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

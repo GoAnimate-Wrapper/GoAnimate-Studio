@@ -55,7 +55,7 @@ package anifire.studio.components
 		{
 			var _loc8_:SpanElement = null;
 			var _loc1_:TextFlow = new TextFlow();
-			var _loc2_:String = UtilDict.toDisplay("go","We hope you\'ve enjoyed this preview of Vyond. Please {0} to save your video.");
+			var _loc2_:String = UtilDict.toDisplay("go","We hope you\'ve enjoyed this preview of GoAnimate. Please {0} to save your video.");
 			var _loc3_:Array = _loc2_.split("{0}");
 			var _loc4_:ParagraphElement = new ParagraphElement();
 			var _loc5_:SpanElement = new SpanElement();

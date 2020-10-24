@@ -32,9 +32,9 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_common_checkbox_selected_png_1245997339:Class;
+		private var _embed_mxml__styles_images_common_checkbox_selected_png_622821889:Class;
 		
-		private var _embed_mxml__styles_images_common_checkbox_base_png_1458081719:Class;
+		private var _embed_mxml__styles_images_common_checkbox_base_png_1989553855:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -51,8 +51,8 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_common_checkbox_selected_png_1245997339 = FlatCheckBoxSkin__embed_mxml__styles_images_common_checkbox_selected_png_1245997339;
-			this._embed_mxml__styles_images_common_checkbox_base_png_1458081719 = FlatCheckBoxSkin__embed_mxml__styles_images_common_checkbox_base_png_1458081719;
+			this._embed_mxml__styles_images_common_checkbox_selected_png_622821889 = FlatCheckBoxSkin__embed_mxml__styles_images_common_checkbox_selected_png_622821889;
+			this._embed_mxml__styles_images_common_checkbox_base_png_1989553855 = FlatCheckBoxSkin__embed_mxml__styles_images_common_checkbox_base_png_1989553855;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -102,7 +102,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"baseImage",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_common_checkbox_selected_png_1245997339
+					"value":this._embed_mxml__styles_images_common_checkbox_selected_png_622821889
 				})]
 			}),new State({
 				"name":"overAndSelected",
@@ -110,7 +110,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"baseImage",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_common_checkbox_selected_png_1245997339
+					"value":this._embed_mxml__styles_images_common_checkbox_selected_png_622821889
 				})]
 			}),new State({
 				"name":"downAndSelected",
@@ -118,7 +118,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"baseImage",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_common_checkbox_selected_png_1245997339
+					"value":this._embed_mxml__styles_images_common_checkbox_selected_png_622821889
 				})]
 			}),new State({
 				"name":"disabledAndSelected",
@@ -129,7 +129,7 @@ package anifire.studio.skins
 				}),new SetProperty().initializeFromObject({
 					"target":"baseImage",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_common_checkbox_selected_png_1245997339
+					"value":this._embed_mxml__styles_images_common_checkbox_selected_png_622821889
 				})]
 			})];
 			var i:uint = 0;
@@ -169,7 +169,7 @@ package anifire.studio.skins
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_common_checkbox_base_png_1458081719;
+			_loc1_.source = this._embed_mxml__styles_images_common_checkbox_base_png_1989553855;
 			_loc1_.initialized(this,"baseImage");
 			this.baseImage = _loc1_;
 			BindingManager.executeBindings(this,"baseImage",this.baseImage);

@@ -50,7 +50,7 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_scenesetting_gear_png_847780587:Class;
+		private var _embed_mxml__styles_images_panel_scenesetting_gear_png_67195135:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -67,7 +67,7 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_scenesetting_gear_png_847780587 = OptionDropDownListSkin__embed_mxml__styles_images_panel_scenesetting_gear_png_847780587;
+			this._embed_mxml__styles_images_panel_scenesetting_gear_png_67195135 = OptionDropDownListSkin__embed_mxml__styles_images_panel_scenesetting_gear_png_67195135;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -268,7 +268,7 @@ package anifire.studio.skins
 			_loc1_.buttonMode = true;
 			_loc1_.focusEnabled = false;
 			_loc1_.tabEnabled = false;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_scenesetting_gear_png_847780587);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_panel_scenesetting_gear_png_67195135);
 			_loc1_.id = "openButton";
 			if(!_loc1_.document)
 			{

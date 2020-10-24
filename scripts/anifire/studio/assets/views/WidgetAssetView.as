@@ -142,8 +142,8 @@ package anifire.studio.assets.views
 			if(_loc1_ && _loc2_)
 			{
 				_loc1_.styleModel = _loc2_.styleModel;
-				_loc1_.displayValueLabel = _loc2_.displayValueLabel;
 				_loc1_.displayInPercentage = _loc2_.displayInPercentage;
+				_loc1_.displayValueLabel = _loc2_.displayValueLabel;
 				_loc1_.displayDataLabel = _loc2_.displayDataLabel;
 				_loc1_.displayAxis = _loc2_.displayAxis;
 				_loc1_.displayLegend = _loc2_.displayLegend;

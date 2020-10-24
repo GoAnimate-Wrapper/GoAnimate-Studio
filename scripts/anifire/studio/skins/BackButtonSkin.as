@@ -19,14 +19,14 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_icon_back_init_png_1218989459:Class;
+		private var _embed_mxml__styles_images_tray_icon_back_init_png_179733255:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_back_hover_png_789934249:Class;
+		private var _embed_mxml__styles_images_tray_icon_back_hover_png_1989520063:Class;
 		
 		public function BackButtonSkin()
 		{
-			this._embed_mxml__styles_images_tray_icon_back_init_png_1218989459 = BackButtonSkin__embed_mxml__styles_images_tray_icon_back_init_png_1218989459;
-			this._embed_mxml__styles_images_tray_icon_back_hover_png_789934249 = BackButtonSkin__embed_mxml__styles_images_tray_icon_back_hover_png_789934249;
+			this._embed_mxml__styles_images_tray_icon_back_init_png_179733255 = BackButtonSkin__embed_mxml__styles_images_tray_icon_back_init_png_179733255;
+			this._embed_mxml__styles_images_tray_icon_back_hover_png_1989520063 = BackButtonSkin__embed_mxml__styles_images_tray_icon_back_hover_png_1989520063;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 5;
@@ -77,7 +77,7 @@ package anifire.studio.skins
 		private function _BackButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_back_init_png_1218989459;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_back_init_png_179733255;
 			_loc1_.initialized(this,"_BackButtonSkin_BitmapImage1");
 			this._BackButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_BackButtonSkin_BitmapImage1",this._BackButtonSkin_BitmapImage1);
@@ -87,7 +87,7 @@ package anifire.studio.skins
 		private function _BackButtonSkin_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_back_hover_png_789934249;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_back_hover_png_1989520063;
 			_loc1_.visible = false;
 			_loc1_.initialized(this,"_BackButtonSkin_BitmapImage2");
 			this._BackButtonSkin_BitmapImage2 = _loc1_;

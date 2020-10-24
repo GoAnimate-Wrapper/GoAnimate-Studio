@@ -4063,7 +4063,7 @@ package anifire.studio.core
 				return;
 			}
 			UtilErrorLogger.getInstance().info("Console::saveStarter");
-			if(UtilUser.isContentAdmin && this.starterMetaData.hasTag(ThemeStarterManager.THEME_STARTER_TAG_NAME))
+			if(UtilUser.hasAdminFeatures && this.starterMetaData.hasTag(ThemeStarterManager.THEME_STARTER_TAG_NAME))
 			{
 				if(!this._currSceneOnlyForTemp && this.movie.length > 1)
 				{
@@ -4147,12 +4147,15 @@ package anifire.studio.core
 				}
 				if(!autoSave)
 				{
+					if(!this.metaData.movieId)
+					{
+						AmplitudeAnalyticsManager.instance.incrementUserProperty("total_saved_videos",1);
+					}
 					eventProperties = {
 						"duration":this._timelineController.movieTotalDuration,
 						"scene_count":this._movie.length,
 						"theme":this._configManager.getValue(ServerConstants.FLASHVAR_DEFAULT_TRAYTHEME),
-						"video_id":this.metaData.movieId,
-						"create_date":this._configManager.getValue(ServerConstants.FLASHVAR_MOVIE_CREATE_DATETIME)
+						"video_id":this.metaData.movieId
 					};
 					AmplitudeAnalyticsManager.instance.log(AmplitudeAnalyticsManager.EVENT_NAME_SAVED_VIDEO,eventProperties);
 				}

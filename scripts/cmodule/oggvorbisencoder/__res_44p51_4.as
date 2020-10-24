@@ -1,4 +1,0 @@
-package cmodule.oggvorbisencoder
-{
-	const __res_44p51_4:int = gstaticInitter.alloc(96,8);
-}

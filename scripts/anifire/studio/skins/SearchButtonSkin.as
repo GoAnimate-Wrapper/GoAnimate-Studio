@@ -19,14 +19,14 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_icon_search_hover_png_1299415259:Class;
+		private var _embed_mxml__styles_images_tray_icon_search_hover_png_1982343103:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_search_init_png_1095742803:Class;
+		private var _embed_mxml__styles_images_tray_icon_search_init_png_2027268601:Class;
 		
 		public function SearchButtonSkin()
 		{
-			this._embed_mxml__styles_images_tray_icon_search_hover_png_1299415259 = SearchButtonSkin__embed_mxml__styles_images_tray_icon_search_hover_png_1299415259;
-			this._embed_mxml__styles_images_tray_icon_search_init_png_1095742803 = SearchButtonSkin__embed_mxml__styles_images_tray_icon_search_init_png_1095742803;
+			this._embed_mxml__styles_images_tray_icon_search_hover_png_1982343103 = SearchButtonSkin__embed_mxml__styles_images_tray_icon_search_hover_png_1982343103;
+			this._embed_mxml__styles_images_tray_icon_search_init_png_2027268601 = SearchButtonSkin__embed_mxml__styles_images_tray_icon_search_init_png_2027268601;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 5;
@@ -77,7 +77,7 @@ package anifire.studio.skins
 		private function _SearchButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_search_init_png_1095742803;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_search_init_png_2027268601;
 			_loc1_.initialized(this,"_SearchButtonSkin_BitmapImage1");
 			this._SearchButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_SearchButtonSkin_BitmapImage1",this._SearchButtonSkin_BitmapImage1);
@@ -87,7 +87,7 @@ package anifire.studio.skins
 		private function _SearchButtonSkin_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_search_hover_png_1299415259;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_search_hover_png_1982343103;
 			_loc1_.visible = false;
 			_loc1_.initialized(this,"_SearchButtonSkin_BitmapImage2");
 			this._SearchButtonSkin_BitmapImage2 = _loc1_;

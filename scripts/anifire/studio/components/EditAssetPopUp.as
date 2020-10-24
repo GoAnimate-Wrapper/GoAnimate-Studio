@@ -306,7 +306,7 @@ package anifire.studio.components
 		override protected function init() : void
 		{
 			super.init();
-			this._isAdmin = UtilUser.isContentAdmin;
+			this._isAdmin = UtilUser.hasAdminFeatures;
 			this._showCategoryInput = this._isAdmin;
 			this._showPublicCheckBox = this._isAdmin;
 			this.showIDLabel = this._isAdmin;

@@ -134,7 +134,7 @@ package anifire.studio.components
 		
 		private var _defaultTextDate:Date;
 		
-		private var _embed_mxml__styles_images_icons_icon_trash_png_922299341:Class;
+		private var _embed_mxml__styles_images_icons_icon_trash_png_1084368649:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -156,7 +156,7 @@ package anifire.studio.components
 			this._1531952482_endDayList = new ArrayCollection();
 			this._today = new Date();
 			this._monthArray = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
-			this._embed_mxml__styles_images_icons_icon_trash_png_922299341 = CalendarDataPanel__embed_mxml__styles_images_icons_icon_trash_png_922299341;
+			this._embed_mxml__styles_images_icons_icon_trash_png_1084368649 = CalendarDataPanel__embed_mxml__styles_images_icons_icon_trash_png_1084368649;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -1178,7 +1178,7 @@ package anifire.studio.components
 			_loc1_.buttonMode = true;
 			_loc1_.width = 20;
 			_loc1_.percentHeight = 100;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_icons_icon_trash_png_922299341);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_icons_icon_trash_png_1084368649);
 			_loc1_.addEventListener("click",this.___CalendarDataPanel_IconButton1_click);
 			if(!_loc1_.document)
 			{

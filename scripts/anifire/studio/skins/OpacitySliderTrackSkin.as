@@ -41,7 +41,7 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_panel_opacity_slider_track_png_277908951:Class;
+		private var _embed_mxml__styles_images_panel_opacity_slider_track_png_1723780231:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -58,7 +58,7 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_opacity_slider_track_png_277908951 = OpacitySliderTrackSkin__embed_mxml__styles_images_panel_opacity_slider_track_png_277908951;
+			this._embed_mxml__styles_images_panel_opacity_slider_track_png_1723780231 = OpacitySliderTrackSkin__embed_mxml__styles_images_panel_opacity_slider_track_png_1723780231;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -151,7 +151,7 @@ package anifire.studio.skins
 			_loc1_.top = 0;
 			_loc1_.bottom = 0;
 			_loc1_.fillMode = "repeat";
-			_loc1_.source = this._embed_mxml__styles_images_panel_opacity_slider_track_png_277908951;
+			_loc1_.source = this._embed_mxml__styles_images_panel_opacity_slider_track_png_1723780231;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,"sliderImage");
 			this.sliderImage = _loc1_;

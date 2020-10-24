@@ -54,7 +54,7 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_icon_text_component_png_2107923369:Class;
+		private var _embed_mxml__styles_images_tray_icon_text_component_png_620725057:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -71,7 +71,7 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_icon_text_component_png_2107923369 = TextComponentListSkin__embed_mxml__styles_images_tray_icon_text_component_png_2107923369;
+			this._embed_mxml__styles_images_tray_icon_text_component_png_620725057 = TextComponentListSkin__embed_mxml__styles_images_tray_icon_text_component_png_620725057;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -210,7 +210,7 @@ package anifire.studio.skins
 		private function _TextComponentListSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_text_component_png_2107923369;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_text_component_png_620725057;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

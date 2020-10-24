@@ -26,13 +26,9 @@ package anifire.util
 		
 		public static const FONT_NAME_ACCIDENTAL_PRESIDENCY:String = "Accidental Presidency";
 		
-		public static const FONT_NAME_ALEGREYA_SANS_SC:String = "Alegreya Sans SC";
-		
 		public static const FONT_NAME_ARIAL:String = "Arial";
 		
 		public static const FONT_NAME_BANGERS:String = "Bangers";
-		
-		public static const FONT_NAME_BARRIO:String = "Barrio";
 		
 		public static const FONT_NAME_BLAMBOT_CASUAL:String = "Blambot Casual";
 		
@@ -43,10 +39,6 @@ package anifire.util
 		public static const FONT_NAME_BUDMO_JIGGLER:String = "Budmo Jiggler";
 		
 		public static const FONT_NAME_BUDMO_JIGGLISH:String = "Budmo Jigglish";
-		
-		public static const FONT_NAME_BUNGEE_INLINE:String = "Bungee Inline";
-		
-		public static const FONT_NAME_BUNGEE_SHADE:String = "Bungee Shade";
 		
 		public static const FONT_NAME_CLAIRE_HAND:String = "Claire Hand";
 		
@@ -60,57 +52,31 @@ package anifire.util
 		
 		public static const FONT_NAME_GLEGOO:String = "Glegoo";
 		
-		public static const FONT_NAME_GOCHI_HAND:String = "Gochi Hand";
-		
 		public static const FONT_NAME_HEARTLAND_REGULAR:String = "HeartlandRegular";
 		
 		public static const FONT_NAME_HONEY_SCRIPT:String = "Honey Script";
 		
 		public static const FONT_NAME_I_HATE_COMIC_SANS:String = "I hate Comic Sans";
 		
-		public static const FONT_NAME_IM_FELL_ENGLISH_SC:String = "IM Fell English SC";
-		
 		public static const FONT_NAME_IMPACT_LABEL:String = "Impact Label";
 		
-		public static const FONT_NAME_JOSEFIN:String = "Josefin";
-		
-		public static const FONT_NAME_KAUSHAN:String = "Kaushan";
-		
 		public static const FONT_NAME_LILITA_ONE:String = "Lilita One";
-		
-		public static const FONT_NAME_LOBSTER:String = "Lobster";
 		
 		public static const FONT_NAME_LOCO_TV:String = "loco tv";
 		
 		public static const FONT_NAME_MAIL_RAY_STUFF:String = "Mail Ray Stuff";
 		
-		public static const FONT_NAME_MONTSERRAT:String = "Montserrat";
-		
-		public static const FONT_NAME_MOUSE_MEMOIRS:String = "Mouse Memoirs";
-		
 		public static const FONT_NAME_OSWALD:String = "Oswald";
-		
-		public static const FONT_NAME_PATRICK_HAND:String = "Patrick Hand";
-		
-		public static const FONT_NAME_PERMANENT_MARKER:String = "Permanent Marker";
 		
 		public static const FONT_NAME_POIRET_ONE:String = "Poiret One";
 		
 		public static const FONT_NAME_RALEWAY:String = "Raleway";
 		
-		public static const FONT_NAME_SATISFY:String = "Satisfy";
-		
 		public static const FONT_NAME_SHANGHAI:String = "Shanghai";
-		
-		public static const FONT_NAME_SRIRACHA:String = "Sriracha";
-		
-		public static const FONT_NAME_TEKO:String = "Teko";
 		
 		public static const FONT_NAME_TELEX_REGULAR:String = "Telex Regular";
 		
 		public static const FONT_NAME_TOKYO:String = "Tokyo Robot Intl BB";
-		
-		public static const FONT_NAME_VIDALOKA:String = "Vidaloka";
 		
 		public static const FONT_NAME_WOOD_STAMP:String = "Wood Stamp";
 		
@@ -222,7 +188,7 @@ package anifire.util
 			this._cffQueue = [];
 			this._customQueue = [];
 			this._customFontModelLookUp = {};
-			this._fontNotSupportBold = [FONT_NAME_LEAGUE_SPARTAN,FONT_NAME_BLACKOUT_MIDNIGHT,FONT_NAME_BLACKOUT_SUNRISE,FONT_NAME_IMPACT_LABEL,FONT_NAME_OSTRICH_SANS_MEDIUM,FONT_NAME_PROCIONO,FONT_NAME_WOOD_STAMP,FONT_NAME_BERKSHIRE,FONT_NAME_CAVEAT,FONT_NAME_WALTER,FONT_NAME_GLEGOO,FONT_NAME_BARRIO,FONT_NAME_BUNGEE_INLINE,FONT_NAME_BUNGEE_SHADE,FONT_NAME_GOCHI_HAND,FONT_NAME_IM_FELL_ENGLISH_SC,FONT_NAME_KAUSHAN,FONT_NAME_LOBSTER,FONT_NAME_MOUSE_MEMOIRS,FONT_NAME_PATRICK_HAND,FONT_NAME_PERMANENT_MARKER,FONT_NAME_SATISFY,FONT_NAME_SRIRACHA,FONT_NAME_VIDALOKA,FontVariantManager.FONT_VARIANT_NOTO_CJK_TC];
+			this._fontNotSupportBold = [FONT_NAME_LEAGUE_SPARTAN,FONT_NAME_BLACKOUT_MIDNIGHT,FONT_NAME_BLACKOUT_SUNRISE,FONT_NAME_IMPACT_LABEL,FONT_NAME_OSTRICH_SANS_MEDIUM,FONT_NAME_PROCIONO,FONT_NAME_WOOD_STAMP,FONT_NAME_BERKSHIRE,FONT_NAME_CAVEAT,FONT_NAME_WALTER,FONT_NAME_GLEGOO,FontVariantManager.FONT_VARIANT_NOTO_CJK_TC];
 			this.applicationDomain = new ApplicationDomain(ApplicationDomain.currentDomain);
 			this.loaderContext = new LoaderContext(true,this.applicationDomain);
 			try
@@ -668,40 +634,6 @@ package anifire.util
 					return "Prociono";
 				case "FontFileLato":
 					return "Lato";
-				case "FontFileAlegreyaSansSC":
-					return "Alegreya Sans SC";
-				case "FontFileBarrio":
-					return "Barrio";
-				case "FontFileBungeeInline":
-					return "Bungee Inline";
-				case "FontFileBungeeShade":
-					return "Bungee Shade";
-				case "FontFileGochiHand":
-					return "Gochi Hand";
-				case "FontFileIMFellEnglishSC":
-					return "IM Fell English SC";
-				case "FontFileJosefin":
-					return "Josefin";
-				case "FontFileKaushan":
-					return "Kaushan";
-				case "FontFileLobster":
-					return "Lobster";
-				case "FontFileMontserrat":
-					return "Montserrat";
-				case "FontFileMouseMemoirs":
-					return "Mouse Memoirs";
-				case "FontFilePatrickHand":
-					return "Patrick Hand";
-				case "FontFilePermanentMarker":
-					return "Permanent Marker";
-				case "FontFileSatisfy":
-					return "Satisfy";
-				case "FontFileSriracha":
-					return "Sriracha";
-				case "FontFileTeko":
-					return "Teko";
-				case "FontFileVidaloka":
-					return "Vidaloka";
 				default:
 					if(param1 && param1.indexOf(FONT_FILE_NAME_PREFIX) == 0 && param1.length > FONT_FILE_NAME_PREFIX.length)
 					{
@@ -791,40 +723,6 @@ package anifire.util
 					return "FontFileProciono";
 				case "Lato":
 					return "FontFileLato";
-				case "Alegreya Sans SC":
-					return "FontFileAlegreyaSansSC";
-				case "Barrio":
-					return "FontFileBarrio";
-				case "Bungee Inline":
-					return "FontFileBungeeInline";
-				case "Bungee Shade":
-					return "FontFileBungeeShade";
-				case "Gochi Hand":
-					return "FontFileGochiHand";
-				case "IM Fell English SC":
-					return "FontFileIMFellEnglishSC";
-				case "Josefin":
-					return "FontFileJosefin";
-				case "Kaushan":
-					return "FontFileKaushan";
-				case "Lobster":
-					return "FontFileLobster";
-				case "Montserrat":
-					return "FontFileMontserrat";
-				case "Mouse Memoirs":
-					return "FontFileMouseMemoirs";
-				case "Patrick Hand":
-					return "FontFilePatrickHand";
-				case "Permanent Marker":
-					return "FontFilePermanentMarker";
-				case "Satisfy":
-					return "FontFileSatisfy";
-				case "Sriracha":
-					return "FontFileSriracha";
-				case "Teko":
-					return "FontFileTeko";
-				case "Vidaloka":
-					return "FontFileVidaloka";
 				default:
 					if(param1)
 					{
@@ -916,40 +814,6 @@ package anifire.util
 					return "prociono";
 				case "Lato":
 					return "lato";
-				case "Alegreya Sans SC":
-					return "alegreyasanssc";
-				case "Barrio":
-					return "barrio";
-				case "Bungee Inline":
-					return "bungeeinline";
-				case "Bungee Shade":
-					return "bungeeshade";
-				case "Gochi Hand":
-					return "gochihand";
-				case "IM Fell English SC":
-					return "imfellenglishsc";
-				case "Josefin":
-					return "josefin";
-				case "Kaushan":
-					return "kaushan";
-				case "Lobster":
-					return "lobster";
-				case "Montserrat":
-					return "montserrat";
-				case "Mouse Memoirs":
-					return "mousememoirs";
-				case "Patrick Hand":
-					return "patrickhand";
-				case "Permanent Marker":
-					return "permanentmarker";
-				case "Satisfy":
-					return "satisfy";
-				case "Sriracha":
-					return "sriracha";
-				case "Teko":
-					return "teko";
-				case "Vidaloka":
-					return "vidaloka";
 				default:
 					if(param1)
 					{

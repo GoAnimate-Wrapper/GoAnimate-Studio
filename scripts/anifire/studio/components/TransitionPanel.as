@@ -144,9 +144,9 @@ package anifire.studio.components
 		
 		private var _addingTransition:Boolean;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_splash_png_764143659:Class;
+		private var _embed_mxml__styles_images_panel_arrow_png_1721981121:Class;
 		
-		private var _embed_mxml__styles_images_panel_arrow_png_2077458411:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_splash_png_1641300097:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -163,8 +163,8 @@ package anifire.studio.components
 			this._wholeSceneCollection = new ArrayCollection();
 			this._selectedTransitionCollection = new Vector.<AssetTransition>();
 			this._652820454_selectedItems = new Vector.<Object>();
-			this._embed_mxml__styles_images_panel_enterexit_splash_png_764143659 = TransitionPanel__embed_mxml__styles_images_panel_enterexit_splash_png_764143659;
-			this._embed_mxml__styles_images_panel_arrow_png_2077458411 = TransitionPanel__embed_mxml__styles_images_panel_arrow_png_2077458411;
+			this._embed_mxml__styles_images_panel_arrow_png_1721981121 = TransitionPanel__embed_mxml__styles_images_panel_arrow_png_1721981121;
+			this._embed_mxml__styles_images_panel_enterexit_splash_png_1641300097 = TransitionPanel__embed_mxml__styles_images_panel_enterexit_splash_png_1641300097;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -1505,7 +1505,7 @@ package anifire.studio.components
 		private function _TransitionPanel_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_splash_png_764143659;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_splash_png_1641300097;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -1682,7 +1682,7 @@ package anifire.studio.components
 		private function _TransitionPanel_BitmapImage2_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_arrow_png_2077458411;
+			_loc1_.source = this._embed_mxml__styles_images_panel_arrow_png_1721981121;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

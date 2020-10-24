@@ -25,11 +25,11 @@ package anifire.studio.skins
 		
 		private var cornerRadius:Number = 2;
 		
-		private var _embed_mxml__styles_images_icons_icon_edit_png_1136996627:Class;
+		private var _embed_mxml__styles_images_icons_icon_edit_png_1714305799:Class;
 		
 		public function DefaultValueTextInputEditButtonSkin()
 		{
-			this._embed_mxml__styles_images_icons_icon_edit_png_1136996627 = DefaultValueTextInputEditButtonSkin__embed_mxml__styles_images_icons_icon_edit_png_1136996627;
+			this._embed_mxml__styles_images_icons_icon_edit_png_1714305799 = DefaultValueTextInputEditButtonSkin__embed_mxml__styles_images_icons_icon_edit_png_1714305799;
 			super();
 			mx_internal::_document = this;
 			this.minWidth = 21;
@@ -147,7 +147,7 @@ package anifire.studio.skins
 		private function _DefaultValueTextInputEditButtonSkin_BitmapImage1_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_icons_icon_edit_png_1136996627;
+			_loc1_.source = this._embed_mxml__styles_images_icons_icon_edit_png_1714305799;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

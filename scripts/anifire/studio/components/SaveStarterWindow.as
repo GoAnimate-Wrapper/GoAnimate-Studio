@@ -2,11 +2,11 @@ package anifire.studio.components
 {
 	import anifire.event.CoreEvent;
 	import anifire.studio.core.Console;
+	import anifire.studio.managers.AccessRightManager;
 	import anifire.studio.managers.ThemeStarterManager;
 	import anifire.studio.validators.AssetTitleValidator;
 	import anifire.studio.validators.BadWordsValidator;
 	import anifire.util.UtilDict;
-	import anifire.util.UtilUser;
 	import flash.display.BitmapData;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
@@ -260,7 +260,7 @@ package anifire.studio.components
 				this.thumbnailChooser.init(this._thumbnails,this._thumbnailIndex);
 				this.thumbnailChooser.editable = this._thumbnailSelectable;
 			}
-			this._displayAdminOptions = UtilUser.isContentAdmin;
+			this._displayAdminOptions = AccessRightManager.instance.getAccess(AccessRightManager.ACCESS_RIGHT_ADMIN);
 			if(this._displayAdminOptions)
 			{
 				this._themeStarters = ThemeStarterManager.instance.starters;

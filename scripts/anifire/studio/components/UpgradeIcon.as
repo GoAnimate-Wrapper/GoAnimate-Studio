@@ -42,9 +42,9 @@ package anifire.studio.components
 		
 		private var _271297745toolTipLabel:String;
 		
-		private var _embed_mxml__styles_images_tray_icon_rocket_png_1316563401:Class;
+		private var _embed_mxml__styles_images_tray_icon_rocket_premium_png_98542401:Class;
 		
-		private var _embed_mxml__styles_images_tray_icon_rocket_premium_png_1501854121:Class;
+		private var _embed_mxml__styles_images_tray_icon_rocket_png_975857409:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -59,8 +59,8 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_icon_rocket_png_1316563401 = UpgradeIcon__embed_mxml__styles_images_tray_icon_rocket_png_1316563401;
-			this._embed_mxml__styles_images_tray_icon_rocket_premium_png_1501854121 = UpgradeIcon__embed_mxml__styles_images_tray_icon_rocket_premium_png_1501854121;
+			this._embed_mxml__styles_images_tray_icon_rocket_premium_png_98542401 = UpgradeIcon__embed_mxml__styles_images_tray_icon_rocket_premium_png_98542401;
+			this._embed_mxml__styles_images_tray_icon_rocket_png_975857409 = UpgradeIcon__embed_mxml__styles_images_tray_icon_rocket_png_975857409;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -165,7 +165,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.width = 9;
 			_loc1_.height = 14;
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_rocket_premium_png_1501854121;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_rocket_premium_png_98542401;
 			_loc1_.initialized(this,"iconGoPremium");
 			this.iconGoPremium = _loc1_;
 			BindingManager.executeBindings(this,"iconGoPremium",this.iconGoPremium);
@@ -177,7 +177,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.width = 9;
 			_loc1_.height = 14;
-			_loc1_.source = this._embed_mxml__styles_images_tray_icon_rocket_png_1316563401;
+			_loc1_.source = this._embed_mxml__styles_images_tray_icon_rocket_png_975857409;
 			_loc1_.initialized(this,"iconGoTeam");
 			this.iconGoTeam = _loc1_;
 			BindingManager.executeBindings(this,"iconGoTeam",this.iconGoTeam);

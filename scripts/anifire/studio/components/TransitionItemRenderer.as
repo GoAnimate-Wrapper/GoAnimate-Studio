@@ -108,9 +108,9 @@ package anifire.studio.components
 		
 		private var _204380986_durationIconVisible:Boolean = true;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_alert_png_1584402313:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_alert_png_2031216065:Class;
 		
-		private var _embed_mxml__styles_images_panel_enterexit_duration_png_2078562633:Class;
+		private var _embed_mxml__styles_images_panel_enterexit_duration_png_654279489:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -124,8 +124,8 @@ package anifire.studio.components
 		{
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_panel_enterexit_alert_png_1584402313 = TransitionItemRenderer__embed_mxml__styles_images_panel_enterexit_alert_png_1584402313;
-			this._embed_mxml__styles_images_panel_enterexit_duration_png_2078562633 = TransitionItemRenderer__embed_mxml__styles_images_panel_enterexit_duration_png_2078562633;
+			this._embed_mxml__styles_images_panel_enterexit_alert_png_2031216065 = TransitionItemRenderer__embed_mxml__styles_images_panel_enterexit_alert_png_2031216065;
+			this._embed_mxml__styles_images_panel_enterexit_duration_png_654279489 = TransitionItemRenderer__embed_mxml__styles_images_panel_enterexit_duration_png_654279489;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -656,7 +656,7 @@ package anifire.studio.components
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.bottom = 1;
 			_loc1_.right = 1;
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_duration_png_2078562633;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_duration_png_654279489;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -697,7 +697,7 @@ package anifire.studio.components
 		private function _TransitionItemRenderer_BitmapImage2_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_alert_png_1584402313;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_alert_png_2031216065;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -834,7 +834,7 @@ package anifire.studio.components
 		private function _TransitionItemRenderer_BitmapImage3_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_alert_png_1584402313;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_alert_png_2031216065;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}
@@ -971,7 +971,7 @@ package anifire.studio.components
 		private function _TransitionItemRenderer_BitmapImage4_c() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_alert_png_1584402313;
+			_loc1_.source = this._embed_mxml__styles_images_panel_enterexit_alert_png_2031216065;
 			_loc1_.initialized(this,null);
 			return _loc1_;
 		}

@@ -49,9 +49,9 @@ package anifire.studio.components
 		
 		private var _1287624402_showRemoveButton:Boolean;
 		
-		private var _embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_349686251:Class;
+		private var _embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_1890237759:Class;
 		
-		private var _embed_mxml__styles_images_tray_add_cc_png_1007439909:Class;
+		private var _embed_mxml__styles_images_tray_add_cc_png_962341247:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -66,8 +66,8 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_349686251 = SwapPropRenderer__embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_349686251;
-			this._embed_mxml__styles_images_tray_add_cc_png_1007439909 = SwapPropRenderer__embed_mxml__styles_images_tray_add_cc_png_1007439909;
+			this._embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_1890237759 = SwapPropRenderer__embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_1890237759;
+			this._embed_mxml__styles_images_tray_add_cc_png_962341247 = SwapPropRenderer__embed_mxml__styles_images_tray_add_cc_png_962341247;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -226,7 +226,7 @@ package anifire.studio.components
 		private function _SwapPropRenderer_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_add_cc_png_1007439909;
+			_loc1_.source = this._embed_mxml__styles_images_tray_add_cc_png_962341247;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,"_SwapPropRenderer_BitmapImage1");
@@ -238,7 +238,7 @@ package anifire.studio.components
 		private function _SwapPropRenderer_BitmapImage2_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_349686251;
+			_loc1_.source = this._embed_mxml__styles_images_tray_button_flow_frame_remove_image_png_1890237759;
 			_loc1_.horizontalCenter = 0;
 			_loc1_.verticalCenter = 0;
 			_loc1_.initialized(this,"_SwapPropRenderer_BitmapImage2");

@@ -178,45 +178,45 @@ package anifire.studio.components
 		
 		private var deleteAssetText:String;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_preview_hover_png_986166281:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_clear_hover_png_333215689:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_preview_png_1185953769:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_clear_png_175276855:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_flip_hover_png_1499832005:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_sendback_png_1105677641:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_paste_hover_png_2030989417:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_delete_png_379498175:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_handle_png_655179849:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_handle_hover_png_2125909415:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_delete_hover_png_321957303:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_copy_hover_png_618627137:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_paste_png_777138797:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_paste_hover_png_753797183:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_swap_png_453495765:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_handle_png_244165311:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_sendback_png_223061043:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_flip_hover_png_100633153:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_clear_png_1725141737:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_copy_png_2129813895:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_flip_png_624545737:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_sendfront_png_67588479:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_sendfront_png_839517431:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_paste_png_1967977209:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_handle_hover_png_255495223:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_preview_hover_png_176525017:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_clear_hover_png_637665773:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_sendback_hover_png_155513417:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_copy_png_473499113:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_delete_hover_png_1455017407:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_sendback_hover_png_1551454775:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_flip_png_116548535:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_sendfront_hover_png_398194821:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_sendfront_hover_png_1775771135:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_copy_hover_png_2039257813:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_preview_png_1898309057:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_delete_png_757039173:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_swap_png_87189375:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -230,26 +230,26 @@ package anifire.studio.components
 		{
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291;
-			this._embed_mxml__styles_images_toolbar_tools_preview_hover_png_986166281 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_preview_hover_png_986166281;
-			this._embed_mxml__styles_images_toolbar_tools_preview_png_1185953769 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_preview_png_1185953769;
-			this._embed_mxml__styles_images_toolbar_tools_flip_hover_png_1499832005 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_flip_hover_png_1499832005;
-			this._embed_mxml__styles_images_toolbar_tools_paste_hover_png_2030989417 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_paste_hover_png_2030989417;
-			this._embed_mxml__styles_images_toolbar_tools_handle_png_655179849 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_handle_png_655179849;
-			this._embed_mxml__styles_images_toolbar_tools_delete_hover_png_321957303 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_delete_hover_png_321957303;
-			this._embed_mxml__styles_images_toolbar_tools_paste_png_777138797 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_paste_png_777138797;
-			this._embed_mxml__styles_images_toolbar_tools_swap_png_453495765 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_swap_png_453495765;
-			this._embed_mxml__styles_images_toolbar_tools_sendback_png_223061043 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_sendback_png_223061043;
-			this._embed_mxml__styles_images_toolbar_tools_clear_png_1725141737 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_clear_png_1725141737;
-			this._embed_mxml__styles_images_toolbar_tools_flip_png_624545737 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_flip_png_624545737;
-			this._embed_mxml__styles_images_toolbar_tools_sendfront_png_839517431 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_sendfront_png_839517431;
-			this._embed_mxml__styles_images_toolbar_tools_handle_hover_png_255495223 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_handle_hover_png_255495223;
-			this._embed_mxml__styles_images_toolbar_tools_clear_hover_png_637665773 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_clear_hover_png_637665773;
-			this._embed_mxml__styles_images_toolbar_tools_copy_png_473499113 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_copy_png_473499113;
-			this._embed_mxml__styles_images_toolbar_tools_sendback_hover_png_1551454775 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_sendback_hover_png_1551454775;
-			this._embed_mxml__styles_images_toolbar_tools_sendfront_hover_png_398194821 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_sendfront_hover_png_398194821;
-			this._embed_mxml__styles_images_toolbar_tools_copy_hover_png_2039257813 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_copy_hover_png_2039257813;
-			this._embed_mxml__styles_images_toolbar_tools_delete_png_757039173 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_delete_png_757039173;
+			this._embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625;
+			this._embed_mxml__styles_images_toolbar_tools_clear_hover_png_333215689 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_clear_hover_png_333215689;
+			this._embed_mxml__styles_images_toolbar_tools_clear_png_175276855 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_clear_png_175276855;
+			this._embed_mxml__styles_images_toolbar_tools_sendback_png_1105677641 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_sendback_png_1105677641;
+			this._embed_mxml__styles_images_toolbar_tools_delete_png_379498175 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_delete_png_379498175;
+			this._embed_mxml__styles_images_toolbar_tools_handle_hover_png_2125909415 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_handle_hover_png_2125909415;
+			this._embed_mxml__styles_images_toolbar_tools_copy_hover_png_618627137 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_copy_hover_png_618627137;
+			this._embed_mxml__styles_images_toolbar_tools_paste_hover_png_753797183 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_paste_hover_png_753797183;
+			this._embed_mxml__styles_images_toolbar_tools_handle_png_244165311 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_handle_png_244165311;
+			this._embed_mxml__styles_images_toolbar_tools_flip_hover_png_100633153 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_flip_hover_png_100633153;
+			this._embed_mxml__styles_images_toolbar_tools_copy_png_2129813895 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_copy_png_2129813895;
+			this._embed_mxml__styles_images_toolbar_tools_sendfront_png_67588479 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_sendfront_png_67588479;
+			this._embed_mxml__styles_images_toolbar_tools_paste_png_1967977209 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_paste_png_1967977209;
+			this._embed_mxml__styles_images_toolbar_tools_preview_hover_png_176525017 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_preview_hover_png_176525017;
+			this._embed_mxml__styles_images_toolbar_tools_sendback_hover_png_155513417 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_sendback_hover_png_155513417;
+			this._embed_mxml__styles_images_toolbar_tools_delete_hover_png_1455017407 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_delete_hover_png_1455017407;
+			this._embed_mxml__styles_images_toolbar_tools_flip_png_116548535 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_flip_png_116548535;
+			this._embed_mxml__styles_images_toolbar_tools_sendfront_hover_png_1775771135 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_sendfront_hover_png_1775771135;
+			this._embed_mxml__styles_images_toolbar_tools_preview_png_1898309057 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_preview_png_1898309057;
+			this._embed_mxml__styles_images_toolbar_tools_swap_png_87189375 = AssetControlBar__embed_mxml__styles_images_toolbar_tools_swap_png_87189375;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -811,8 +811,8 @@ package anifire.studio.components
 		private function _AssetControlBar_IconButton1_i() : IconButton
 		{
 			var _loc1_:IconButton = new IconButton();
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_handle_png_655179849);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_handle_hover_png_255495223);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_handle_png_244165311);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_handle_hover_png_2125909415);
 			_loc1_.addEventListener("mouseDown",this.___AssetControlBar_IconButton1_mouseDown);
 			_loc1_.id = "_AssetControlBar_IconButton1";
 			if(!_loc1_.document)
@@ -897,8 +897,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 46;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_swap_png_453495765);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_swap_png_87189375);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625);
 			_loc1_.addEventListener("click",this.__swapAssetButton_click);
 			_loc1_.id = "swapAssetButton";
 			if(!_loc1_.document)
@@ -1070,8 +1070,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 42;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_flip_png_624545737);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_flip_hover_png_1499832005);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_flip_png_116548535);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_flip_hover_png_100633153);
 			_loc1_.addEventListener("click",this.__flipButton_click);
 			_loc1_.id = "flipButton";
 			if(!_loc1_.document)
@@ -1093,8 +1093,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 35;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_sendfront_png_839517431);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_sendfront_hover_png_398194821);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_sendfront_png_67588479);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_sendfront_hover_png_1775771135);
 			_loc1_.addEventListener("click",this.__forwardButton_click);
 			_loc1_.id = "forwardButton";
 			if(!_loc1_.document)
@@ -1116,8 +1116,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 35;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_sendback_png_223061043);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_sendback_hover_png_1551454775);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_sendback_png_1105677641);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_sendback_hover_png_155513417);
 			_loc1_.addEventListener("click",this.__backwardButton_click);
 			_loc1_.id = "backwardButton";
 			if(!_loc1_.document)
@@ -1139,8 +1139,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 35;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_preview_png_1185953769);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_preview_hover_png_986166281);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_preview_png_1898309057);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_preview_hover_png_176525017);
 			_loc1_.addEventListener("click",this.__previewButton_click);
 			_loc1_.id = "previewButton";
 			if(!_loc1_.document)
@@ -1162,8 +1162,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 35;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_copy_png_473499113);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_copy_hover_png_2039257813);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_copy_png_2129813895);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_copy_hover_png_618627137);
 			_loc1_.addEventListener("click",this.__copyButton_click);
 			_loc1_.id = "copyButton";
 			if(!_loc1_.document)
@@ -1185,8 +1185,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 35;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_paste_png_777138797);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_paste_hover_png_2030989417);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_paste_png_1967977209);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_paste_hover_png_753797183);
 			_loc1_.addEventListener("click",this.__pasteButton_click);
 			_loc1_.id = "pasteButton";
 			if(!_loc1_.document)
@@ -1208,8 +1208,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 35;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_clear_png_1725141737);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_clear_hover_png_637665773);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_clear_png_175276855);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_clear_hover_png_333215689);
 			_loc1_.addEventListener("click",this.__clearButton_click);
 			_loc1_.id = "clearButton";
 			if(!_loc1_.document)
@@ -1231,8 +1231,8 @@ package anifire.studio.components
 			var _loc1_:IconButton = new IconButton();
 			_loc1_.width = 35;
 			_loc1_.height = 35;
-			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_delete_png_757039173);
-			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_delete_hover_png_321957303);
+			_loc1_.setStyle("icon",this._embed_mxml__styles_images_toolbar_tools_delete_png_379498175);
+			_loc1_.setStyle("iconOver",this._embed_mxml__styles_images_toolbar_tools_delete_hover_png_1455017407);
 			_loc1_.addEventListener("click",this.__deleteButton_click);
 			_loc1_.id = "deleteButton";
 			if(!_loc1_.document)

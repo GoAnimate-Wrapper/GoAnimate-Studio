@@ -40,7 +40,7 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_tray_button_flow_frame_scale_image_png_1053757485:Class;
+		private var _embed_mxml__styles_images_tray_button_flow_frame_scale_image_png_1520609207:Class;
 		
 		mx_internal var _bindings:Array;
 		
@@ -55,7 +55,7 @@ package anifire.studio.skins
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._embed_mxml__styles_images_tray_button_flow_frame_scale_image_png_1053757485 = FlowFrameScaleImageButtonSkin__embed_mxml__styles_images_tray_button_flow_frame_scale_image_png_1053757485;
+			this._embed_mxml__styles_images_tray_button_flow_frame_scale_image_png_1520609207 = FlowFrameScaleImageButtonSkin__embed_mxml__styles_images_tray_button_flow_frame_scale_image_png_1520609207;
 			this._bindings = [];
 			this._watchers = [];
 			this._bindingsByDestination = {};
@@ -137,7 +137,7 @@ package anifire.studio.skins
 		private function _FlowFrameScaleImageButtonSkin_BitmapImage1_i() : BitmapImage
 		{
 			var _loc1_:BitmapImage = new BitmapImage();
-			_loc1_.source = this._embed_mxml__styles_images_tray_button_flow_frame_scale_image_png_1053757485;
+			_loc1_.source = this._embed_mxml__styles_images_tray_button_flow_frame_scale_image_png_1520609207;
 			_loc1_.smooth = true;
 			_loc1_.initialized(this,"_FlowFrameScaleImageButtonSkin_BitmapImage1");
 			this._FlowFrameScaleImageButtonSkin_BitmapImage1 = _loc1_;

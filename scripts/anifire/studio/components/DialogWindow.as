@@ -87,9 +87,7 @@ package anifire.studio.components
 		
 		private var _uploadedAssetXML:XML;
 		
-		private var _enc_assetId:String;
-		
-		private var _signature:String;
+		private var _assetId:String;
 		
 		private var _soundBytes:ByteArray;
 		
@@ -108,7 +106,7 @@ package anifire.studio.components
 			var bindings:Array = null;
 			var target:Object = null;
 			var watcherSetupUtilClass:Object = null;
-			this._request = new URLRequest(ServerConstants.ACTION_GET_ASSET_EX);
+			this._request = new URLRequest(ServerConstants.ACTION_GET_ASSET);
 			this._stream = new UtilURLStream();
 			this._tutorialManager = TutorialManager.instance;
 			this._bindings = [];
@@ -467,17 +465,15 @@ package anifire.studio.components
 			this._uploadedAssetXML = respondXml.name().toString() == "response"?respondXml.asset[0]:respondXml;
 			if(checkCode == "0")
 			{
-				this._enc_assetId = this._uploadedAssetXML.enc_asset_id;
-				this._signature = this._uploadedAssetXML.signature;
-				if(this._enc_assetId != null && this.trim(this._enc_assetId).length > 0)
+				this._assetId = this._uploadedAssetXML.id;
+				if(this._assetId != null && this.trim(this._assetId).length > 0)
 				{
 					variables = AppConfigManager.instance.createURLVariables();
-					if(variables.hasOwnProperty(ServerConstants.PARAM_ENC_ASSET_ID))
+					if(variables.hasOwnProperty("assetId"))
 					{
-						delete variables[ServerConstants.PARAM_ENC_ASSET_ID];
+						delete variables["assetId"];
 					}
-					variables[ServerConstants.PARAM_ENC_ASSET_ID] = this._enc_assetId;
-					variables[ServerConstants.PARAM_SIGNATURE] = this._signature;
+					variables["assetId"] = this._assetId;
 					this._request.method = URLRequestMethod.POST;
 					this._request.data = variables;
 					this._stream.load(this._request);

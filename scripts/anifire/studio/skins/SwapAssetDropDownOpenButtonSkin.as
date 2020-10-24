@@ -22,14 +22,14 @@ package anifire.studio.skins
 		
 		private var __moduleFactoryInitialized:Boolean = false;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625:Class;
 		
-		private var _embed_mxml__styles_images_toolbar_tools_swap_png_453495765:Class;
+		private var _embed_mxml__styles_images_toolbar_tools_swap_png_87189375:Class;
 		
 		public function SwapAssetDropDownOpenButtonSkin()
 		{
-			this._embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291 = SwapAssetDropDownOpenButtonSkin__embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291;
-			this._embed_mxml__styles_images_toolbar_tools_swap_png_453495765 = SwapAssetDropDownOpenButtonSkin__embed_mxml__styles_images_toolbar_tools_swap_png_453495765;
+			this._embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625 = SwapAssetDropDownOpenButtonSkin__embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625;
+			this._embed_mxml__styles_images_toolbar_tools_swap_png_87189375 = SwapAssetDropDownOpenButtonSkin__embed_mxml__styles_images_toolbar_tools_swap_png_87189375;
 			super();
 			mx_internal::_document = this;
 			this.width = 46;
@@ -45,7 +45,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_SwapAssetDropDownOpenButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291
+					"value":this._embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625
 				}),new SetProperty().initializeFromObject({
 					"target":"_SwapAssetDropDownOpenButtonSkin_SolidColor2",
 					"name":"color",
@@ -57,7 +57,7 @@ package anifire.studio.skins
 				"overrides":[new SetProperty().initializeFromObject({
 					"target":"_SwapAssetDropDownOpenButtonSkin_BitmapImage1",
 					"name":"source",
-					"value":this._embed_mxml__styles_images_toolbar_tools_swap_on_png_1083078291
+					"value":this._embed_mxml__styles_images_toolbar_tools_swap_on_png_154503625
 				}),new SetProperty().initializeFromObject({
 					"target":"_SwapAssetDropDownOpenButtonSkin_SolidColor2",
 					"name":"color",
@@ -108,7 +108,7 @@ package anifire.studio.skins
 			var _loc1_:BitmapImage = new BitmapImage();
 			_loc1_.verticalCenter = 0;
 			_loc1_.horizontalCenter = 0;
-			_loc1_.source = this._embed_mxml__styles_images_toolbar_tools_swap_png_453495765;
+			_loc1_.source = this._embed_mxml__styles_images_toolbar_tools_swap_png_87189375;
 			_loc1_.initialized(this,"_SwapAssetDropDownOpenButtonSkin_BitmapImage1");
 			this._SwapAssetDropDownOpenButtonSkin_BitmapImage1 = _loc1_;
 			BindingManager.executeBindings(this,"_SwapAssetDropDownOpenButtonSkin_BitmapImage1",this._SwapAssetDropDownOpenButtonSkin_BitmapImage1);
